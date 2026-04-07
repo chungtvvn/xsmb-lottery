@@ -312,14 +312,22 @@ export function generatePredictions(draws: LotteryDraw[], count: number = 27, mo
     const f90 = freq(last90, n);
     methods.push({ name: 'Tần suất 90 kỳ', weight: W.m3Weight, score: f90, contribution: f90 * W.m3Weight, detail: `${hitCount(last90, n)} lần / 90 kỳ` });
 
-    // ── M4: Áp lực vắng mặt ────────────────────────────────────
+    // ── M4: Áp lực vắng mặt + Mốc kỷ lục lặn/liên tục ─────────
     const absIntervals: number[] = [];
     let lastIdx = -1, currentAbsence = 0;
+    let tempStreak = 0, maxStreak = 0, currentStreak = 0;
+
     for (let i = 0; i < allDraws.length; i++) {
       if (getDrawNumbers(allDraws[i], mode).includes(n)) {
         if (lastIdx >= 0) absIntervals.push(i - lastIdx - 1);
         lastIdx = i; currentAbsence = 0;
-      } else { currentAbsence++; }
+        tempStreak++;
+        if (tempStreak > maxStreak) maxStreak = tempStreak;
+        if (i === allDraws.length - 1) currentStreak = tempStreak;
+      } else {
+        currentAbsence++;
+        tempStreak = 0;
+      }
     }
     const avgInterval = absIntervals.length > 0 ? absIntervals.reduce((a, b) => a + b, 0) / absIntervals.length
       : (mode === 'de' ? 100 : 30);
@@ -556,15 +564,32 @@ export function generatePredictions(draws: LotteryDraw[], count: number = 27, mo
 
     // ── Total score (normalize by total weight) ─────────────────
     const rawScore = methods.reduce((s, m) => s + m.contribution, 0);
-    const normalizedScore = Math.min(100, Math.max(0, (rawScore / totalWeight)));
+    let normalizedScore = Math.min(100, Math.max(0, (rawScore / totalWeight)));
+
+    const maxAbsHistory = absIntervals.length > 0 ? Math.max(...absIntervals) : 10;
+    let veto = false;
+    let ganUuTien = false;
+
+    if (mode === 'lo') {
+      if (currentStreak >= maxStreak && currentStreak > 1) {
+        veto = true;
+        normalizedScore *= 0.2; // Massive penalty
+      } else if (maxAbsHistory > 12 && currentAbsence >= Math.max(12, maxAbsHistory - 1)) {
+        ganUuTien = true;
+        normalizedScore = Math.min(100, normalizedScore + 50); // Massive boost
+      }
+    }
 
     const grade: PredictionScore['grade'] = normalizedScore >= 65 ? 'A+' : normalizedScore >= 50 ? 'A' : normalizedScore >= 35 ? 'B' : 'C';
 
     // Reasons
     const reasons: string[] = [];
+    if (veto) reasons.push(`❌ Loại: Chạm mốc nổ liên tục (${currentStreak}k)`);
+    if (ganUuTien) reasons.push(`⭐ Gan cực đại: Ưu tiên bắt (${currentAbsence}k/${maxAbsHistory}k)`);
+
     const f7val = freq(last7, n);
-    if (f7val >= 40) reasons.push(`Nóng 7kỳ:${f7val.toFixed(0)}%`);
-    if (dueRatio >= 0.8) reasons.push(`Vắng ${currentAbsence}k/${(dueRatio * 100).toFixed(0)}%TB`);
+    if (f7val >= 40 && !veto) reasons.push(`Nóng 7kỳ:${f7val.toFixed(0)}%`);
+    if (dueRatio >= 0.8 && !ganUuTien) reasons.push(`Vắng ${currentAbsence}k/${(dueRatio * 100).toFixed(0)}%TB`);
     if (trend > 4) reasons.push(`Trend+${trend.toFixed(1)}pp`);
     if (dowRate > 45) reasons.push(`${days[nextDow]}:${dowRate.toFixed(0)}%`);
     if (mode === 'de') {

@@ -4554,7 +4554,7 @@
         "score": 27.37
       }
     ],
-    "createdAt": "2026-04-07T06:07:34.850Z"
+    "createdAt": "2026-04-07T09:25:58.904Z"
   },
   {
     "date": "2026-04-06",
@@ -9000,6 +9000,7 @@
     "date": "2026-04-07",
     "mode": "lo",
     "predictedNumbers": [
+      53,
       18,
       88,
       38,
@@ -9016,11 +9017,14 @@
       3,
       11,
       57,
-      0,
-      92
+      0
     ],
     "method": "Auto (Manual Trigger) • 16 phương pháp ensemble",
     "topNumbers": [
+      {
+        "number": 53,
+        "score": 82.93
+      },
       {
         "number": 18,
         "score": 43.65
@@ -9088,12 +9092,8 @@
       {
         "number": 0,
         "score": 38.61
-      },
-      {
-        "number": 92,
-        "score": 38.5
       }
     ],
-    "createdAt": "2026-04-07T06:07:34.647Z"
+    "createdAt": "2026-04-07T09:25:58.698Z"
   }
 ]
