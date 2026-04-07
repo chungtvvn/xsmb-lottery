@@ -1,5 +1,165 @@
 [
   {
+    "date": "2026-04-07",
+    "mode": "de",
+    "predictedNumbers": [
+      56,
+      58,
+      65,
+      41,
+      7,
+      98,
+      9,
+      15,
+      76,
+      39,
+      25,
+      0,
+      18,
+      71,
+      31,
+      11,
+      34,
+      96,
+      4,
+      60,
+      2,
+      73,
+      40,
+      79,
+      43,
+      10,
+      97,
+      26,
+      50,
+      82
+    ],
+    "method": "Auto (Manual Trigger) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 56,
+        "score": 40.31
+      },
+      {
+        "number": 58,
+        "score": 37.94
+      },
+      {
+        "number": 65,
+        "score": 37.66
+      },
+      {
+        "number": 41,
+        "score": 37.37
+      },
+      {
+        "number": 7,
+        "score": 37.3
+      },
+      {
+        "number": 98,
+        "score": 36.12
+      },
+      {
+        "number": 9,
+        "score": 35.26
+      },
+      {
+        "number": 15,
+        "score": 35.26
+      },
+      {
+        "number": 76,
+        "score": 34.86
+      },
+      {
+        "number": 39,
+        "score": 34.72
+      },
+      {
+        "number": 25,
+        "score": 34.64
+      },
+      {
+        "number": 0,
+        "score": 34.63
+      },
+      {
+        "number": 18,
+        "score": 34.5
+      },
+      {
+        "number": 71,
+        "score": 32.44
+      },
+      {
+        "number": 31,
+        "score": 32
+      },
+      {
+        "number": 11,
+        "score": 31.97
+      },
+      {
+        "number": 34,
+        "score": 31.75
+      },
+      {
+        "number": 96,
+        "score": 31.19
+      },
+      {
+        "number": 4,
+        "score": 30.07
+      },
+      {
+        "number": 60,
+        "score": 29.71
+      },
+      {
+        "number": 2,
+        "score": 29.59
+      },
+      {
+        "number": 73,
+        "score": 29.58
+      },
+      {
+        "number": 40,
+        "score": 29.56
+      },
+      {
+        "number": 79,
+        "score": 29.13
+      },
+      {
+        "number": 43,
+        "score": 28.9
+      },
+      {
+        "number": 10,
+        "score": 28.59
+      },
+      {
+        "number": 97,
+        "score": 28.47
+      },
+      {
+        "number": 26,
+        "score": 27.97
+      },
+      {
+        "number": 50,
+        "score": 27.95
+      },
+      {
+        "number": 82,
+        "score": 27.93
+      }
+    ],
+    "createdAt": "2026-04-07T05:58:20.632Z"
+  },
+  {
     "date": "2026-04-06",
     "mode": "de",
     "predictedNumbers": [
