@@ -4714,7 +4714,7 @@
         "score": 26.13
       }
     ],
-    "createdAt": "2026-04-07T06:29:10.287Z",
+    "createdAt": "2026-04-07T09:26:58.023Z",
     "actualNumbers": [
       6
     ],
@@ -4725,6 +4725,7 @@
     "date": "2026-04-06",
     "mode": "lo",
     "predictedNumbers": [
+      53,
       13,
       64,
       33,
@@ -4741,11 +4742,14 @@
       46,
       57,
       38,
-      81,
-      28
+      81
     ],
     "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
+      {
+        "number": 53,
+        "score": 83.3
+      },
       {
         "number": 13,
         "score": 44.13
@@ -4813,13 +4817,9 @@
       {
         "number": 81,
         "score": 38.19
-      },
-      {
-        "number": 28,
-        "score": 38.1
       }
     ],
-    "createdAt": "2026-04-07T06:29:10.126Z",
+    "createdAt": "2026-04-07T09:26:57.866Z",
     "actualNumbers": [
       6,
       32,
@@ -5010,7 +5010,7 @@
         "score": 26.43
       }
     ],
-    "createdAt": "2026-04-07T06:29:09.158Z",
+    "createdAt": "2026-04-07T09:26:56.916Z",
     "actualNumbers": [
       55
     ],
@@ -5021,6 +5021,7 @@
     "date": "2026-04-05",
     "mode": "lo",
     "predictedNumbers": [
+      53,
       88,
       64,
       57,
@@ -5037,11 +5038,14 @@
       35,
       33,
       10,
-      1,
-      68
+      1
     ],
     "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
+      {
+        "number": 53,
+        "score": 83.36
+      },
       {
         "number": 88,
         "score": 42.74
@@ -5109,13 +5113,9 @@
       {
         "number": 1,
         "score": 37.44
-      },
-      {
-        "number": 68,
-        "score": 37.36
       }
     ],
-    "createdAt": "2026-04-07T06:29:08.998Z",
+    "createdAt": "2026-04-07T09:26:56.759Z",
     "actualNumbers": [
       55,
       40,
@@ -5145,8 +5145,8 @@
       73,
       89
     ],
-    "hits": 4,
-    "miss": 15
+    "hits": 3,
+    "miss": 16
   },
   {
     "date": "2026-04-04",
@@ -5306,7 +5306,7 @@
         "score": 25.38
       }
     ],
-    "createdAt": "2026-04-07T06:29:08.035Z",
+    "createdAt": "2026-04-07T09:26:55.815Z",
     "actualNumbers": [
       37
     ],
@@ -5317,6 +5317,7 @@
     "date": "2026-04-04",
     "mode": "lo",
     "predictedNumbers": [
+      53,
       43,
       88,
       64,
@@ -5333,11 +5334,14 @@
       68,
       10,
       82,
-      63,
-      27
+      63
     ],
     "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
+      {
+        "number": 53,
+        "score": 85.41
+      },
       {
         "number": 43,
         "score": 44.26
@@ -5405,13 +5409,9 @@
       {
         "number": 63,
         "score": 37.14
-      },
-      {
-        "number": 27,
-        "score": 36.64
       }
     ],
-    "createdAt": "2026-04-07T06:29:07.874Z",
+    "createdAt": "2026-04-07T09:26:55.655Z",
     "actualNumbers": [
       37,
       82,
@@ -5602,7 +5602,7 @@
         "score": 26.92
       }
     ],
-    "createdAt": "2026-04-07T06:29:06.907Z",
+    "createdAt": "2026-04-07T09:26:54.706Z",
     "actualNumbers": [
       44
     ],
@@ -5613,6 +5613,7 @@
     "date": "2026-04-03",
     "mode": "lo",
     "predictedNumbers": [
+      53,
       24,
       10,
       99,
@@ -5629,11 +5630,14 @@
       97,
       82,
       64,
-      57,
-      91
+      57
     ],
     "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
+      {
+        "number": 53,
+        "score": 83.65
+      },
       {
         "number": 24,
         "score": 43.34
@@ -5701,13 +5705,9 @@
       {
         "number": 57,
         "score": 36.59
-      },
-      {
-        "number": 91,
-        "score": 36.49
       }
     ],
-    "createdAt": "2026-04-07T06:29:06.735Z",
+    "createdAt": "2026-04-07T09:26:54.505Z",
     "actualNumbers": [
       44,
       91,
@@ -5737,8 +5737,8 @@
       29,
       54
     ],
-    "hits": 9,
-    "miss": 11
+    "hits": 7,
+    "miss": 12
   },
   {
     "date": "2026-04-02",
@@ -5898,7 +5898,7 @@
         "score": 27.79
       }
     ],
-    "createdAt": "2026-04-07T06:29:05.738Z",
+    "createdAt": "2026-04-07T09:26:53.552Z",
     "actualNumbers": [
       67
     ],
@@ -6003,7 +6003,7 @@
         "score": 37.07
       }
     ],
-    "createdAt": "2026-04-07T06:29:05.569Z",
+    "createdAt": "2026-04-07T09:26:53.398Z",
     "actualNumbers": [
       67,
       50,
@@ -6194,7 +6194,7 @@
         "score": 26.46
       }
     ],
-    "createdAt": "2026-04-07T06:29:04.600Z",
+    "createdAt": "2026-04-07T09:26:52.445Z",
     "actualNumbers": [
       66
     ],
@@ -6299,7 +6299,7 @@
         "score": 37.64
       }
     ],
-    "createdAt": "2026-04-07T06:29:04.440Z",
+    "createdAt": "2026-04-07T09:26:52.286Z",
     "actualNumbers": [
       66,
       8,
@@ -6490,7 +6490,7 @@
         "score": 27.26
       }
     ],
-    "createdAt": "2026-04-07T06:29:03.466Z",
+    "createdAt": "2026-04-07T09:26:51.334Z",
     "actualNumbers": [
       91
     ],
@@ -6595,7 +6595,7 @@
         "score": 37.52
       }
     ],
-    "createdAt": "2026-04-07T06:29:03.283Z",
+    "createdAt": "2026-04-07T09:26:51.174Z",
     "actualNumbers": [
       91,
       49,
@@ -6786,7 +6786,7 @@
         "score": 26.95
       }
     ],
-    "createdAt": "2026-04-07T06:29:02.246Z",
+    "createdAt": "2026-04-07T09:26:50.222Z",
     "actualNumbers": [
       64
     ],
@@ -6891,7 +6891,7 @@
         "score": 37.38
       }
     ],
-    "createdAt": "2026-04-07T06:29:02.085Z",
+    "createdAt": "2026-04-07T09:26:50.065Z",
     "actualNumbers": [
       64,
       65,
@@ -7082,7 +7082,7 @@
         "score": 26.73
       }
     ],
-    "createdAt": "2026-04-07T06:29:01.107Z",
+    "createdAt": "2026-04-07T09:26:49.103Z",
     "actualNumbers": [
       88
     ],
@@ -7187,7 +7187,7 @@
         "score": 36.61
       }
     ],
-    "createdAt": "2026-04-07T06:29:00.948Z",
+    "createdAt": "2026-04-07T09:26:48.947Z",
     "actualNumbers": [
       88,
       95,
@@ -7378,7 +7378,7 @@
         "score": 26.62
       }
     ],
-    "createdAt": "2026-04-07T06:28:59.942Z",
+    "createdAt": "2026-04-07T09:26:47.989Z",
     "actualNumbers": [
       22
     ],
@@ -7483,7 +7483,7 @@
         "score": 36.97
       }
     ],
-    "createdAt": "2026-04-07T06:28:59.780Z",
+    "createdAt": "2026-04-07T09:26:47.831Z",
     "actualNumbers": [
       22,
       43,
@@ -7674,7 +7674,7 @@
         "score": 27.1
       }
     ],
-    "createdAt": "2026-04-07T06:28:58.761Z",
+    "createdAt": "2026-04-07T09:26:46.877Z",
     "actualNumbers": [
       32
     ],
@@ -7779,7 +7779,7 @@
         "score": 36.89
       }
     ],
-    "createdAt": "2026-04-07T06:28:58.586Z",
+    "createdAt": "2026-04-07T09:26:46.721Z",
     "actualNumbers": [
       32,
       33,
@@ -7970,7 +7970,7 @@
         "score": 26.99
       }
     ],
-    "createdAt": "2026-04-07T06:28:57.586Z",
+    "createdAt": "2026-04-07T09:26:45.764Z",
     "actualNumbers": [
       93
     ],
@@ -8075,7 +8075,7 @@
         "score": 36.88
       }
     ],
-    "createdAt": "2026-04-07T06:28:57.410Z",
+    "createdAt": "2026-04-07T09:26:45.565Z",
     "actualNumbers": [
       93,
       94,
@@ -8266,7 +8266,7 @@
         "score": 27.02
       }
     ],
-    "createdAt": "2026-04-07T06:28:56.412Z",
+    "createdAt": "2026-04-07T09:26:44.554Z",
     "actualNumbers": [
       88
     ],
@@ -8371,7 +8371,7 @@
         "score": 38.27
       }
     ],
-    "createdAt": "2026-04-07T06:28:56.217Z",
+    "createdAt": "2026-04-07T09:26:44.389Z",
     "actualNumbers": [
       88,
       66,
@@ -8562,7 +8562,7 @@
         "score": 27.19
       }
     ],
-    "createdAt": "2026-04-07T06:28:55.234Z",
+    "createdAt": "2026-04-07T09:26:43.416Z",
     "actualNumbers": [
       29
     ],
@@ -8667,7 +8667,7 @@
         "score": 36.87
       }
     ],
-    "createdAt": "2026-04-07T06:28:54.999Z",
+    "createdAt": "2026-04-07T09:26:43.240Z",
     "actualNumbers": [
       29,
       31,
@@ -8858,7 +8858,7 @@
         "score": 26.98
       }
     ],
-    "createdAt": "2026-04-07T06:28:54.022Z",
+    "createdAt": "2026-04-07T09:26:42.271Z",
     "actualNumbers": [
       14
     ],
@@ -8963,7 +8963,7 @@
         "score": 36.34
       }
     ],
-    "createdAt": "2026-04-07T06:28:53.817Z",
+    "createdAt": "2026-04-07T09:26:42.073Z",
     "actualNumbers": [
       14,
       90,
