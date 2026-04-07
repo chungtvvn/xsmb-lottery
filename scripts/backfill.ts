@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { generatePredictions, getDrawNumbers } from '../src/lib/lottery-analyzer';
+import { generatePredictions, getDrawNumbers, getAllNumbers } from '../src/lib/lottery-analyzer';
 import { loadPredictions, savePrediction, updatePredictionWithResult } from '../src/lib/storage';
 import { LotteryDraw, PredictionRecord } from '../src/types/lottery';
 
@@ -50,7 +50,7 @@ async function main() {
       savePrediction(record);
 
       // Automatically update with actual outcome
-      const actualNumbers = getDrawNumbers(targetDraw, mode);
+      const actualNumbers = mode === 'lo' ? getAllNumbers(targetDraw) : [targetDraw.special];
       updatePredictionWithResult(targetDate, actualNumbers, mode);
     }
   }

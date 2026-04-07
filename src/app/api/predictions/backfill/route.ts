@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { loadPredictions, savePrediction, updatePredictionWithResult } from '@/lib/storage';
 import { PredictionRecord, LotteryDraw } from '@/types/lottery';
-import { DATA_URL, generatePredictions, getDrawNumbers } from '@/lib/lottery-analyzer';
+import { DATA_URL, generatePredictions, getDrawNumbers, getAllNumbers } from '@/lib/lottery-analyzer';
 
 const VALID_USERS: Record<string, string> = {
   tkxslt: 'tkxslt',
@@ -54,7 +54,8 @@ export async function POST(req: NextRequest) {
           };
           savePrediction(record);
 
-          const actualNumbers = getDrawNumbers(targetDraw, mode);
+          // Automatically update with actual outcome
+          const actualNumbers = mode === 'lo' ? getAllNumbers(targetDraw) : [targetDraw.special];
           updatePredictionWithResult(targetDate, actualNumbers, mode);
         }
     }

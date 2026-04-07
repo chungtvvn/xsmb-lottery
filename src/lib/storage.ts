@@ -42,14 +42,22 @@ export function updatePredictionWithResult(date: string, actualNumbers: number[]
   if (idx >= 0) {
     const pred = predictions[idx];
     const predicted = new Set(pred.predictedNumbers);
-    const actual = new Set(actualNumbers);
+    
     let hits = 0;
-    predicted.forEach(n => { if (actual.has(n)) hits++; });
+    let uniqueHits = 0;
+    
+    predicted.forEach(n => {
+      let count = 0;
+      actualNumbers.forEach(a => { if (a === n) count++; });
+      hits += count;
+      if (count > 0) uniqueHits++;
+    });
+
     predictions[idx] = {
       ...pred,
       actualNumbers,
       hits,
-      miss: pred.predictedNumbers.length - hits,
+      miss: pred.predictedNumbers.length - uniqueHits,
     };
     fs.writeFileSync(PREDICTIONS_FILE, JSON.stringify(predictions, null, 2));
   }
