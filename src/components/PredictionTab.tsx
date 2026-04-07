@@ -192,6 +192,8 @@ export default function PredictionTab({ draws, mode }: Props) {
   const [activeView, setActiveView] = useState<'predict' | 'history'>('predict');
   const [showAll, setShowAll] = useState(false);
   const [deCount, setDeCount] = useState<20 | 30 | 40>(30); // Đề mode number count
+  const [backfillDays, setBackfillDays] = useState(15);
+  const [backfillRunning, setBackfillRunning] = useState(false);
 
   const sorted = useMemo(() => [...draws].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()), [draws]);
   const latestDraw = sorted[sorted.length - 1];
@@ -251,6 +253,49 @@ export default function PredictionTab({ draws, mode }: Props) {
     } catch { setAuthError('Lỗi kết nối server'); }
     finally { setAuthChecking(false); }
   };
+
+  const handleBackfill = async () => {
+    if (!authToken || !confirm(`Chạy mô phỏng (backfill) ${backfillDays} ngày? \n(Sẽ tính toán lại lịch sử)`)) return;
+    setBackfillRunning(true);
+    try {
+      const res = await fetch('/api/predictions/backfill', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'x-auth-token': authToken },
+        body: JSON.stringify({ days: backfillDays })
+      });
+      if (res.ok) {
+        await loadPredictions(authToken);
+        alert('Backfill hoàn tất!');
+      } else {
+        alert('Lỗi khi backfill');
+      }
+    } catch { alert('Lỗi mạng'); } finally { setBackfillRunning(false); }
+  };
+
+  const profitStats = useMemo(() => {
+    const wr = predictions.filter(p => p.hits !== undefined && (p.mode || 'lo') === mode);
+    if (wr.length === 0) return null;
+
+    let totalCost = 0;
+    let totalRevenue = 0;
+    let totalHits = 0;
+
+    wr.forEach(p => {
+      const ph = p.hits || 0;
+      const count = p.predictedNumbers.length;
+      totalHits += ph;
+      if (mode === 'de') {
+        totalCost += count * 1;
+        totalRevenue += ph * 70;
+      } else {
+        totalCost += count * 23;
+        totalRevenue += ph * 80;
+      }
+    });
+
+    const isProfit = totalRevenue >= totalCost;
+    return { totalHits, totalCost, totalRevenue, profit: totalRevenue - totalCost, isProfit, days: wr.length };
+  }, [predictions, mode]);
 
   const handleSave = async () => {
     if (!isAuthed || !authToken) return;
@@ -551,20 +596,59 @@ export default function PredictionTab({ draws, mode }: Props) {
                 </div>
               </div>
 
-              {/* Summary stats */}
-              {predictions.some(p => p.hits !== undefined) && (() => {
-                const wr = predictions.filter(p => p.hits !== undefined);
-                const totalHits = wr.reduce((a, b) => a + (b.hits || 0), 0);
-                const avgHits = wr.length > 0 ? totalHits / wr.length : 0;
-                const bestDay = [...wr].sort((a, b) => (b.hits || 0) - (a.hits || 0))[0];
-                return (
-                  <div className="grid grid-cols-3 gap-3">
-                    <div className="card p-3 text-center bg-emerald-50 border-emerald-200"><div className="text-xl font-bold text-emerald-700">{totalHits}</div><div className="text-xs text-slate-500">Tổng trúng</div></div>
-                    <div className="card p-3 text-center bg-blue-50 border-blue-200"><div className="text-xl font-bold text-blue-700">{avgHits.toFixed(1)}</div><div className="text-xs text-slate-500">TB/kỳ</div></div>
-                    <div className="card p-3 text-center bg-orange-50 border-orange-200"><div className="text-xl font-bold text-orange-700">{bestDay?.hits || 0}</div><div className="text-xs text-slate-500">Cao nhất</div></div>
+              {/* Simulator / Backfill Tools */}
+              <div className="card p-4 bg-slate-50 flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h4 className="font-bold text-slate-700 text-sm">Chạy lại mô phỏng thuật toán</h4>
+                  <p className="text-xs text-slate-500">Giả lập dự đoán cho các kỳ quá khứ để kiểm chứng Lãi/Lỗ</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-medium text-slate-600">Số ngày:</span>
+                  <input type="number" min="1" max="100" value={backfillDays} onChange={e => setBackfillDays(parseInt(e.target.value) || 1)} className="w-16 h-8 text-sm px-2 border border-slate-300 rounded focus:border-indigo-500 outline-none" />
+                  <button onClick={handleBackfill} disabled={backfillRunning} className="h-8 px-4 bg-indigo-600 text-white text-xs font-bold rounded shadow-sm hover:bg-indigo-700 disabled:opacity-50">
+                    {backfillRunning ? '⏳ Đang chạy...' : '▶ Chạy Backfill'}
+                  </button>
+                </div>
+              </div>
+
+              {/* Profit/Loss Stats */}
+              {profitStats && (
+                <div className="card border-0 shadow-sm overflow-hidden mb-4">
+                  <div className="bg-slate-100 p-3 border-b border-slate-200">
+                    <div className="flex items-center gap-2">
+                      <span className="text-lg">💰</span>
+                      <div>
+                        <h4 className="font-bold text-slate-800 text-sm">Bảng thống kê Lãi / Lỗ ({profitStats.days} kỳ)</h4>
+                        <div className="text-[11px] text-slate-500">
+                          {mode === 'de' ? 'Giả lập đánh Đề: Vốn 1k/số – Trúng được 70k' : 'Giả lập đánh Lô: Vốn 23k/điểm – Trúng được 80k/điểm'}
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                );
-              })()}
+                  <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-y sm:divide-y-0 divide-slate-100 bg-white">
+                    <div className="p-4 text-center">
+                      <div className="text-[11px] text-slate-500 font-medium uppercase tracking-wider mb-1">Tổng Trúng</div>
+                      <div className="text-xl font-black text-slate-700">{profitStats.totalHits} nháy</div>
+                    </div>
+                    <div className="p-4 text-center">
+                      <div className="text-[11px] text-slate-500 font-medium uppercase tracking-wider mb-1">Tổng Vốn</div>
+                      <div className="text-xl font-black text-slate-700">{formatNumber(profitStats.totalCost)}k</div>
+                    </div>
+                    <div className="p-4 text-center">
+                      <div className="text-[11px] text-slate-500 font-medium uppercase tracking-wider mb-1">Tổng Thu</div>
+                      <div className="text-xl font-black text-slate-700">{formatNumber(profitStats.totalRevenue)}k</div>
+                    </div>
+                    <div className={`p-4 text-center ${profitStats.isProfit ? 'bg-emerald-50' : 'bg-red-50'}`}>
+                      <div className="text-[11px] font-bold uppercase tracking-wider mb-1" style={{color: profitStats.isProfit ? '#059669' : '#dc2626'}}>
+                        {profitStats.isProfit ? 'LÃI' : 'LỖ'}
+                      </div>
+                      <div className="text-xl font-black" style={{color: profitStats.isProfit ? '#059669' : '#dc2626'}}>
+                        {profitStats.profit > 0 ? '+' : ''}{formatNumber(profitStats.profit)}k
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               {predictions.map(pred => <HistoryCard key={`${pred.date}-${pred.mode}`} pred={pred} mode={mode} />)}
             </>
