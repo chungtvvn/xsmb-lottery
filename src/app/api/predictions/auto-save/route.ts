@@ -52,37 +52,51 @@ export async function POST(req: NextRequest) {
     // Use targetDate from body if provided, otherwise compute
     const targetDate = body.targetDate || nextDrawDate;
 
-    // Check if prediction already exists for this date
+    // Check existing predictions
     const existing = loadPredictions();
-    const alreadyExists = existing.find(p => p.date === targetDate);
-    if (alreadyExists) {
-      return NextResponse.json({ 
-        message: 'Prediction already exists for this date', 
+    const existingLo = existing.find(p => p.date === targetDate && (p.mode === 'lo' || p.mode === undefined));
+    const existingDe = existing.find(p => p.date === targetDate && p.mode === 'de');
+    
+    const results = [];
+
+    // Generate and save LO prediction if needed
+    if (!existingLo) {
+      const scoresLo = generatePredictions(draws, 18, 'lo');
+      const recordLo: PredictionRecord = {
         date: targetDate,
-        skipped: true 
-      });
+        mode: 'lo',
+        predictedNumbers: scoresLo.map(s => s.number),
+        method: 'Auto (GitHub Actions) • 12 phương pháp ensemble',
+        topNumbers: scoresLo.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
+        createdAt: new Date().toISOString(),
+      };
+      savePrediction(recordLo);
+      results.push('lo');
     }
 
-    // Generate predictions
-    const scores = generatePredictions(draws, 27);
-    const top18 = scores.slice(0, 18);
+    // Generate and save DE prediction if needed
+    if (!existingDe) {
+      const scoresDe = generatePredictions(draws, 30, 'de');
+      const recordDe: PredictionRecord = {
+        date: targetDate,
+        mode: 'de',
+        predictedNumbers: scoresDe.map(s => s.number),
+        method: 'Auto (GitHub Actions) • 18 phương pháp ensemble',
+        topNumbers: scoresDe.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
+        createdAt: new Date().toISOString(),
+      };
+      savePrediction(recordDe);
+      results.push('de');
+    }
 
-    const record: PredictionRecord = {
-      date: targetDate,
-      mode: 'lo' as const,
-      predictedNumbers: top18.map(s => s.number),
-      method: 'Auto (GitHub Actions) • 12 phương pháp ensemble',
-      topNumbers: top18.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
-      createdAt: new Date().toISOString(),
-    };
-
-    savePrediction(record);
+    if (results.length === 0) {
+      return NextResponse.json({ message: 'Predictions already exist for this date', date: targetDate, skipped: true });
+    }
 
     return NextResponse.json({ 
       success: true, 
       date: targetDate,
-      numbersCount: top18.length,
-      topNumbers: top18.slice(0, 6).map(s => s.number),
+      savedModes: results
     });
   } catch (error) {
     console.error('Auto-save error:', error);
