@@ -22,8 +22,11 @@ export async function GET(req: NextRequest) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
-  const predictions = loadPredictions();
-  return NextResponse.json(predictions);
+  const mode = req.nextUrl.searchParams.get('mode') || 'lo';
+  const all = loadPredictions();
+  // Filter by mode; legacy records without mode field treated as 'lo'
+  const filtered = all.filter(p => (p.mode ?? 'lo') === mode);
+  return NextResponse.json(filtered);
 }
 
 export async function POST(req: NextRequest) {
@@ -32,6 +35,7 @@ export async function POST(req: NextRequest) {
   }
   const body = await req.json();
   const record: PredictionRecord = {
+    mode: 'lo',  // default
     ...body,
     createdAt: new Date().toISOString(),
   };
@@ -43,7 +47,7 @@ export async function PUT(req: NextRequest) {
   if (!checkAuth(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
-  const { date, actualNumbers } = await req.json();
-  updatePredictionWithResult(date, actualNumbers);
+  const { date, actualNumbers, mode } = await req.json();
+  updatePredictionWithResult(date, actualNumbers, mode ?? 'lo');
   return NextResponse.json({ success: true });
 }

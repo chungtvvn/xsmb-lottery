@@ -1,3 +1,5 @@
+export type LotteryMode = 'lo' | 'de';
+
 export interface LotteryDraw {
   date: string;
   special: number;
@@ -51,10 +53,11 @@ export interface PairStats {
 
 export interface PredictionRecord {
   date: string;
-  predictedNumbers: number[];
+  mode: LotteryMode;           // 'lo' | 'de'
+  predictedNumbers: number[];  // stored in score order (tier1=0-5, tier2=6-11, tier3=12-17)
   method: string;
   topNumbers: { number: number; score: number }[];
-  actualNumbers?: number[];
+  actualNumbers?: number[];    // actual result numbers
   hits?: number;
   miss?: number;
   createdAt: string;

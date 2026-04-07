@@ -1,16 +1,16 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { LotteryDraw } from '@/types/lottery';
-import { analyzeData, formatNumber, getAllNumbers } from '@/lib/lottery-analyzer';
-import { format, parseISO, subDays } from 'date-fns';
+import { LotteryDraw, LotteryMode } from '@/types/lottery';
+import { analyzeData, formatNumber, getDrawNumbers } from '@/lib/lottery-analyzer';
+import { format, parseISO } from 'date-fns';
 import { vi } from 'date-fns/locale';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer,
   CartesianGrid, Cell
 } from 'recharts';
 
-interface Props { draws: LotteryDraw[]; }
+interface Props { draws: LotteryDraw[]; mode: LotteryMode; }
 type Period = 30 | 90 | 180 | 365 | 0;
 
 // Number ball that ALWAYS renders properly centered
@@ -57,7 +57,7 @@ function DrawTable({ draw }: { draw: LotteryDraw }) {
   );
 }
 
-export default function StatisticsTab({ draws }: Props) {
+export default function StatisticsTab({ draws, mode }: Props) {
   const [period, setPeriod] = useState<Period>(90);
   const [subTab, setSubTab] = useState<'overview' | 'heatmap' | 'pairs' | 'recent' | 'advanced'>('overview');
   const [selectedDate, setSelectedDate] = useState<string>('');
@@ -74,7 +74,7 @@ export default function StatisticsTab({ draws }: Props) {
     return sortedDraws.find(d => d.date.startsWith(selectedDate)) ?? null;
   }, [selectedDate, sortedDraws, latestDraw]);
 
-  const analysis = useMemo(() => analyzeData(draws, period), [draws, period]);
+  const analysis = useMemo(() => analyzeData(draws, period, mode), [draws, period, mode]);
 
   // Chart data
   const chartData = [...analysis.numberStats]
@@ -104,7 +104,7 @@ export default function StatisticsTab({ draws }: Props) {
       let streak = 0;
       const successDraws: string[] = [];
       for (let i = last10.length - 1; i >= 0; i--) {
-        if (getAllNumbers(last10[i]).includes(n)) {
+        if (getDrawNumbers(last10[i], mode).includes(n)) {
           streak++;
           successDraws.unshift(last10[i].date);
         } else break;
@@ -112,7 +112,7 @@ export default function StatisticsTab({ draws }: Props) {
       if (streak >= 2) results.push({ number: n, streak, draws: successDraws });
     }
     return results.sort((a, b) => b.streak - a.streak);
-  }, [sortedDraws]);
+  }, [sortedDraws, mode]);
 
   // Overdue analysis: numbers whose current absence exceeds their average
   const overdueNumbers = useMemo(() => {
@@ -695,7 +695,7 @@ export default function StatisticsTab({ draws }: Props) {
               {['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'].map((day, dow) => {
                 const dayDraws = draws.filter(d => new Date(d.date).getDay() === dow);
                 const numCount: Record<number, number> = {};
-                dayDraws.forEach(d => getAllNumbers(d).forEach(n => { numCount[n] = (numCount[n] || 0) + 1; }));
+                dayDraws.forEach(d => getDrawNumbers(d, mode).forEach(n => { numCount[n] = (numCount[n] || 0) + 1; }));
                 const topNums = Object.entries(numCount).sort((a, b) => Number(b[1]) - Number(a[1])).slice(0, 5).map(([n]) => parseInt(n));
                 return (
                   <div key={day} className="card p-2 text-center border border-slate-100">

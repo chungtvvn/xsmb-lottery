@@ -109,6 +109,13 @@
     box-shadow: 0 2px 8px rgba(245,158,11,0.5);
   }
 
+  .number-miss {
+    background: #e2e8f0;
+    color: #94a3b8;
+    border: 1px solid #cbd5e1;
+    opacity: 0.6;
+  }
+
   .tab-btn {
     padding: 0.625rem 1.25rem;
     border-radius: 10px;

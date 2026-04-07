@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { LotteryDraw } from '@/types/lottery';
+import { LotteryDraw, LotteryMode } from '@/types/lottery';
 import { formatNumber, getAllNumbers } from '@/lib/lottery-analyzer';
 import StatisticsTab from '@/components/StatisticsTab';
 import PredictionTab from '@/components/PredictionTab';
@@ -10,11 +10,11 @@ import { vi } from 'date-fns/locale';
 
 const CACHE_KEY = 'xsmb_data_cache';
 const CACHE_TS_KEY = 'xsmb_data_cache_ts';
-// Cache valid for 60 minutes
-const CACHE_TTL_MS = 60 * 60 * 1000;
+const CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'statistics' | 'prediction'>('statistics');
+  const [mode, setMode] = useState<LotteryMode>('lo');
   const [draws, setDraws] = useState<LotteryDraw[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -27,44 +27,29 @@ export default function Home() {
       if (forceRefresh) setRefreshing(true);
       else setLoading(true);
 
-      // Try localStorage cache first (unless forced refresh)
       if (!forceRefresh && typeof window !== 'undefined') {
         const cached = localStorage.getItem(CACHE_KEY);
         const cachedTs = localStorage.getItem(CACHE_TS_KEY);
-        if (cached && cachedTs) {
-          const age = Date.now() - parseInt(cachedTs, 10);
-          if (age < CACHE_TTL_MS) {
-            const data: LotteryDraw[] = JSON.parse(cached);
-            setDraws(data);
-            setLastUpdated(new Date(parseInt(cachedTs, 10)).toLocaleTimeString('vi-VN'));
-            setDataSource('cache');
-            setError(null);
-            setLoading(false);
-            return;
-          }
+        if (cached && cachedTs && Date.now() - parseInt(cachedTs, 10) < CACHE_TTL_MS) {
+          setDraws(JSON.parse(cached));
+          setLastUpdated(new Date(parseInt(cachedTs, 10)).toLocaleTimeString('vi-VN'));
+          setDataSource('cache');
+          setError(null);
+          setLoading(false);
+          return;
         }
       }
 
-      // Fetch from API
-      const url = forceRefresh
-        ? `/api/lottery-data?t=${Date.now()}`
-        : '/api/lottery-data';
-
-      const res = await fetch(url, { cache: 'no-store' });
+      const res = await fetch(forceRefresh ? `/api/lottery-data?t=${Date.now()}` : '/api/lottery-data', { cache: 'no-store' });
       if (!res.ok) throw new Error('Không thể tải dữ liệu');
       const data: LotteryDraw[] = await res.json();
-
-      // Sort by date
       const sorted = data.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
-      // Save to localStorage cache
       if (typeof window !== 'undefined') {
         try {
           localStorage.setItem(CACHE_KEY, JSON.stringify(sorted));
           localStorage.setItem(CACHE_TS_KEY, Date.now().toString());
-        } catch (e) {
-          // localStorage might be full – ignore
-        }
+        } catch { /* quota exceeded, skip */ }
       }
 
       setDraws(sorted);
@@ -72,14 +57,12 @@ export default function Home() {
       setDataSource('network');
       setError(null);
     } catch (e) {
-      // If network fails, fall back to cache even if stale
       if (typeof window !== 'undefined') {
         const cached = localStorage.getItem(CACHE_KEY);
-        const cachedTs = localStorage.getItem(CACHE_TS_KEY);
         if (cached) {
-          const data: LotteryDraw[] = JSON.parse(cached);
-          setDraws(data);
-          setLastUpdated(cachedTs ? new Date(parseInt(cachedTs, 10)).toLocaleTimeString('vi-VN') : '');
+          const ts = localStorage.getItem(CACHE_TS_KEY);
+          setDraws(JSON.parse(cached));
+          setLastUpdated(ts ? new Date(parseInt(ts, 10)).toLocaleTimeString('vi-VN') : '');
           setDataSource('cache');
           setError('Dùng dữ liệu cache (không có mạng)');
           setLoading(false);
@@ -95,12 +78,9 @@ export default function Home() {
     }
   }, []);
 
-  useEffect(() => {
-    fetchData();
-  }, [fetchData]);
+  useEffect(() => { fetchData(); }, [fetchData]);
 
   const latestDraw = draws.length > 0 ? draws[draws.length - 1] : null;
-  // Next draw = day after latest draw in data
   const nextDrawLabel = latestDraw
     ? format(addDays(parseISO(latestDraw.date), 1), 'dd/MM/yyyy', { locale: vi })
     : '';
@@ -126,12 +106,7 @@ export default function Home() {
           <div className="text-5xl mb-4">⚠️</div>
           <h2 className="text-xl font-bold text-red-600 mb-2">Lỗi tải dữ liệu</h2>
           <p className="text-slate-500 mb-6">{error}</p>
-          <button
-            onClick={() => fetchData(true)}
-            className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold transition-all"
-          >
-            Thử lại
-          </button>
+          <button onClick={() => fetchData(true)} className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold transition-all">Thử lại</button>
         </div>
       </div>
     );
@@ -142,58 +117,62 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-3">
-          <div className="flex items-center justify-between gap-4">
+          <div className="flex items-center justify-between gap-3">
+
             {/* Logo */}
             <div className="flex items-center gap-3 shrink-0">
               <div className="w-9 h-9 rounded-xl flex items-center justify-center text-lg shadow-sm"
-                style={{ background: 'linear-gradient(135deg, #6366f1, #8b5cf6)' }}>
-                🎯
-              </div>
+                style={{ background: 'linear-gradient(135deg,#6366f1,#8b5cf6)' }}>🎯</div>
               <div className="hidden sm:block">
                 <h1 className="text-base font-bold gradient-text leading-none">XSMB Analytics</h1>
                 <p className="text-[11px] text-slate-400">Xổ số Miền Bắc</p>
               </div>
             </div>
 
-            {/* Latest result / next draw */}
-            {latestDraw && (
-              <div className="flex-1 overflow-hidden mx-2">
-                <div className="hidden md:flex items-center gap-3">
-                  <div className="shrink-0 text-center">
-                    <div className="text-[10px] text-slate-400">Kỳ mới nhất</div>
-                    <div className="text-xs font-semibold text-slate-600">
-                      {format(parseISO(latestDraw.date), 'dd/MM/yyyy', { locale: vi })}
-                    </div>
-                  </div>
-                  <span className="text-slate-300">→</span>
-                  <div className="shrink-0 text-center">
-                    <div className="text-[10px] text-indigo-500">Kỳ tiếp theo</div>
-                    <div className="text-xs font-bold text-indigo-700">{nextDrawLabel}</div>
-                  </div>
-                  <span className="text-slate-200">|</span>
-                  <div className="flex gap-1.5 overflow-x-auto no-scrollbar">
-                    {getAllNumbers(latestDraw).slice(0, 7).map((n, i) => (
-                      <span key={i} className="number-ball number-ball-xs number-neutral shrink-0">
-                        {formatNumber(n)}
-                      </span>
-                    ))}
-                    <span className="text-xs text-slate-400 self-center">...</span>
-                  </div>
+            {/* ── MODE TOGGLE ── */}
+            <div className="flex items-center gap-1 bg-slate-100 rounded-xl p-1 shrink-0">
+              <button
+                onClick={() => setMode('lo')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${mode === 'lo'
+                  ? 'bg-white text-indigo-700 shadow-sm border border-indigo-100'
+                  : 'text-slate-400 hover:text-slate-600'}`}
+              >
+                🎰 Lô
+              </button>
+              <button
+                onClick={() => setMode('de')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${mode === 'de'
+                  ? 'bg-white text-amber-700 shadow-sm border border-amber-100'
+                  : 'text-slate-400 hover:text-slate-600'}`}
+              >
+                ♦️ Đề
+              </button>
+            </div>
+
+            {/* Mode badge */}
+            <div className="hidden md:flex items-center gap-2 flex-1 mx-1">
+              {mode === 'de' ? (
+                <span className="stat-badge badge-orange text-xs">♦️ Chế độ Đề — Chỉ Giải Đặc Biệt</span>
+              ) : (
+                <span className="stat-badge badge-purple text-xs">🎰 Chế độ Lô — Toàn bộ giải</span>
+              )}
+              {latestDraw && (
+                <div className="text-xs text-slate-400">
+                  <span className="text-slate-500">Kỳ mới:</span>{' '}
+                  {format(parseISO(latestDraw.date), 'dd/MM', { locale: vi })}
+                  {mode === 'de' && (
+                    <span className="ml-1 font-bold text-amber-700">ĐB: {formatNumber(latestDraw.special)}</span>
+                  )}
+                  <span className="mx-1 text-slate-300">→</span>
+                  <span className="text-indigo-600 font-semibold">Tiếp: {nextDrawLabel}</span>
                 </div>
-                <div className="md:hidden text-xs text-slate-500">
-                  {format(parseISO(latestDraw.date), 'dd/MM', { locale: vi })} → {nextDrawLabel} • {draws.length} kỳ
-                </div>
-              </div>
-            )}
+              )}
+            </div>
 
             {/* Controls */}
             <div className="flex items-center gap-2 shrink-0">
-              {dataSource === 'cache' && (
-                <span className="hidden lg:flex stat-badge badge-gray">📦 Cache</span>
-              )}
-              <div className="text-xs text-slate-400 hidden lg:block">
-                {lastUpdated && `${lastUpdated}`}
-              </div>
+              {dataSource === 'cache' && <span className="hidden lg:flex stat-badge badge-gray text-[10px]">📦 Cache</span>}
+              <div className="text-[10px] text-slate-400 hidden lg:block">{lastUpdated}</div>
               <button
                 onClick={() => fetchData(true)}
                 disabled={refreshing}
@@ -211,13 +190,13 @@ export default function Home() {
               onClick={() => setActiveTab('statistics')}
               className={`tab-btn ${activeTab === 'statistics' ? 'tab-btn-active' : 'tab-btn-inactive'}`}
             >
-              📊 Thống kê
+              📊 Thống kê {mode === 'de' ? '(Đề)' : '(Lô)'}
             </button>
             <button
               onClick={() => setActiveTab('prediction')}
               className={`tab-btn ${activeTab === 'prediction' ? 'tab-btn-active' : 'tab-btn-inactive'}`}
             >
-              🔮 Dự đoán &amp; Lịch sử
+              🔮 Dự đoán &amp; Lịch sử {mode === 'de' ? '(Đề)' : '(Lô)'}
             </button>
           </div>
         </div>
@@ -230,17 +209,16 @@ export default function Home() {
         </div>
       )}
 
-      {/* Main content */}
+      {/* Main */}
       <main className="max-w-7xl mx-auto px-4 py-5">
         <div className="animate-fade-in">
-          {activeTab === 'statistics' && <StatisticsTab draws={draws} />}
-          {activeTab === 'prediction' && <PredictionTab draws={draws} />}
+          {activeTab === 'statistics' && <StatisticsTab draws={draws} mode={mode} />}
+          {activeTab === 'prediction' && <PredictionTab draws={draws} mode={mode} />}
         </div>
       </main>
 
-      {/* Footer */}
       <footer className="text-center py-5 text-xs text-slate-400 border-t border-slate-200 mt-8 bg-white">
-        <p>XSMB Analytics • Cập nhật tự động lúc 18:45 hàng ngày • Chỉ mang tính chất tham khảo</p>
+        <p>XSMB Analytics • Cập nhật tự động 18:45 hàng ngày • Chỉ mang tính tham khảo</p>
       </footer>
     </div>
   );

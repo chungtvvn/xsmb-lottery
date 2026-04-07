@@ -69,8 +69,9 @@ export async function POST(req: NextRequest) {
 
     const record: PredictionRecord = {
       date: targetDate,
+      mode: 'lo' as const,
       predictedNumbers: top18.map(s => s.number),
-      method: 'Auto (GitHub Actions) • 8 phương pháp ensemble',
+      method: 'Auto (GitHub Actions) • 12 phương pháp ensemble',
       topNumbers: top18.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
       createdAt: new Date().toISOString(),
     };
