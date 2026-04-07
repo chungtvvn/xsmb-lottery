@@ -4,160 +4,160 @@
     "mode": "de",
     "predictedNumbers": [
       56,
-      58,
       65,
-      41,
       7,
-      98,
       9,
-      15,
+      0,
+      58,
       76,
+      41,
       39,
       25,
-      0,
+      98,
+      15,
+      34,
       18,
-      71,
+      73,
       31,
       11,
-      34,
       96,
-      4,
-      60,
-      2,
-      73,
-      40,
-      79,
+      71,
       43,
+      4,
       10,
-      97,
-      26,
+      60,
+      40,
+      2,
       50,
-      82
+      82,
+      26,
+      16,
+      79
     ],
-    "method": "Auto (Manual Trigger) • 18 phương pháp ensemble",
+    "method": "Auto (Manual Trigger) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 56,
-        "score": 40.31
-      },
-      {
-        "number": 58,
-        "score": 37.94
+        "score": 39.79
       },
       {
         "number": 65,
-        "score": 37.66
-      },
-      {
-        "number": 41,
-        "score": 37.37
+        "score": 37.87
       },
       {
         "number": 7,
-        "score": 37.3
-      },
-      {
-        "number": 98,
-        "score": 36.12
+        "score": 36.47
       },
       {
         "number": 9,
-        "score": 35.26
-      },
-      {
-        "number": 15,
-        "score": 35.26
-      },
-      {
-        "number": 76,
-        "score": 34.86
-      },
-      {
-        "number": 39,
-        "score": 34.72
-      },
-      {
-        "number": 25,
-        "score": 34.64
+        "score": 35.61
       },
       {
         "number": 0,
-        "score": 34.63
+        "score": 35.56
       },
       {
-        "number": 18,
-        "score": 34.5
+        "number": 58,
+        "score": 35.05
       },
       {
-        "number": 71,
-        "score": 32.44
+        "number": 76,
+        "score": 35.02
       },
       {
-        "number": 31,
-        "score": 32
+        "number": 41,
+        "score": 34.61
       },
       {
-        "number": 11,
-        "score": 31.97
+        "number": 39,
+        "score": 34.44
+      },
+      {
+        "number": 25,
+        "score": 34.37
+      },
+      {
+        "number": 98,
+        "score": 34.29
+      },
+      {
+        "number": 15,
+        "score": 32.78
       },
       {
         "number": 34,
-        "score": 31.75
+        "score": 32.64
       },
       {
-        "number": 96,
-        "score": 31.19
-      },
-      {
-        "number": 4,
-        "score": 30.07
-      },
-      {
-        "number": 60,
-        "score": 29.71
-      },
-      {
-        "number": 2,
-        "score": 29.59
+        "number": 18,
+        "score": 32.05
       },
       {
         "number": 73,
-        "score": 29.58
+        "score": 32.04
       },
       {
-        "number": 40,
-        "score": 29.56
+        "number": 31,
+        "score": 32.03
       },
       {
-        "number": 79,
-        "score": 29.13
+        "number": 11,
+        "score": 31.2
+      },
+      {
+        "number": 96,
+        "score": 30.82
+      },
+      {
+        "number": 71,
+        "score": 30.29
       },
       {
         "number": 43,
-        "score": 28.9
+        "score": 30.22
+      },
+      {
+        "number": 4,
+        "score": 30.09
       },
       {
         "number": 10,
-        "score": 28.59
+        "score": 30.05
       },
       {
-        "number": 97,
-        "score": 28.47
+        "number": 60,
+        "score": 30.03
       },
       {
-        "number": 26,
-        "score": 27.97
+        "number": 40,
+        "score": 29.98
+      },
+      {
+        "number": 2,
+        "score": 29.66
       },
       {
         "number": 50,
-        "score": 27.95
+        "score": 28.56
       },
       {
         "number": 82,
-        "score": 27.93
+        "score": 28.39
+      },
+      {
+        "number": 26,
+        "score": 27.98
+      },
+      {
+        "number": 16,
+        "score": 27.88
+      },
+      {
+        "number": 79,
+        "score": 27.37
       }
     ],
-    "createdAt": "2026-04-07T05:58:39.790Z"
+    "createdAt": "2026-04-07T06:07:34.850Z"
   },
   {
     "date": "2026-04-06",
@@ -4550,101 +4550,102 @@
   },
   {
     "date": "2026-04-07",
+    "mode": "lo",
     "predictedNumbers": [
-      88,
-      35,
-      96,
-      57,
-      22,
-      81,
-      92,
-      64,
-      85,
-      12,
-      27,
-      53,
-      71,
-      46,
-      5,
-      19,
       18,
-      13
+      88,
+      38,
+      74,
+      64,
+      13,
+      20,
+      5,
+      90,
+      8,
+      47,
+      27,
+      28,
+      3,
+      11,
+      57,
+      0,
+      92
     ],
-    "method": "Phân tích tần suất + chuỗi vắng mặt",
+    "method": "Auto (Manual Trigger) • 16 phương pháp ensemble",
     "topNumbers": [
       {
+        "number": 18,
+        "score": 43.65
+      },
+      {
         "number": 88,
-        "score": 65.47
+        "score": 42.97
       },
       {
-        "number": 35,
-        "score": 62.89
+        "number": 38,
+        "score": 42.94
       },
       {
-        "number": 96,
-        "score": 62.44
-      },
-      {
-        "number": 57,
-        "score": 61.09
-      },
-      {
-        "number": 22,
-        "score": 61
-      },
-      {
-        "number": 81,
-        "score": 58.44
-      },
-      {
-        "number": 92,
-        "score": 58.44
+        "number": 74,
+        "score": 42.56
       },
       {
         "number": 64,
-        "score": 58.18
-      },
-      {
-        "number": 85,
-        "score": 58
-      },
-      {
-        "number": 12,
-        "score": 57
-      },
-      {
-        "number": 27,
-        "score": 56.03
-      },
-      {
-        "number": 53,
-        "score": 54.44
-      },
-      {
-        "number": 71,
-        "score": 53.89
-      },
-      {
-        "number": 46,
-        "score": 50.22
-      },
-      {
-        "number": 5,
-        "score": 50.09
-      },
-      {
-        "number": 19,
-        "score": 48.68
-      },
-      {
-        "number": 18,
-        "score": 48.29
+        "score": 42.16
       },
       {
         "number": 13,
-        "score": 47.46
+        "score": 41.78
+      },
+      {
+        "number": 20,
+        "score": 41.37
+      },
+      {
+        "number": 5,
+        "score": 40.45
+      },
+      {
+        "number": 90,
+        "score": 39.77
+      },
+      {
+        "number": 8,
+        "score": 39.3
+      },
+      {
+        "number": 47,
+        "score": 39.28
+      },
+      {
+        "number": 27,
+        "score": 39.22
+      },
+      {
+        "number": 28,
+        "score": 39.15
+      },
+      {
+        "number": 3,
+        "score": 39.08
+      },
+      {
+        "number": 11,
+        "score": 38.93
+      },
+      {
+        "number": 57,
+        "score": 38.62
+      },
+      {
+        "number": 0,
+        "score": 38.61
+      },
+      {
+        "number": 92,
+        "score": 38.5
       }
     ],
-    "createdAt": "2026-04-07T04:07:44.579Z"
+    "createdAt": "2026-04-07T06:07:34.647Z"
   }
 ]

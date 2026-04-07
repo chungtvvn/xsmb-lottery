@@ -66,7 +66,7 @@ export async function POST(req: NextRequest) {
         date: targetDate,
         mode: 'lo',
         predictedNumbers: scoresLo.map(s => s.number),
-        method: 'Auto (GitHub Actions) • 12 phương pháp ensemble',
+        method: 'Auto (GitHub Actions) • 16 phương pháp ensemble',
         topNumbers: scoresLo.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
         createdAt: new Date().toISOString(),
       };
@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
         date: targetDate,
         mode: 'de',
         predictedNumbers: scoresDe.map(s => s.number),
-        method: 'Auto (GitHub Actions) • 18 phương pháp ensemble',
+        method: 'Auto (GitHub Actions) • 22 phương pháp ensemble',
         topNumbers: scoresDe.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
         createdAt: new Date().toISOString(),
       };

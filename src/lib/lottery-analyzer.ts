@@ -182,8 +182,12 @@ const LO_METHODS_META = {
   m8Weight: 0.04,  // Giải ĐB/G1
   m9Weight: 0.04,  // Đồng xuất hiện
   m10Weight: 0.03, // Bayes
-  m11Weight: 0.05, // Trọng số thời gian
-  m12Weight: 0.06, // Max vắng LS
+  m11Weight: 0.04, // Trọng số thời gian
+  m12Weight: 0.05, // Max vắng LS
+  m13Weight: 0.06, // Đầu/đuôi câm
+  m14Weight: 0.05, // Lô rơi ĐB/G1
+  m15Weight: 0.04, // Bóng dương Lô
+  m16Weight: 0.04, // Chu kỳ sai số
 };
 
 // ── Đề weights: 12 core + 6 special = total 1.28 → normalize ──
@@ -205,11 +209,15 @@ const DE_METHODS_META = {
   m15Weight: 0.05,  // Tổng chữ số (digit sum)
   m16Weight: 0.05,  // Số kề giải ĐB gần nhất (adjacency)
   m17Weight: 0.04,  // Chu kỳ chuẩn lệch (cycle std dev)
-  m18Weight: 0.04,  // Cuối kỳ liên tiếp (same last-digit streak)
+  m18Weight: 0.03,  // Cuối kỳ liên tiếp (same last-digit streak)
+  m19Weight: 0.04,  // Bóng dương ĐB
+  m20Weight: 0.04,  // Bóng âm ĐB
+  m21Weight: 0.04,  // Kép / sát kép
+  m22Weight: 0.05,  // Chạm ĐB/G1 kỳ trước
 };
 
 /**
- * 12-method Lô / 18-method Đề ensemble prediction.
+ * 16-method Lô / 22-method Đề ensemble prediction.
  * Đề mode returns 40 numbers by default.
  */
 export function generatePredictions(draws: LotteryDraw[], count: number = 27, mode: LotteryMode = 'lo'): PredictionScore[] {
@@ -268,6 +276,22 @@ export function generatePredictions(draws: LotteryDraw[], count: number = 27, mo
   // Recent special values (last 5)
   const recentSpecials = allDraws.slice(-5).map(d => d.special);
   const latestSpecial = recentSpecials[recentSpecials.length - 1];
+  const latestDraw = allDraws[allDraws.length - 1];
+
+  // --- NEW PRECOMPUTES ---
+  // Lô precomputes
+  const latestDrawNums = getDrawNumbers(latestDraw, 'lo');
+  const latestHeads = new Set(latestDrawNums.map(x => Math.floor(x / 10)));
+  const latestTails = new Set(latestDrawNums.map(x => x % 10));
+  const latestBongDuong = latestDrawNums.map(x => ((Math.floor(x/10)+5)%10)*10 + ((x%10+5)%10));
+  
+  // Đề precomputes
+  const amMap: Record<number, number> = {0:7, 1:4, 2:9, 3:6, 4:1, 5:8, 6:3, 7:0, 8:5, 9:2};
+  const latestDbFirst = Math.floor(latestSpecial / 10);
+  const latestDbLast = latestSpecial % 10;
+  const dbBongDuong = ((latestDbFirst+5)%10)*10 + ((latestDbLast+5)%10);
+  const dbBongAm = amMap[latestDbFirst]*10 + amMap[latestDbLast];
+  const dbTouches = new Set([latestDbFirst, latestDbLast, Math.floor(latestDraw.prize1/10)%10, latestDraw.prize1%10]);
 
   const scores: PredictionScore[] = [];
   const W = mode === 'de' ? DE_METHODS_META : LO_METHODS_META;
@@ -472,6 +496,62 @@ export function generatePredictions(draws: LotteryDraw[], count: number = 27, mo
       const sameFirstDig = myFirstDigit === latestFirstDigit;
       const m18score = (sameLastDig ? 60 : 0) + (sameFirstDig ? 30 : 0) + Math.min(30, sameLastDigitRecent * 8) + Math.min(20, sameFirstDigitRecent * 5);
       methods.push({ name: 'Đuôi/Đầu ĐB kỳ trước', weight: deW.m18Weight, score: Math.min(100, m18score), contribution: Math.min(100, m18score) * deW.m18Weight, detail: `ĐB trước=${String(latestSpecial).padStart(2, '0')} | Cùng đuôi ${latestLastDigit}:${sameLastDig ? '✓' : '✗'} | Cùng đầu ${latestFirstDigit}:${sameFirstDig ? '✓' : '✗'}` });
+
+      // ── M19: Bóng dương ĐB kỳ trước ───────────────────────────
+      const isBongDuong = n === dbBongDuong;
+      methods.push({ name: 'Bóng dương ĐB', weight: deW.m19Weight, score: isBongDuong ? 85 : 10, contribution: (isBongDuong ? 85 : 10) * deW.m19Weight, detail: isBongDuong ? `Bóng dương của ${String(latestSpecial).padStart(2,'0')}` : 'Không' });
+
+      // ── M20: Bóng âm ĐB kỳ trước ──────────────────────────────
+      const isBongAm = n === dbBongAm;
+      methods.push({ name: 'Bóng âm ĐB', weight: deW.m20Weight, score: isBongAm ? 80 : 10, contribution: (isBongAm ? 80 : 10) * deW.m20Weight, detail: isBongAm ? `Bóng âm của ${String(latestSpecial).padStart(2,'0')}` : 'Không' });
+
+      // ── M21: Đề kép / Sát kép ─────────────────────────────────
+      const myHead = Math.floor(n / 10);
+      const myTail = n % 10;
+      const isKep = myHead === myTail;
+      const isSatKep = Math.abs(myHead - myTail) === 1 || (myHead === 0 && myTail === 9) || (myHead === 9 && myTail === 0);
+      let m21score = 20;
+      if (isKep) m21score = 65;
+      else if (isSatKep) m21score = 50;
+      methods.push({ name: 'Kép / Sát kép', weight: deW.m21Weight, score: m21score, contribution: m21score * deW.m21Weight, detail: isKep ? 'Đề kép bằng' : isSatKep ? 'Đề sát kép' : 'Đề thường' });
+
+      // ── M22: Chạm ĐB/G1 kỳ trước ──────────────────────────────
+      const touches = dbTouches.has(myHead) || dbTouches.has(myTail);
+      methods.push({ name: 'Chạm ĐB/G1 kỳ trước', weight: deW.m22Weight, score: touches ? 75 : 15, contribution: (touches ? 75 : 15) * deW.m22Weight, detail: touches ? 'Dính chạm ĐB/G1' : 'Không chạm' });
+    }
+
+    if (mode === 'lo') {
+      const loW = W as typeof LO_METHODS_META;
+      const myHead = Math.floor(n / 10);
+      const myTail = n % 10;
+      
+      // ── M13: Đầu/Đuôi câm kỳ trước
+      const headCam = !latestHeads.has(myHead);
+      const tailCam = !latestTails.has(myTail);
+      const m13score = headCam && tailCam ? 100 : headCam || tailCam ? 60 : 20;
+      methods.push({ name: 'Đầu/Đuôi câm', weight: loW.m13Weight, score: m13score, contribution: m13score * loW.m13Weight, detail: headCam ? `Đầu ${myHead} câm` : tailCam ? `Đuôi ${myTail} câm` : `Không câm` });
+
+      // ── M14: Lô rơi từ ĐB/G1 kỳ trước
+      const isFromDbG1 = latestDraw.special === n || latestDraw.prize1 === n;
+      const m14score = isFromDbG1 ? 80 : 10;
+      methods.push({ name: 'Lô rơi ĐB/G1', weight: loW.m14Weight, score: m14score, contribution: m14score * loW.m14Weight, detail: isFromDbG1 ? 'Rơi từ giải ĐB/G1' : 'Không có' });
+
+      // ── M15: Bóng dương lô kỳ trước
+      const isBongDuongLo = latestBongDuong.includes(n);
+      const m15score = isBongDuongLo ? 65 : 15;
+      methods.push({ name: 'Bóng dương Lô', weight: loW.m15Weight, score: m15score, contribution: m15score * loW.m15Weight, detail: isBongDuongLo ? 'Là bóng dương kỳ trước' : 'Không' });
+
+      // ── M16: Chu kỳ chuẩn lệch Lô
+      let m16score = 15;
+      let m16detail = 'Chưa đủ chu kỳ';
+      if (absIntervals.length >= 3) {
+        const meanInterval = absIntervals.reduce((a, b) => a + b, 0) / absIntervals.length;
+        const stdDev = Math.sqrt(absIntervals.reduce((a, b) => a + Math.pow(b - Math.max(meanInterval, 1), 2), 0) / absIntervals.length);
+        const expectedNow = currentAbsence >= meanInterval - 0.5 * stdDev && currentAbsence <= meanInterval + 1.5 * stdDev;
+        m16score = expectedNow ? 80 : 20;
+        m16detail = `TB=${meanInterval.toFixed(0)}k ±${stdDev.toFixed(0)} ${expectedNow ? '→ Cửa sổ nổ' : ''}`;
+      }
+      methods.push({ name: 'Chu kỳ chuẩn lệch', weight: loW.m16Weight, score: m16score, contribution: m16score * loW.m16Weight, detail: m16detail });
     }
 
     // ── Total score (normalize by total weight) ─────────────────
