@@ -1,0 +1,90 @@
+name: Update Lottery Data & Auto-Save Prediction
+
+on:
+  schedule:
+    # 18:45 Vietnam time = 11:45 UTC daily
+    - cron: '45 11 * * *'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update-and-predict:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch latest lottery data
+        run: |
+          mkdir -p data
+          echo "Fetching latest XSMB data..."
+          curl -sSL "https://raw.githubusercontent.com/khiemdoan/vietnam-lottery-xsmb-analysis/refs/heads/main/data/xsmb-2-digits.json" \
+            -o data/xsmb-2-digits-cache.json
+          RECORD_COUNT=$(python3 -c "import json; d=json.load(open('data/xsmb-2-digits-cache.json')); print(len(d))")
+          LATEST_DATE=$(python3 -c "import json; d=json.load(open('data/xsmb-2-digits-cache.json')); print(sorted(d, key=lambda x: x['date'])[-1]['date'][:10])")
+          echo "Fetched $RECORD_COUNT records. Latest date: $LATEST_DATE"
+          echo "LATEST_DATE=$LATEST_DATE" >> $GITHUB_ENV
+          echo "Fetched at $(date -u '+%Y-%m-%dT%H:%M:%SZ')" > data/last-updated.txt
+
+      - name: Generate and save daily prediction
+        env:
+          AUTH_TOKEN: ${{ secrets.PREDICTION_AUTH_TOKEN }}
+          APP_URL: ${{ secrets.APP_URL }}
+        run: |
+          # Compute next draw date = latest date + 1 day
+          NEXT_DATE=$(date -d "$LATEST_DATE + 1 day" '+%Y-%m-%d' 2>/dev/null || \
+                      python3 -c "from datetime import date, timedelta; d=date.fromisoformat('$LATEST_DATE'); print((d+timedelta(days=1)).isoformat())")
+          echo "Next draw date: $NEXT_DATE"
+          
+          # Only call API if APP_URL and AUTH_TOKEN are set
+          if [ -n "$APP_URL" ] && [ -n "$AUTH_TOKEN" ]; then
+            echo "Triggering auto-save prediction for $NEXT_DATE..."
+            HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+              -X POST "${APP_URL}/api/predictions/auto-save" \
+              -H "Content-Type: application/json" \
+              -H "x-auth-token: $AUTH_TOKEN" \
+              -d "{\"targetDate\": \"$NEXT_DATE\"}")
+            echo "Auto-save response: $HTTP_STATUS"
+          else
+            echo "APP_URL or PREDICTION_AUTH_TOKEN not set – skipping auto-save API call."
+            echo "Set PREDICTION_AUTH_TOKEN (base64 of user:pass) and APP_URL in repository secrets."
+          fi
+
+      - name: Update prediction results for yesterday
+        env:
+          AUTH_TOKEN: ${{ secrets.PREDICTION_AUTH_TOKEN }}
+          APP_URL: ${{ secrets.APP_URL }}
+        run: |
+          # The latest draw date is the result we should match against yesterday's prediction
+          if [ -n "$APP_URL" ] && [ -n "$AUTH_TOKEN" ]; then
+            echo "Updating prediction result for $LATEST_DATE..."
+            curl -s -X PUT "${APP_URL}/api/predictions" \
+              -H "Content-Type: application/json" \
+              -H "x-auth-token: $AUTH_TOKEN" \
+              -d "{\"date\": \"$LATEST_DATE\", \"autoUpdateFromCache\": true}" || true
+          fi
+
+      - name: Commit and push data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "🎲 Auto-update lottery data $LATEST_DATE"
+            git push
+            echo "Pushed data update"
+          fi
+
+      - name: Trigger Vercel redeploy
+        if: env.VERCEL_DEPLOY_HOOK != ''
+        env:
+          VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          echo "Triggering Vercel redeploy..."
+          curl -X POST "$VERCEL_DEPLOY_HOOK"

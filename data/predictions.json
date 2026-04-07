@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-04-07",
+    "predictedNumbers": [
+      88,
+      35,
+      96,
+      57,
+      22,
+      81,
+      92,
+      64,
+      85,
+      12,
+      27,
+      53,
+      71,
+      46,
+      5,
+      19,
+      18,
+      13
+    ],
+    "method": "Phân tích tần suất + chuỗi vắng mặt",
+    "topNumbers": [
+      {
+        "number": 88,
+        "score": 65.47
+      },
+      {
+        "number": 35,
+        "score": 62.89
+      },
+      {
+        "number": 96,
+        "score": 62.44
+      },
+      {
+        "number": 57,
+        "score": 61.09
+      },
+      {
+        "number": 22,
+        "score": 61
+      },
+      {
+        "number": 81,
+        "score": 58.44
+      },
+      {
+        "number": 92,
+        "score": 58.44
+      },
+      {
+        "number": 64,
+        "score": 58.18
+      },
+      {
+        "number": 85,
+        "score": 58
+      },
+      {
+        "number": 12,
+        "score": 57
+      },
+      {
+        "number": 27,
+        "score": 56.03
+      },
+      {
+        "number": 53,
+        "score": 54.44
+      },
+      {
+        "number": 71,
+        "score": 53.89
+      },
+      {
+        "number": 46,
+        "score": 50.22
+      },
+      {
+        "number": 5,
+        "score": 50.09
+      },
+      {
+        "number": 19,
+        "score": 48.68
+      },
+      {
+        "number": 18,
+        "score": 48.29
+      },
+      {
+        "number": 13,
+        "score": 47.46
+      }
+    ],
+    "createdAt": "2026-04-07T04:07:44.579Z"
+  }
+]
