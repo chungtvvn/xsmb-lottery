@@ -1,5 +1,4394 @@
 [
   {
+    "date": "2026-04-06",
+    "mode": "de",
+    "predictedNumbers": [
+      65,
+      58,
+      56,
+      41,
+      15,
+      25,
+      98,
+      39,
+      18,
+      71,
+      7,
+      11,
+      31,
+      6,
+      9,
+      34,
+      0,
+      76,
+      50,
+      40,
+      73,
+      79,
+      43,
+      10,
+      97,
+      35,
+      4,
+      96,
+      82,
+      60
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 65,
+        "score": 40.57
+      },
+      {
+        "number": 58,
+        "score": 39.11
+      },
+      {
+        "number": 56,
+        "score": 39.09
+      },
+      {
+        "number": 41,
+        "score": 38.77
+      },
+      {
+        "number": 15,
+        "score": 37.63
+      },
+      {
+        "number": 25,
+        "score": 36.71
+      },
+      {
+        "number": 98,
+        "score": 36.1
+      },
+      {
+        "number": 39,
+        "score": 34.78
+      },
+      {
+        "number": 18,
+        "score": 34.67
+      },
+      {
+        "number": 71,
+        "score": 33.76
+      },
+      {
+        "number": 7,
+        "score": 33.72
+      },
+      {
+        "number": 11,
+        "score": 33.44
+      },
+      {
+        "number": 31,
+        "score": 33.29
+      },
+      {
+        "number": 6,
+        "score": 33.22
+      },
+      {
+        "number": 9,
+        "score": 32.62
+      },
+      {
+        "number": 34,
+        "score": 32.17
+      },
+      {
+        "number": 0,
+        "score": 31.96
+      },
+      {
+        "number": 76,
+        "score": 31.32
+      },
+      {
+        "number": 50,
+        "score": 29.9
+      },
+      {
+        "number": 40,
+        "score": 29.54
+      },
+      {
+        "number": 73,
+        "score": 29.51
+      },
+      {
+        "number": 79,
+        "score": 28.99
+      },
+      {
+        "number": 43,
+        "score": 28.99
+      },
+      {
+        "number": 10,
+        "score": 28.6
+      },
+      {
+        "number": 97,
+        "score": 28.54
+      },
+      {
+        "number": 35,
+        "score": 28.22
+      },
+      {
+        "number": 4,
+        "score": 28.17
+      },
+      {
+        "number": 96,
+        "score": 27.8
+      },
+      {
+        "number": 82,
+        "score": 27.8
+      },
+      {
+        "number": 60,
+        "score": 27.79
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:53.836Z",
+    "actualNumbers": [
+      6
+    ],
+    "hits": 1,
+    "miss": 29
+  },
+  {
+    "date": "2026-04-06",
+    "mode": "lo",
+    "predictedNumbers": [
+      64,
+      33,
+      27,
+      13,
+      20,
+      92,
+      88,
+      18,
+      77,
+      46,
+      1,
+      57,
+      38,
+      11,
+      96,
+      81,
+      3,
+      10
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 64,
+        "score": 44.59
+      },
+      {
+        "number": 33,
+        "score": 43.51
+      },
+      {
+        "number": 27,
+        "score": 42.83
+      },
+      {
+        "number": 13,
+        "score": 42.34
+      },
+      {
+        "number": 20,
+        "score": 42.11
+      },
+      {
+        "number": 92,
+        "score": 41.85
+      },
+      {
+        "number": 88,
+        "score": 41.35
+      },
+      {
+        "number": 18,
+        "score": 40.42
+      },
+      {
+        "number": 77,
+        "score": 40.38
+      },
+      {
+        "number": 46,
+        "score": 40.08
+      },
+      {
+        "number": 1,
+        "score": 39.91
+      },
+      {
+        "number": 57,
+        "score": 39.85
+      },
+      {
+        "number": 38,
+        "score": 39.74
+      },
+      {
+        "number": 11,
+        "score": 39.46
+      },
+      {
+        "number": 96,
+        "score": 39.45
+      },
+      {
+        "number": 81,
+        "score": 39.45
+      },
+      {
+        "number": 3,
+        "score": 39.43
+      },
+      {
+        "number": 10,
+        "score": 37.95
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:53.684Z",
+    "actualNumbers": [
+      6,
+      32,
+      61,
+      87,
+      31,
+      83,
+      95,
+      10,
+      21,
+      1,
+      52,
+      15,
+      45,
+      41,
+      79,
+      43,
+      17,
+      29,
+      77,
+      65,
+      33,
+      91,
+      26
+    ],
+    "hits": 4,
+    "miss": 14
+  },
+  {
+    "date": "2026-04-05",
+    "mode": "de",
+    "predictedNumbers": [
+      41,
+      58,
+      56,
+      65,
+      98,
+      7,
+      39,
+      18,
+      31,
+      71,
+      9,
+      11,
+      6,
+      34,
+      15,
+      76,
+      25,
+      0,
+      97,
+      43,
+      79,
+      40,
+      73,
+      10,
+      96,
+      4,
+      60,
+      50,
+      82,
+      2
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 41,
+        "score": 39.75
+      },
+      {
+        "number": 58,
+        "score": 38.06
+      },
+      {
+        "number": 56,
+        "score": 36.78
+      },
+      {
+        "number": 65,
+        "score": 36.44
+      },
+      {
+        "number": 98,
+        "score": 36.29
+      },
+      {
+        "number": 7,
+        "score": 35.94
+      },
+      {
+        "number": 39,
+        "score": 35.88
+      },
+      {
+        "number": 18,
+        "score": 34.66
+      },
+      {
+        "number": 31,
+        "score": 34.59
+      },
+      {
+        "number": 71,
+        "score": 34.17
+      },
+      {
+        "number": 9,
+        "score": 33.96
+      },
+      {
+        "number": 11,
+        "score": 33.73
+      },
+      {
+        "number": 6,
+        "score": 33.52
+      },
+      {
+        "number": 34,
+        "score": 33.39
+      },
+      {
+        "number": 15,
+        "score": 33.2
+      },
+      {
+        "number": 76,
+        "score": 32.3
+      },
+      {
+        "number": 25,
+        "score": 32.1
+      },
+      {
+        "number": 0,
+        "score": 31.96
+      },
+      {
+        "number": 97,
+        "score": 30.91
+      },
+      {
+        "number": 43,
+        "score": 30.24
+      },
+      {
+        "number": 79,
+        "score": 30.21
+      },
+      {
+        "number": 40,
+        "score": 30.19
+      },
+      {
+        "number": 73,
+        "score": 28.87
+      },
+      {
+        "number": 10,
+        "score": 28.46
+      },
+      {
+        "number": 96,
+        "score": 28.21
+      },
+      {
+        "number": 4,
+        "score": 28.2
+      },
+      {
+        "number": 60,
+        "score": 27.77
+      },
+      {
+        "number": 50,
+        "score": 27.15
+      },
+      {
+        "number": 82,
+        "score": 27.12
+      },
+      {
+        "number": 2,
+        "score": 26.96
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:52.741Z",
+    "actualNumbers": [
+      55
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-04-05",
+    "mode": "lo",
+    "predictedNumbers": [
+      88,
+      64,
+      57,
+      81,
+      13,
+      68,
+      73,
+      92,
+      99,
+      96,
+      11,
+      33,
+      25,
+      10,
+      27,
+      20,
+      69,
+      70
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 88,
+        "score": 44.74
+      },
+      {
+        "number": 64,
+        "score": 43.35
+      },
+      {
+        "number": 57,
+        "score": 42.3
+      },
+      {
+        "number": 81,
+        "score": 41.81
+      },
+      {
+        "number": 13,
+        "score": 40.83
+      },
+      {
+        "number": 68,
+        "score": 40.71
+      },
+      {
+        "number": 73,
+        "score": 40.55
+      },
+      {
+        "number": 92,
+        "score": 39.79
+      },
+      {
+        "number": 99,
+        "score": 39.75
+      },
+      {
+        "number": 96,
+        "score": 39.62
+      },
+      {
+        "number": 11,
+        "score": 39.05
+      },
+      {
+        "number": 33,
+        "score": 39.03
+      },
+      {
+        "number": 25,
+        "score": 38.85
+      },
+      {
+        "number": 10,
+        "score": 38.68
+      },
+      {
+        "number": 27,
+        "score": 38.57
+      },
+      {
+        "number": 20,
+        "score": 38.26
+      },
+      {
+        "number": 69,
+        "score": 38.16
+      },
+      {
+        "number": 70,
+        "score": 38.14
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:52.588Z",
+    "actualNumbers": [
+      55,
+      40,
+      70,
+      52,
+      49,
+      59,
+      99,
+      34,
+      56,
+      61,
+      69,
+      9,
+      31,
+      78,
+      98,
+      30,
+      25,
+      58,
+      7,
+      68,
+      41,
+      73,
+      89
+    ],
+    "hits": 6,
+    "miss": 12
+  },
+  {
+    "date": "2026-04-04",
+    "mode": "de",
+    "predictedNumbers": [
+      41,
+      58,
+      65,
+      56,
+      98,
+      9,
+      18,
+      34,
+      71,
+      39,
+      11,
+      6,
+      15,
+      76,
+      25,
+      0,
+      31,
+      7,
+      43,
+      40,
+      4,
+      79,
+      96,
+      10,
+      60,
+      50,
+      84,
+      97,
+      2,
+      82
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 41,
+        "score": 40.99
+      },
+      {
+        "number": 58,
+        "score": 38.07
+      },
+      {
+        "number": 65,
+        "score": 37.38
+      },
+      {
+        "number": 56,
+        "score": 37.12
+      },
+      {
+        "number": 98,
+        "score": 36.53
+      },
+      {
+        "number": 9,
+        "score": 35.28
+      },
+      {
+        "number": 18,
+        "score": 34.64
+      },
+      {
+        "number": 34,
+        "score": 34.27
+      },
+      {
+        "number": 71,
+        "score": 34.21
+      },
+      {
+        "number": 39,
+        "score": 34.09
+      },
+      {
+        "number": 11,
+        "score": 33.77
+      },
+      {
+        "number": 6,
+        "score": 33.66
+      },
+      {
+        "number": 15,
+        "score": 33.41
+      },
+      {
+        "number": 76,
+        "score": 32.36
+      },
+      {
+        "number": 25,
+        "score": 31.99
+      },
+      {
+        "number": 0,
+        "score": 31.91
+      },
+      {
+        "number": 31,
+        "score": 31.88
+      },
+      {
+        "number": 7,
+        "score": 31.51
+      },
+      {
+        "number": 43,
+        "score": 31.5
+      },
+      {
+        "number": 40,
+        "score": 31.21
+      },
+      {
+        "number": 4,
+        "score": 30.76
+      },
+      {
+        "number": 79,
+        "score": 30.51
+      },
+      {
+        "number": 96,
+        "score": 28.42
+      },
+      {
+        "number": 10,
+        "score": 28.32
+      },
+      {
+        "number": 60,
+        "score": 28.07
+      },
+      {
+        "number": 50,
+        "score": 27.91
+      },
+      {
+        "number": 84,
+        "score": 27.82
+      },
+      {
+        "number": 97,
+        "score": 27.64
+      },
+      {
+        "number": 2,
+        "score": 26.93
+      },
+      {
+        "number": 82,
+        "score": 26.49
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:51.631Z",
+    "actualNumbers": [
+      37
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-04-04",
+    "mode": "lo",
+    "predictedNumbers": [
+      88,
+      43,
+      64,
+      25,
+      68,
+      85,
+      99,
+      96,
+      22,
+      57,
+      69,
+      10,
+      82,
+      11,
+      63,
+      81,
+      27,
+      35
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 88,
+        "score": 44.78
+      },
+      {
+        "number": 43,
+        "score": 42.38
+      },
+      {
+        "number": 64,
+        "score": 42.18
+      },
+      {
+        "number": 25,
+        "score": 42.04
+      },
+      {
+        "number": 68,
+        "score": 41.08
+      },
+      {
+        "number": 85,
+        "score": 40.35
+      },
+      {
+        "number": 99,
+        "score": 40.28
+      },
+      {
+        "number": 96,
+        "score": 39.45
+      },
+      {
+        "number": 22,
+        "score": 39.42
+      },
+      {
+        "number": 57,
+        "score": 39.38
+      },
+      {
+        "number": 69,
+        "score": 39.28
+      },
+      {
+        "number": 10,
+        "score": 38.77
+      },
+      {
+        "number": 82,
+        "score": 38.72
+      },
+      {
+        "number": 11,
+        "score": 38.5
+      },
+      {
+        "number": 63,
+        "score": 38.25
+      },
+      {
+        "number": 81,
+        "score": 37.94
+      },
+      {
+        "number": 27,
+        "score": 37.66
+      },
+      {
+        "number": 35,
+        "score": 37.19
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:51.475Z",
+    "actualNumbers": [
+      37,
+      82,
+      16,
+      41,
+      80,
+      43,
+      9,
+      72,
+      89,
+      83,
+      23,
+      56,
+      63,
+      51,
+      93,
+      4,
+      97,
+      42,
+      66,
+      49,
+      26,
+      59,
+      48,
+      40
+    ],
+    "hits": 3,
+    "miss": 15
+  },
+  {
+    "date": "2026-04-03",
+    "mode": "de",
+    "predictedNumbers": [
+      65,
+      41,
+      58,
+      56,
+      44,
+      98,
+      18,
+      9,
+      11,
+      15,
+      39,
+      71,
+      6,
+      7,
+      76,
+      25,
+      0,
+      31,
+      34,
+      79,
+      97,
+      60,
+      10,
+      40,
+      96,
+      4,
+      50,
+      43,
+      82,
+      2
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 65,
+        "score": 39.07
+      },
+      {
+        "number": 41,
+        "score": 38.92
+      },
+      {
+        "number": 58,
+        "score": 38.27
+      },
+      {
+        "number": 56,
+        "score": 37.52
+      },
+      {
+        "number": 44,
+        "score": 37.1
+      },
+      {
+        "number": 98,
+        "score": 36.99
+      },
+      {
+        "number": 18,
+        "score": 35.34
+      },
+      {
+        "number": 9,
+        "score": 35.26
+      },
+      {
+        "number": 11,
+        "score": 34.76
+      },
+      {
+        "number": 15,
+        "score": 34.25
+      },
+      {
+        "number": 39,
+        "score": 33.97
+      },
+      {
+        "number": 71,
+        "score": 33.82
+      },
+      {
+        "number": 6,
+        "score": 33.81
+      },
+      {
+        "number": 7,
+        "score": 33.63
+      },
+      {
+        "number": 76,
+        "score": 32.46
+      },
+      {
+        "number": 25,
+        "score": 32.01
+      },
+      {
+        "number": 0,
+        "score": 31.91
+      },
+      {
+        "number": 31,
+        "score": 31.88
+      },
+      {
+        "number": 34,
+        "score": 30.94
+      },
+      {
+        "number": 79,
+        "score": 30.35
+      },
+      {
+        "number": 97,
+        "score": 29.8
+      },
+      {
+        "number": 60,
+        "score": 29.28
+      },
+      {
+        "number": 10,
+        "score": 29.06
+      },
+      {
+        "number": 40,
+        "score": 28.88
+      },
+      {
+        "number": 96,
+        "score": 28.57
+      },
+      {
+        "number": 4,
+        "score": 27.86
+      },
+      {
+        "number": 50,
+        "score": 27.81
+      },
+      {
+        "number": 43,
+        "score": 27.66
+      },
+      {
+        "number": 82,
+        "score": 27.04
+      },
+      {
+        "number": 2,
+        "score": 26.98
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:50.529Z",
+    "actualNumbers": [
+      44
+    ],
+    "hits": 1,
+    "miss": 29
+  },
+  {
+    "date": "2026-04-03",
+    "mode": "lo",
+    "predictedNumbers": [
+      24,
+      96,
+      68,
+      10,
+      99,
+      25,
+      36,
+      88,
+      94,
+      60,
+      97,
+      63,
+      43,
+      15,
+      82,
+      4,
+      64,
+      54
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 24,
+        "score": 45.45
+      },
+      {
+        "number": 96,
+        "score": 41.72
+      },
+      {
+        "number": 68,
+        "score": 41.01
+      },
+      {
+        "number": 10,
+        "score": 40.56
+      },
+      {
+        "number": 99,
+        "score": 40.3
+      },
+      {
+        "number": 25,
+        "score": 40.26
+      },
+      {
+        "number": 36,
+        "score": 40.21
+      },
+      {
+        "number": 88,
+        "score": 40.14
+      },
+      {
+        "number": 94,
+        "score": 40.06
+      },
+      {
+        "number": 60,
+        "score": 40
+      },
+      {
+        "number": 97,
+        "score": 38.98
+      },
+      {
+        "number": 63,
+        "score": 38.9
+      },
+      {
+        "number": 43,
+        "score": 38.87
+      },
+      {
+        "number": 15,
+        "score": 38.75
+      },
+      {
+        "number": 82,
+        "score": 38.68
+      },
+      {
+        "number": 4,
+        "score": 38.28
+      },
+      {
+        "number": 64,
+        "score": 38.08
+      },
+      {
+        "number": 54,
+        "score": 37.96
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:50.377Z",
+    "actualNumbers": [
+      44,
+      91,
+      58,
+      60,
+      61,
+      24,
+      36,
+      52,
+      4,
+      87,
+      75,
+      94,
+      76,
+      98,
+      54,
+      97,
+      55,
+      80,
+      9,
+      42,
+      86,
+      15,
+      29
+    ],
+    "hits": 8,
+    "miss": 10
+  },
+  {
+    "date": "2026-04-02",
+    "mode": "de",
+    "predictedNumbers": [
+      56,
+      41,
+      65,
+      58,
+      98,
+      44,
+      6,
+      18,
+      9,
+      11,
+      71,
+      15,
+      39,
+      76,
+      96,
+      25,
+      31,
+      0,
+      67,
+      34,
+      79,
+      7,
+      10,
+      40,
+      60,
+      86,
+      4,
+      50,
+      43,
+      73
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 56,
+        "score": 39.05
+      },
+      {
+        "number": 41,
+        "score": 39.03
+      },
+      {
+        "number": 65,
+        "score": 37.93
+      },
+      {
+        "number": 58,
+        "score": 37.63
+      },
+      {
+        "number": 98,
+        "score": 37.41
+      },
+      {
+        "number": 44,
+        "score": 37.19
+      },
+      {
+        "number": 6,
+        "score": 35.98
+      },
+      {
+        "number": 18,
+        "score": 35.4
+      },
+      {
+        "number": 9,
+        "score": 35.2
+      },
+      {
+        "number": 11,
+        "score": 35.17
+      },
+      {
+        "number": 71,
+        "score": 34.87
+      },
+      {
+        "number": 15,
+        "score": 34.5
+      },
+      {
+        "number": 39,
+        "score": 33.79
+      },
+      {
+        "number": 76,
+        "score": 32.67
+      },
+      {
+        "number": 96,
+        "score": 32.51
+      },
+      {
+        "number": 25,
+        "score": 32.36
+      },
+      {
+        "number": 31,
+        "score": 31.92
+      },
+      {
+        "number": 0,
+        "score": 31.92
+      },
+      {
+        "number": 67,
+        "score": 31.42
+      },
+      {
+        "number": 34,
+        "score": 30.92
+      },
+      {
+        "number": 79,
+        "score": 30.23
+      },
+      {
+        "number": 7,
+        "score": 29.05
+      },
+      {
+        "number": 10,
+        "score": 28.9
+      },
+      {
+        "number": 40,
+        "score": 28.79
+      },
+      {
+        "number": 60,
+        "score": 28.14
+      },
+      {
+        "number": 86,
+        "score": 27.99
+      },
+      {
+        "number": 4,
+        "score": 27.93
+      },
+      {
+        "number": 50,
+        "score": 27.71
+      },
+      {
+        "number": 43,
+        "score": 27.52
+      },
+      {
+        "number": 73,
+        "score": 27.29
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:49.434Z",
+    "actualNumbers": [
+      67
+    ],
+    "hits": 1,
+    "miss": 29
+  },
+  {
+    "date": "2026-04-02",
+    "mode": "lo",
+    "predictedNumbers": [
+      14,
+      99,
+      24,
+      36,
+      93,
+      60,
+      68,
+      82,
+      96,
+      10,
+      29,
+      50,
+      63,
+      44,
+      39,
+      32,
+      94,
+      54
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 14,
+        "score": 43.46
+      },
+      {
+        "number": 99,
+        "score": 43.16
+      },
+      {
+        "number": 24,
+        "score": 43.07
+      },
+      {
+        "number": 36,
+        "score": 42.51
+      },
+      {
+        "number": 93,
+        "score": 41.59
+      },
+      {
+        "number": 60,
+        "score": 40.94
+      },
+      {
+        "number": 68,
+        "score": 40.8
+      },
+      {
+        "number": 82,
+        "score": 40.53
+      },
+      {
+        "number": 96,
+        "score": 40.52
+      },
+      {
+        "number": 10,
+        "score": 39.89
+      },
+      {
+        "number": 29,
+        "score": 39.28
+      },
+      {
+        "number": 50,
+        "score": 39.24
+      },
+      {
+        "number": 63,
+        "score": 39.1
+      },
+      {
+        "number": 44,
+        "score": 38.99
+      },
+      {
+        "number": 39,
+        "score": 38.37
+      },
+      {
+        "number": 32,
+        "score": 38.19
+      },
+      {
+        "number": 94,
+        "score": 37.9
+      },
+      {
+        "number": 54,
+        "score": 37.82
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:49.279Z",
+    "actualNumbers": [
+      67,
+      50,
+      90,
+      21,
+      29,
+      32,
+      31,
+      95,
+      98,
+      59,
+      14,
+      65,
+      83,
+      11,
+      84,
+      6,
+      17,
+      62,
+      78,
+      89,
+      44,
+      34,
+      39,
+      40,
+      93
+    ],
+    "hits": 7,
+    "miss": 11
+  },
+  {
+    "date": "2026-04-01",
+    "mode": "de",
+    "predictedNumbers": [
+      41,
+      98,
+      58,
+      11,
+      44,
+      71,
+      66,
+      18,
+      56,
+      9,
+      65,
+      31,
+      15,
+      39,
+      25,
+      0,
+      6,
+      34,
+      7,
+      79,
+      96,
+      67,
+      10,
+      40,
+      97,
+      50,
+      4,
+      82,
+      2,
+      76
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 41,
+        "score": 41.92
+      },
+      {
+        "number": 98,
+        "score": 38.74
+      },
+      {
+        "number": 58,
+        "score": 37.72
+      },
+      {
+        "number": 11,
+        "score": 37.44
+      },
+      {
+        "number": 44,
+        "score": 37.37
+      },
+      {
+        "number": 71,
+        "score": 37.02
+      },
+      {
+        "number": 66,
+        "score": 36.46
+      },
+      {
+        "number": 18,
+        "score": 35.54
+      },
+      {
+        "number": 56,
+        "score": 35.47
+      },
+      {
+        "number": 9,
+        "score": 35.24
+      },
+      {
+        "number": 65,
+        "score": 34.51
+      },
+      {
+        "number": 31,
+        "score": 34.51
+      },
+      {
+        "number": 15,
+        "score": 34.5
+      },
+      {
+        "number": 39,
+        "score": 33.81
+      },
+      {
+        "number": 25,
+        "score": 32.7
+      },
+      {
+        "number": 0,
+        "score": 31.91
+      },
+      {
+        "number": 6,
+        "score": 31.55
+      },
+      {
+        "number": 34,
+        "score": 31.25
+      },
+      {
+        "number": 7,
+        "score": 30.53
+      },
+      {
+        "number": 79,
+        "score": 30.14
+      },
+      {
+        "number": 96,
+        "score": 29.99
+      },
+      {
+        "number": 67,
+        "score": 29.35
+      },
+      {
+        "number": 10,
+        "score": 28.78
+      },
+      {
+        "number": 40,
+        "score": 28.67
+      },
+      {
+        "number": 97,
+        "score": 28.16
+      },
+      {
+        "number": 50,
+        "score": 28.03
+      },
+      {
+        "number": 4,
+        "score": 27.89
+      },
+      {
+        "number": 82,
+        "score": 27.71
+      },
+      {
+        "number": 2,
+        "score": 27.69
+      },
+      {
+        "number": 76,
+        "score": 27.68
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:48.336Z",
+    "actualNumbers": [
+      66
+    ],
+    "hits": 1,
+    "miss": 29
+  },
+  {
+    "date": "2026-04-01",
+    "mode": "lo",
+    "predictedNumbers": [
+      90,
+      52,
+      68,
+      60,
+      44,
+      24,
+      29,
+      66,
+      12,
+      63,
+      99,
+      36,
+      21,
+      15,
+      2,
+      14,
+      50,
+      39
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 90,
+        "score": 45.32
+      },
+      {
+        "number": 52,
+        "score": 43.36
+      },
+      {
+        "number": 68,
+        "score": 43.06
+      },
+      {
+        "number": 60,
+        "score": 42.91
+      },
+      {
+        "number": 44,
+        "score": 41.83
+      },
+      {
+        "number": 24,
+        "score": 41.48
+      },
+      {
+        "number": 29,
+        "score": 40.75
+      },
+      {
+        "number": 66,
+        "score": 40.62
+      },
+      {
+        "number": 12,
+        "score": 40.34
+      },
+      {
+        "number": 63,
+        "score": 40.17
+      },
+      {
+        "number": 99,
+        "score": 40.03
+      },
+      {
+        "number": 36,
+        "score": 39.81
+      },
+      {
+        "number": 21,
+        "score": 39.72
+      },
+      {
+        "number": 15,
+        "score": 39.55
+      },
+      {
+        "number": 2,
+        "score": 39.49
+      },
+      {
+        "number": 14,
+        "score": 39.37
+      },
+      {
+        "number": 50,
+        "score": 39.28
+      },
+      {
+        "number": 39,
+        "score": 39.13
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:48.149Z",
+    "actualNumbers": [
+      66,
+      8,
+      55,
+      11,
+      38,
+      21,
+      79,
+      2,
+      90,
+      74,
+      58,
+      17,
+      76,
+      9,
+      51,
+      28,
+      37,
+      16,
+      52,
+      20
+    ],
+    "hits": 5,
+    "miss": 13
+  },
+  {
+    "date": "2026-03-31",
+    "mode": "de",
+    "predictedNumbers": [
+      44,
+      66,
+      41,
+      58,
+      98,
+      65,
+      18,
+      9,
+      56,
+      39,
+      15,
+      34,
+      11,
+      25,
+      71,
+      0,
+      6,
+      7,
+      67,
+      79,
+      4,
+      31,
+      40,
+      43,
+      10,
+      84,
+      50,
+      82,
+      76,
+      96
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 44,
+        "score": 39.55
+      },
+      {
+        "number": 66,
+        "score": 38.57
+      },
+      {
+        "number": 41,
+        "score": 38.36
+      },
+      {
+        "number": 58,
+        "score": 37.87
+      },
+      {
+        "number": 98,
+        "score": 37.35
+      },
+      {
+        "number": 65,
+        "score": 36.11
+      },
+      {
+        "number": 18,
+        "score": 35.68
+      },
+      {
+        "number": 9,
+        "score": 35.48
+      },
+      {
+        "number": 56,
+        "score": 35.47
+      },
+      {
+        "number": 39,
+        "score": 34.62
+      },
+      {
+        "number": 15,
+        "score": 34.46
+      },
+      {
+        "number": 34,
+        "score": 33.41
+      },
+      {
+        "number": 11,
+        "score": 33.13
+      },
+      {
+        "number": 25,
+        "score": 32.68
+      },
+      {
+        "number": 71,
+        "score": 32.61
+      },
+      {
+        "number": 0,
+        "score": 31.9
+      },
+      {
+        "number": 6,
+        "score": 31.57
+      },
+      {
+        "number": 7,
+        "score": 30.84
+      },
+      {
+        "number": 67,
+        "score": 30.52
+      },
+      {
+        "number": 79,
+        "score": 30.29
+      },
+      {
+        "number": 4,
+        "score": 30.25
+      },
+      {
+        "number": 31,
+        "score": 30.19
+      },
+      {
+        "number": 40,
+        "score": 29.01
+      },
+      {
+        "number": 43,
+        "score": 28.77
+      },
+      {
+        "number": 10,
+        "score": 28.61
+      },
+      {
+        "number": 84,
+        "score": 28.28
+      },
+      {
+        "number": 50,
+        "score": 27.88
+      },
+      {
+        "number": 82,
+        "score": 27.69
+      },
+      {
+        "number": 76,
+        "score": 27.58
+      },
+      {
+        "number": 96,
+        "score": 27.33
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:47.201Z",
+    "actualNumbers": [
+      91
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-03-31",
+    "mode": "lo",
+    "predictedNumbers": [
+      90,
+      29,
+      63,
+      47,
+      52,
+      50,
+      24,
+      39,
+      79,
+      68,
+      15,
+      35,
+      60,
+      56,
+      45,
+      21,
+      54,
+      44
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 90,
+        "score": 43.83
+      },
+      {
+        "number": 29,
+        "score": 42.46
+      },
+      {
+        "number": 63,
+        "score": 42.33
+      },
+      {
+        "number": 47,
+        "score": 41.06
+      },
+      {
+        "number": 52,
+        "score": 40.03
+      },
+      {
+        "number": 50,
+        "score": 39.94
+      },
+      {
+        "number": 24,
+        "score": 39.88
+      },
+      {
+        "number": 39,
+        "score": 39.86
+      },
+      {
+        "number": 79,
+        "score": 39.71
+      },
+      {
+        "number": 68,
+        "score": 39.48
+      },
+      {
+        "number": 15,
+        "score": 39.32
+      },
+      {
+        "number": 35,
+        "score": 39.32
+      },
+      {
+        "number": 60,
+        "score": 39.06
+      },
+      {
+        "number": 56,
+        "score": 38.97
+      },
+      {
+        "number": 45,
+        "score": 38.77
+      },
+      {
+        "number": 21,
+        "score": 38.58
+      },
+      {
+        "number": 54,
+        "score": 38.5
+      },
+      {
+        "number": 44,
+        "score": 38.32
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:47.047Z",
+    "actualNumbers": [
+      91,
+      49,
+      16,
+      26,
+      20,
+      3,
+      74,
+      67,
+      56,
+      42,
+      48,
+      80,
+      79,
+      77,
+      13,
+      8,
+      5,
+      30,
+      0,
+      45,
+      47,
+      31,
+      70,
+      18,
+      23,
+      78
+    ],
+    "hits": 4,
+    "miss": 14
+  },
+  {
+    "date": "2026-03-30",
+    "mode": "de",
+    "predictedNumbers": [
+      58,
+      98,
+      41,
+      18,
+      44,
+      56,
+      9,
+      66,
+      39,
+      64,
+      11,
+      15,
+      71,
+      25,
+      65,
+      0,
+      31,
+      6,
+      7,
+      34,
+      79,
+      82,
+      40,
+      43,
+      10,
+      96,
+      50,
+      67,
+      76,
+      2
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 58,
+        "score": 40.52
+      },
+      {
+        "number": 98,
+        "score": 40.11
+      },
+      {
+        "number": 41,
+        "score": 39.23
+      },
+      {
+        "number": 18,
+        "score": 38.33
+      },
+      {
+        "number": 44,
+        "score": 36.5
+      },
+      {
+        "number": 56,
+        "score": 35.61
+      },
+      {
+        "number": 9,
+        "score": 35.46
+      },
+      {
+        "number": 66,
+        "score": 35.41
+      },
+      {
+        "number": 39,
+        "score": 35.2
+      },
+      {
+        "number": 64,
+        "score": 35.15
+      },
+      {
+        "number": 11,
+        "score": 34.58
+      },
+      {
+        "number": 15,
+        "score": 34.45
+      },
+      {
+        "number": 71,
+        "score": 33.93
+      },
+      {
+        "number": 25,
+        "score": 32.67
+      },
+      {
+        "number": 65,
+        "score": 32.36
+      },
+      {
+        "number": 0,
+        "score": 31.86
+      },
+      {
+        "number": 31,
+        "score": 31.6
+      },
+      {
+        "number": 6,
+        "score": 31.57
+      },
+      {
+        "number": 7,
+        "score": 30.7
+      },
+      {
+        "number": 34,
+        "score": 30.39
+      },
+      {
+        "number": 79,
+        "score": 30.16
+      },
+      {
+        "number": 82,
+        "score": 29.54
+      },
+      {
+        "number": 40,
+        "score": 28.9
+      },
+      {
+        "number": 43,
+        "score": 28.83
+      },
+      {
+        "number": 10,
+        "score": 28.44
+      },
+      {
+        "number": 96,
+        "score": 28.16
+      },
+      {
+        "number": 50,
+        "score": 27.94
+      },
+      {
+        "number": 67,
+        "score": 27.7
+      },
+      {
+        "number": 76,
+        "score": 27.45
+      },
+      {
+        "number": 2,
+        "score": 27.36
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:46.106Z",
+    "actualNumbers": [
+      64
+    ],
+    "hits": 1,
+    "miss": 29
+  },
+  {
+    "date": "2026-03-30",
+    "mode": "lo",
+    "predictedNumbers": [
+      90,
+      77,
+      29,
+      59,
+      35,
+      54,
+      39,
+      50,
+      1,
+      52,
+      15,
+      79,
+      3,
+      89,
+      46,
+      63,
+      8,
+      98
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 90,
+        "score": 42.21
+      },
+      {
+        "number": 77,
+        "score": 42.1
+      },
+      {
+        "number": 29,
+        "score": 41.48
+      },
+      {
+        "number": 59,
+        "score": 40.85
+      },
+      {
+        "number": 35,
+        "score": 40.73
+      },
+      {
+        "number": 54,
+        "score": 40.54
+      },
+      {
+        "number": 39,
+        "score": 40.06
+      },
+      {
+        "number": 50,
+        "score": 39.87
+      },
+      {
+        "number": 1,
+        "score": 39.53
+      },
+      {
+        "number": 52,
+        "score": 39.35
+      },
+      {
+        "number": 15,
+        "score": 39.15
+      },
+      {
+        "number": 79,
+        "score": 39.03
+      },
+      {
+        "number": 3,
+        "score": 38.98
+      },
+      {
+        "number": 89,
+        "score": 38.66
+      },
+      {
+        "number": 46,
+        "score": 38.52
+      },
+      {
+        "number": 63,
+        "score": 38.3
+      },
+      {
+        "number": 8,
+        "score": 37.93
+      },
+      {
+        "number": 98,
+        "score": 37.87
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:45.949Z",
+    "actualNumbers": [
+      64,
+      65,
+      23,
+      1,
+      61,
+      46,
+      11,
+      31,
+      72,
+      27,
+      3,
+      62,
+      92,
+      33,
+      19,
+      28,
+      77,
+      40,
+      38,
+      76,
+      13,
+      20,
+      34,
+      7
+    ],
+    "hits": 4,
+    "miss": 14
+  },
+  {
+    "date": "2026-03-29",
+    "mode": "de",
+    "predictedNumbers": [
+      41,
+      58,
+      98,
+      44,
+      56,
+      9,
+      18,
+      39,
+      66,
+      64,
+      11,
+      15,
+      71,
+      25,
+      65,
+      0,
+      31,
+      6,
+      7,
+      34,
+      82,
+      43,
+      2,
+      40,
+      79,
+      10,
+      73,
+      50,
+      96,
+      67
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 41,
+        "score": 39.22
+      },
+      {
+        "number": 58,
+        "score": 37.46
+      },
+      {
+        "number": 98,
+        "score": 36.81
+      },
+      {
+        "number": 44,
+        "score": 36.49
+      },
+      {
+        "number": 56,
+        "score": 36.18
+      },
+      {
+        "number": 9,
+        "score": 35.92
+      },
+      {
+        "number": 18,
+        "score": 35.57
+      },
+      {
+        "number": 39,
+        "score": 35.55
+      },
+      {
+        "number": 66,
+        "score": 35.24
+      },
+      {
+        "number": 64,
+        "score": 35.04
+      },
+      {
+        "number": 11,
+        "score": 34.82
+      },
+      {
+        "number": 15,
+        "score": 34.46
+      },
+      {
+        "number": 71,
+        "score": 34.07
+      },
+      {
+        "number": 25,
+        "score": 33.84
+      },
+      {
+        "number": 65,
+        "score": 32.89
+      },
+      {
+        "number": 0,
+        "score": 32.13
+      },
+      {
+        "number": 31,
+        "score": 32.12
+      },
+      {
+        "number": 6,
+        "score": 31.52
+      },
+      {
+        "number": 7,
+        "score": 30.59
+      },
+      {
+        "number": 34,
+        "score": 30.42
+      },
+      {
+        "number": 82,
+        "score": 30.14
+      },
+      {
+        "number": 43,
+        "score": 29.87
+      },
+      {
+        "number": 2,
+        "score": 29.57
+      },
+      {
+        "number": 40,
+        "score": 29.35
+      },
+      {
+        "number": 79,
+        "score": 28.94
+      },
+      {
+        "number": 10,
+        "score": 28.58
+      },
+      {
+        "number": 73,
+        "score": 28.26
+      },
+      {
+        "number": 50,
+        "score": 28.12
+      },
+      {
+        "number": 96,
+        "score": 28.11
+      },
+      {
+        "number": 67,
+        "score": 27.58
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:45.007Z",
+    "actualNumbers": [
+      88
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-03-29",
+    "mode": "lo",
+    "predictedNumbers": [
+      39,
+      46,
+      90,
+      35,
+      54,
+      50,
+      3,
+      79,
+      1,
+      15,
+      78,
+      6,
+      8,
+      41,
+      52,
+      98,
+      81,
+      77
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 39,
+        "score": 42.81
+      },
+      {
+        "number": 46,
+        "score": 40.96
+      },
+      {
+        "number": 90,
+        "score": 40.77
+      },
+      {
+        "number": 35,
+        "score": 40.39
+      },
+      {
+        "number": 54,
+        "score": 40.28
+      },
+      {
+        "number": 50,
+        "score": 39.68
+      },
+      {
+        "number": 3,
+        "score": 39.61
+      },
+      {
+        "number": 79,
+        "score": 39.39
+      },
+      {
+        "number": 1,
+        "score": 39.36
+      },
+      {
+        "number": 15,
+        "score": 38.97
+      },
+      {
+        "number": 78,
+        "score": 38.73
+      },
+      {
+        "number": 6,
+        "score": 38.49
+      },
+      {
+        "number": 8,
+        "score": 38.45
+      },
+      {
+        "number": 41,
+        "score": 38.3
+      },
+      {
+        "number": 52,
+        "score": 38.19
+      },
+      {
+        "number": 98,
+        "score": 37.93
+      },
+      {
+        "number": 81,
+        "score": 37.87
+      },
+      {
+        "number": 77,
+        "score": 37.74
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:44.854Z",
+    "actualNumbers": [
+      88,
+      95,
+      5,
+      49,
+      30,
+      31,
+      64,
+      57,
+      67,
+      51,
+      73,
+      58,
+      70,
+      75,
+      11,
+      34,
+      76,
+      87,
+      17,
+      86,
+      6,
+      13,
+      81
+    ],
+    "hits": 2,
+    "miss": 16
+  },
+  {
+    "date": "2026-03-28",
+    "mode": "de",
+    "predictedNumbers": [
+      41,
+      58,
+      44,
+      98,
+      39,
+      18,
+      56,
+      9,
+      64,
+      66,
+      15,
+      71,
+      11,
+      0,
+      65,
+      31,
+      6,
+      34,
+      25,
+      7,
+      43,
+      82,
+      79,
+      10,
+      40,
+      73,
+      2,
+      96,
+      50,
+      67
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 41,
+        "score": 39.38
+      },
+      {
+        "number": 58,
+        "score": 37.86
+      },
+      {
+        "number": 44,
+        "score": 37.42
+      },
+      {
+        "number": 98,
+        "score": 37.37
+      },
+      {
+        "number": 39,
+        "score": 36.63
+      },
+      {
+        "number": 18,
+        "score": 36.23
+      },
+      {
+        "number": 56,
+        "score": 36.18
+      },
+      {
+        "number": 9,
+        "score": 35.99
+      },
+      {
+        "number": 64,
+        "score": 35.16
+      },
+      {
+        "number": 66,
+        "score": 35.12
+      },
+      {
+        "number": 15,
+        "score": 35.01
+      },
+      {
+        "number": 71,
+        "score": 34.53
+      },
+      {
+        "number": 11,
+        "score": 34.14
+      },
+      {
+        "number": 0,
+        "score": 32.97
+      },
+      {
+        "number": 65,
+        "score": 32.87
+      },
+      {
+        "number": 31,
+        "score": 32.61
+      },
+      {
+        "number": 6,
+        "score": 32.44
+      },
+      {
+        "number": 34,
+        "score": 31.83
+      },
+      {
+        "number": 25,
+        "score": 31.39
+      },
+      {
+        "number": 7,
+        "score": 31.33
+      },
+      {
+        "number": 43,
+        "score": 30.25
+      },
+      {
+        "number": 82,
+        "score": 29.37
+      },
+      {
+        "number": 79,
+        "score": 28.89
+      },
+      {
+        "number": 10,
+        "score": 28.63
+      },
+      {
+        "number": 40,
+        "score": 28.55
+      },
+      {
+        "number": 73,
+        "score": 28.26
+      },
+      {
+        "number": 2,
+        "score": 28.11
+      },
+      {
+        "number": 96,
+        "score": 28.08
+      },
+      {
+        "number": 50,
+        "score": 27.99
+      },
+      {
+        "number": 67,
+        "score": 27.43
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:43.904Z",
+    "actualNumbers": [
+      22
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-03-28",
+    "mode": "lo",
+    "predictedNumbers": [
+      97,
+      35,
+      3,
+      48,
+      43,
+      50,
+      15,
+      1,
+      26,
+      22,
+      83,
+      58,
+      79,
+      8,
+      42,
+      39,
+      78,
+      52
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 97,
+        "score": 43.84
+      },
+      {
+        "number": 35,
+        "score": 40.35
+      },
+      {
+        "number": 3,
+        "score": 40.22
+      },
+      {
+        "number": 48,
+        "score": 40.09
+      },
+      {
+        "number": 43,
+        "score": 39.9
+      },
+      {
+        "number": 50,
+        "score": 39.85
+      },
+      {
+        "number": 15,
+        "score": 39.78
+      },
+      {
+        "number": 1,
+        "score": 39.68
+      },
+      {
+        "number": 26,
+        "score": 39.6
+      },
+      {
+        "number": 22,
+        "score": 39.6
+      },
+      {
+        "number": 83,
+        "score": 39.28
+      },
+      {
+        "number": 58,
+        "score": 39.24
+      },
+      {
+        "number": 79,
+        "score": 39.22
+      },
+      {
+        "number": 8,
+        "score": 39.17
+      },
+      {
+        "number": 42,
+        "score": 38.95
+      },
+      {
+        "number": 39,
+        "score": 38.54
+      },
+      {
+        "number": 78,
+        "score": 38.44
+      },
+      {
+        "number": 52,
+        "score": 38.36
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:43.750Z",
+    "actualNumbers": [
+      22,
+      43,
+      38,
+      34,
+      83,
+      40,
+      97,
+      88,
+      42,
+      9,
+      4,
+      11,
+      55,
+      69,
+      94,
+      27,
+      25,
+      64,
+      91,
+      58,
+      85,
+      61,
+      76,
+      18
+    ],
+    "hits": 6,
+    "miss": 12
+  },
+  {
+    "date": "2026-03-27",
+    "mode": "de",
+    "predictedNumbers": [
+      41,
+      98,
+      44,
+      58,
+      56,
+      18,
+      9,
+      66,
+      39,
+      15,
+      64,
+      71,
+      11,
+      32,
+      0,
+      65,
+      6,
+      73,
+      43,
+      25,
+      7,
+      96,
+      79,
+      34,
+      3,
+      31,
+      40,
+      10,
+      76,
+      50
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 41,
+        "score": 39.47
+      },
+      {
+        "number": 98,
+        "score": 38.74
+      },
+      {
+        "number": 44,
+        "score": 38.35
+      },
+      {
+        "number": 58,
+        "score": 38.12
+      },
+      {
+        "number": 56,
+        "score": 36.71
+      },
+      {
+        "number": 18,
+        "score": 36.56
+      },
+      {
+        "number": 9,
+        "score": 36.36
+      },
+      {
+        "number": 66,
+        "score": 35.19
+      },
+      {
+        "number": 39,
+        "score": 35.18
+      },
+      {
+        "number": 15,
+        "score": 35.14
+      },
+      {
+        "number": 64,
+        "score": 35.08
+      },
+      {
+        "number": 71,
+        "score": 35.04
+      },
+      {
+        "number": 11,
+        "score": 34.19
+      },
+      {
+        "number": 32,
+        "score": 33.6
+      },
+      {
+        "number": 0,
+        "score": 32.97
+      },
+      {
+        "number": 65,
+        "score": 32.81
+      },
+      {
+        "number": 6,
+        "score": 32.68
+      },
+      {
+        "number": 73,
+        "score": 32.12
+      },
+      {
+        "number": 43,
+        "score": 31.7
+      },
+      {
+        "number": 25,
+        "score": 31.41
+      },
+      {
+        "number": 7,
+        "score": 31.24
+      },
+      {
+        "number": 96,
+        "score": 29.41
+      },
+      {
+        "number": 79,
+        "score": 29.12
+      },
+      {
+        "number": 34,
+        "score": 29.11
+      },
+      {
+        "number": 3,
+        "score": 29
+      },
+      {
+        "number": 31,
+        "score": 28.94
+      },
+      {
+        "number": 40,
+        "score": 28.77
+      },
+      {
+        "number": 10,
+        "score": 28.55
+      },
+      {
+        "number": 76,
+        "score": 27.46
+      },
+      {
+        "number": 50,
+        "score": 27.3
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:42.809Z",
+    "actualNumbers": [
+      32
+    ],
+    "hits": 1,
+    "miss": 29
+  },
+  {
+    "date": "2026-03-27",
+    "mode": "lo",
+    "predictedNumbers": [
+      1,
+      15,
+      83,
+      35,
+      78,
+      3,
+      22,
+      50,
+      97,
+      16,
+      17,
+      41,
+      8,
+      58,
+      79,
+      90,
+      42,
+      98
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 1,
+        "score": 42.53
+      },
+      {
+        "number": 15,
+        "score": 41.92
+      },
+      {
+        "number": 83,
+        "score": 41.3
+      },
+      {
+        "number": 35,
+        "score": 40.86
+      },
+      {
+        "number": 78,
+        "score": 40.83
+      },
+      {
+        "number": 3,
+        "score": 40.17
+      },
+      {
+        "number": 22,
+        "score": 40.05
+      },
+      {
+        "number": 50,
+        "score": 40.02
+      },
+      {
+        "number": 97,
+        "score": 39.5
+      },
+      {
+        "number": 16,
+        "score": 39.46
+      },
+      {
+        "number": 17,
+        "score": 39.42
+      },
+      {
+        "number": 41,
+        "score": 39.26
+      },
+      {
+        "number": 8,
+        "score": 39.15
+      },
+      {
+        "number": 58,
+        "score": 39.14
+      },
+      {
+        "number": 79,
+        "score": 38.82
+      },
+      {
+        "number": 90,
+        "score": 38.81
+      },
+      {
+        "number": 42,
+        "score": 38.38
+      },
+      {
+        "number": 98,
+        "score": 38.35
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:42.657Z",
+    "actualNumbers": [
+      32,
+      33,
+      49,
+      84,
+      91,
+      57,
+      20,
+      96,
+      18,
+      38,
+      76,
+      80,
+      86,
+      65,
+      5,
+      21,
+      25,
+      74,
+      14,
+      24,
+      30,
+      16,
+      10,
+      4
+    ],
+    "hits": 1,
+    "miss": 17
+  },
+  {
+    "date": "2026-03-26",
+    "mode": "de",
+    "predictedNumbers": [
+      58,
+      41,
+      98,
+      44,
+      18,
+      56,
+      64,
+      9,
+      15,
+      71,
+      66,
+      32,
+      11,
+      0,
+      65,
+      6,
+      39,
+      7,
+      25,
+      34,
+      31,
+      79,
+      40,
+      43,
+      10,
+      67,
+      73,
+      96,
+      76,
+      50
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 58,
+        "score": 40.36
+      },
+      {
+        "number": 41,
+        "score": 39.5
+      },
+      {
+        "number": 98,
+        "score": 39.46
+      },
+      {
+        "number": 44,
+        "score": 39
+      },
+      {
+        "number": 18,
+        "score": 38.98
+      },
+      {
+        "number": 56,
+        "score": 36.89
+      },
+      {
+        "number": 64,
+        "score": 36.65
+      },
+      {
+        "number": 9,
+        "score": 36.45
+      },
+      {
+        "number": 15,
+        "score": 35.35
+      },
+      {
+        "number": 71,
+        "score": 35.04
+      },
+      {
+        "number": 66,
+        "score": 34.47
+      },
+      {
+        "number": 32,
+        "score": 34.47
+      },
+      {
+        "number": 11,
+        "score": 34.45
+      },
+      {
+        "number": 0,
+        "score": 32.98
+      },
+      {
+        "number": 65,
+        "score": 32.85
+      },
+      {
+        "number": 6,
+        "score": 32.6
+      },
+      {
+        "number": 39,
+        "score": 32.5
+      },
+      {
+        "number": 7,
+        "score": 32.43
+      },
+      {
+        "number": 25,
+        "score": 31.7
+      },
+      {
+        "number": 34,
+        "score": 30
+      },
+      {
+        "number": 31,
+        "score": 29.91
+      },
+      {
+        "number": 79,
+        "score": 29.15
+      },
+      {
+        "number": 40,
+        "score": 28.9
+      },
+      {
+        "number": 43,
+        "score": 28.52
+      },
+      {
+        "number": 10,
+        "score": 28.49
+      },
+      {
+        "number": 67,
+        "score": 28.48
+      },
+      {
+        "number": 73,
+        "score": 28.07
+      },
+      {
+        "number": 96,
+        "score": 27.72
+      },
+      {
+        "number": 76,
+        "score": 27.4
+      },
+      {
+        "number": 50,
+        "score": 27.2
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:41.717Z",
+    "actualNumbers": [
+      93
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-03-26",
+    "mode": "lo",
+    "predictedNumbers": [
+      22,
+      50,
+      93,
+      52,
+      58,
+      41,
+      35,
+      15,
+      8,
+      3,
+      10,
+      27,
+      79,
+      97,
+      1,
+      98,
+      37,
+      42
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 22,
+        "score": 42.63
+      },
+      {
+        "number": 50,
+        "score": 41.83
+      },
+      {
+        "number": 93,
+        "score": 41.74
+      },
+      {
+        "number": 52,
+        "score": 41.71
+      },
+      {
+        "number": 58,
+        "score": 41.33
+      },
+      {
+        "number": 41,
+        "score": 41.16
+      },
+      {
+        "number": 35,
+        "score": 40.8
+      },
+      {
+        "number": 15,
+        "score": 40.67
+      },
+      {
+        "number": 8,
+        "score": 40.63
+      },
+      {
+        "number": 3,
+        "score": 39.96
+      },
+      {
+        "number": 10,
+        "score": 39.7
+      },
+      {
+        "number": 27,
+        "score": 39.38
+      },
+      {
+        "number": 79,
+        "score": 39.32
+      },
+      {
+        "number": 97,
+        "score": 39.1
+      },
+      {
+        "number": 1,
+        "score": 39.09
+      },
+      {
+        "number": 98,
+        "score": 38.96
+      },
+      {
+        "number": 37,
+        "score": 38.86
+      },
+      {
+        "number": 42,
+        "score": 38.8
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:41.564Z",
+    "actualNumbers": [
+      93,
+      94,
+      52,
+      87,
+      85,
+      14,
+      92,
+      18,
+      75,
+      62,
+      66,
+      28,
+      2,
+      36,
+      10,
+      82,
+      99,
+      27,
+      51,
+      96,
+      11,
+      95,
+      49
+    ],
+    "hits": 4,
+    "miss": 14
+  },
+  {
+    "date": "2026-03-25",
+    "mode": "de",
+    "predictedNumbers": [
+      44,
+      41,
+      9,
+      64,
+      58,
+      15,
+      56,
+      18,
+      98,
+      25,
+      71,
+      39,
+      66,
+      11,
+      32,
+      65,
+      0,
+      6,
+      7,
+      34,
+      31,
+      79,
+      40,
+      67,
+      10,
+      43,
+      73,
+      96,
+      76,
+      88
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 44,
+        "score": 39.68
+      },
+      {
+        "number": 41,
+        "score": 39.64
+      },
+      {
+        "number": 9,
+        "score": 38.7
+      },
+      {
+        "number": 64,
+        "score": 37.7
+      },
+      {
+        "number": 58,
+        "score": 37.5
+      },
+      {
+        "number": 15,
+        "score": 37.01
+      },
+      {
+        "number": 56,
+        "score": 37
+      },
+      {
+        "number": 18,
+        "score": 36.49
+      },
+      {
+        "number": 98,
+        "score": 36.28
+      },
+      {
+        "number": 25,
+        "score": 35.36
+      },
+      {
+        "number": 71,
+        "score": 34.99
+      },
+      {
+        "number": 39,
+        "score": 34.64
+      },
+      {
+        "number": 66,
+        "score": 34.61
+      },
+      {
+        "number": 11,
+        "score": 34.54
+      },
+      {
+        "number": 32,
+        "score": 34.46
+      },
+      {
+        "number": 65,
+        "score": 34.34
+      },
+      {
+        "number": 0,
+        "score": 32.97
+      },
+      {
+        "number": 6,
+        "score": 32.58
+      },
+      {
+        "number": 7,
+        "score": 32.31
+      },
+      {
+        "number": 34,
+        "score": 30.49
+      },
+      {
+        "number": 31,
+        "score": 30.03
+      },
+      {
+        "number": 79,
+        "score": 29.74
+      },
+      {
+        "number": 40,
+        "score": 29.08
+      },
+      {
+        "number": 67,
+        "score": 28.58
+      },
+      {
+        "number": 10,
+        "score": 28.48
+      },
+      {
+        "number": 43,
+        "score": 28.48
+      },
+      {
+        "number": 73,
+        "score": 28.46
+      },
+      {
+        "number": 96,
+        "score": 27.82
+      },
+      {
+        "number": 76,
+        "score": 27.38
+      },
+      {
+        "number": 88,
+        "score": 27.34
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:40.616Z",
+    "actualNumbers": [
+      88
+    ],
+    "hits": 1,
+    "miss": 29
+  },
+  {
+    "date": "2026-03-25",
+    "mode": "lo",
+    "predictedNumbers": [
+      8,
+      87,
+      95,
+      56,
+      98,
+      35,
+      66,
+      22,
+      10,
+      74,
+      3,
+      79,
+      85,
+      72,
+      37,
+      42,
+      50,
+      52
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 8,
+        "score": 43.07
+      },
+      {
+        "number": 87,
+        "score": 42.49
+      },
+      {
+        "number": 95,
+        "score": 41.75
+      },
+      {
+        "number": 56,
+        "score": 41.38
+      },
+      {
+        "number": 98,
+        "score": 41.31
+      },
+      {
+        "number": 35,
+        "score": 41.06
+      },
+      {
+        "number": 66,
+        "score": 40.82
+      },
+      {
+        "number": 22,
+        "score": 40.38
+      },
+      {
+        "number": 10,
+        "score": 40.3
+      },
+      {
+        "number": 74,
+        "score": 40.17
+      },
+      {
+        "number": 3,
+        "score": 40.16
+      },
+      {
+        "number": 79,
+        "score": 40.09
+      },
+      {
+        "number": 85,
+        "score": 39.93
+      },
+      {
+        "number": 72,
+        "score": 39.89
+      },
+      {
+        "number": 37,
+        "score": 39.75
+      },
+      {
+        "number": 42,
+        "score": 39.74
+      },
+      {
+        "number": 50,
+        "score": 38.85
+      },
+      {
+        "number": 52,
+        "score": 38.59
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:40.447Z",
+    "actualNumbers": [
+      88,
+      66,
+      28,
+      61,
+      32,
+      44,
+      33,
+      12,
+      82,
+      21,
+      90,
+      13,
+      60,
+      7,
+      20,
+      51,
+      87,
+      68,
+      56,
+      11,
+      95,
+      76,
+      24,
+      74,
+      0
+    ],
+    "hits": 5,
+    "miss": 13
+  },
+  {
+    "date": "2026-03-24",
+    "mode": "de",
+    "predictedNumbers": [
+      44,
+      64,
+      41,
+      15,
+      58,
+      18,
+      56,
+      11,
+      98,
+      32,
+      9,
+      71,
+      66,
+      65,
+      25,
+      0,
+      6,
+      7,
+      34,
+      39,
+      10,
+      31,
+      4,
+      43,
+      96,
+      67,
+      40,
+      73,
+      84,
+      76
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 44,
+        "score": 42.27
+      },
+      {
+        "number": 64,
+        "score": 39.96
+      },
+      {
+        "number": 41,
+        "score": 39.9
+      },
+      {
+        "number": 15,
+        "score": 39.53
+      },
+      {
+        "number": 58,
+        "score": 37.49
+      },
+      {
+        "number": 18,
+        "score": 36.8
+      },
+      {
+        "number": 56,
+        "score": 36.66
+      },
+      {
+        "number": 11,
+        "score": 36.59
+      },
+      {
+        "number": 98,
+        "score": 36.53
+      },
+      {
+        "number": 32,
+        "score": 36.02
+      },
+      {
+        "number": 9,
+        "score": 35.57
+      },
+      {
+        "number": 71,
+        "score": 35.01
+      },
+      {
+        "number": 66,
+        "score": 34.65
+      },
+      {
+        "number": 65,
+        "score": 34.04
+      },
+      {
+        "number": 25,
+        "score": 33.41
+      },
+      {
+        "number": 0,
+        "score": 32.96
+      },
+      {
+        "number": 6,
+        "score": 32.88
+      },
+      {
+        "number": 7,
+        "score": 32.83
+      },
+      {
+        "number": 34,
+        "score": 32.79
+      },
+      {
+        "number": 39,
+        "score": 30.95
+      },
+      {
+        "number": 10,
+        "score": 30.36
+      },
+      {
+        "number": 31,
+        "score": 29.34
+      },
+      {
+        "number": 4,
+        "score": 29.25
+      },
+      {
+        "number": 43,
+        "score": 28.65
+      },
+      {
+        "number": 96,
+        "score": 28.47
+      },
+      {
+        "number": 67,
+        "score": 28.43
+      },
+      {
+        "number": 40,
+        "score": 28.43
+      },
+      {
+        "number": 73,
+        "score": 28.29
+      },
+      {
+        "number": 84,
+        "score": 28.04
+      },
+      {
+        "number": 76,
+        "score": 27.44
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:39.483Z",
+    "actualNumbers": [
+      29
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-03-24",
+    "mode": "lo",
+    "predictedNumbers": [
+      35,
+      96,
+      10,
+      3,
+      75,
+      47,
+      87,
+      66,
+      79,
+      42,
+      86,
+      8,
+      37,
+      63,
+      45,
+      95,
+      52,
+      22
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 35,
+        "score": 44.26
+      },
+      {
+        "number": 96,
+        "score": 42.41
+      },
+      {
+        "number": 10,
+        "score": 42.39
+      },
+      {
+        "number": 3,
+        "score": 40.57
+      },
+      {
+        "number": 75,
+        "score": 40.38
+      },
+      {
+        "number": 47,
+        "score": 40.17
+      },
+      {
+        "number": 87,
+        "score": 40.03
+      },
+      {
+        "number": 66,
+        "score": 40
+      },
+      {
+        "number": 79,
+        "score": 39.92
+      },
+      {
+        "number": 42,
+        "score": 39.6
+      },
+      {
+        "number": 86,
+        "score": 39.54
+      },
+      {
+        "number": 8,
+        "score": 39.36
+      },
+      {
+        "number": 37,
+        "score": 39.34
+      },
+      {
+        "number": 63,
+        "score": 39.19
+      },
+      {
+        "number": 45,
+        "score": 38.93
+      },
+      {
+        "number": 95,
+        "score": 38.25
+      },
+      {
+        "number": 52,
+        "score": 38.1
+      },
+      {
+        "number": 22,
+        "score": 38.03
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:39.281Z",
+    "actualNumbers": [
+      29,
+      31,
+      36,
+      62,
+      81,
+      70,
+      45,
+      80,
+      9,
+      99,
+      63,
+      20,
+      23,
+      91,
+      2,
+      21,
+      24,
+      73,
+      90,
+      13,
+      64,
+      75,
+      7,
+      96,
+      47,
+      40
+    ],
+    "hits": 5,
+    "miss": 13
+  },
+  {
+    "date": "2026-03-23",
+    "mode": "de",
+    "predictedNumbers": [
+      44,
+      56,
+      41,
+      58,
+      15,
+      98,
+      66,
+      64,
+      9,
+      18,
+      32,
+      6,
+      71,
+      11,
+      65,
+      0,
+      7,
+      25,
+      96,
+      39,
+      40,
+      31,
+      76,
+      43,
+      73,
+      34,
+      10,
+      67,
+      88,
+      84
+    ],
+    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 44,
+        "score": 40.92
+      },
+      {
+        "number": 56,
+        "score": 38.95
+      },
+      {
+        "number": 41,
+        "score": 38.19
+      },
+      {
+        "number": 58,
+        "score": 37.5
+      },
+      {
+        "number": 15,
+        "score": 37.22
+      },
+      {
+        "number": 98,
+        "score": 36.96
+      },
+      {
+        "number": 66,
+        "score": 36.63
+      },
+      {
+        "number": 64,
+        "score": 36.14
+      },
+      {
+        "number": 9,
+        "score": 35.56
+      },
+      {
+        "number": 18,
+        "score": 35.44
+      },
+      {
+        "number": 32,
+        "score": 35.26
+      },
+      {
+        "number": 6,
+        "score": 35.05
+      },
+      {
+        "number": 71,
+        "score": 35
+      },
+      {
+        "number": 11,
+        "score": 34.79
+      },
+      {
+        "number": 65,
+        "score": 34.09
+      },
+      {
+        "number": 0,
+        "score": 33.19
+      },
+      {
+        "number": 7,
+        "score": 32.95
+      },
+      {
+        "number": 25,
+        "score": 32.77
+      },
+      {
+        "number": 96,
+        "score": 30.92
+      },
+      {
+        "number": 39,
+        "score": 30.82
+      },
+      {
+        "number": 40,
+        "score": 30.66
+      },
+      {
+        "number": 31,
+        "score": 30.09
+      },
+      {
+        "number": 76,
+        "score": 29.78
+      },
+      {
+        "number": 43,
+        "score": 29.67
+      },
+      {
+        "number": 73,
+        "score": 29.56
+      },
+      {
+        "number": 34,
+        "score": 29.07
+      },
+      {
+        "number": 10,
+        "score": 28.69
+      },
+      {
+        "number": 67,
+        "score": 28.54
+      },
+      {
+        "number": 88,
+        "score": 27.78
+      },
+      {
+        "number": 84,
+        "score": 26.41
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:38.311Z",
+    "actualNumbers": [
+      14
+    ],
+    "hits": 0,
+    "miss": 30
+  },
+  {
+    "date": "2026-03-23",
+    "mode": "lo",
+    "predictedNumbers": [
+      96,
+      47,
+      35,
+      3,
+      30,
+      42,
+      79,
+      59,
+      87,
+      45,
+      31,
+      37,
+      10,
+      89,
+      53,
+      20,
+      52,
+      69
+    ],
+    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "topNumbers": [
+      {
+        "number": 96,
+        "score": 44.86
+      },
+      {
+        "number": 47,
+        "score": 43.97
+      },
+      {
+        "number": 35,
+        "score": 43.35
+      },
+      {
+        "number": 3,
+        "score": 42.97
+      },
+      {
+        "number": 30,
+        "score": 41.67
+      },
+      {
+        "number": 42,
+        "score": 40.34
+      },
+      {
+        "number": 79,
+        "score": 39.78
+      },
+      {
+        "number": 59,
+        "score": 39.56
+      },
+      {
+        "number": 87,
+        "score": 39.37
+      },
+      {
+        "number": 45,
+        "score": 39.08
+      },
+      {
+        "number": 31,
+        "score": 39.05
+      },
+      {
+        "number": 37,
+        "score": 39.05
+      },
+      {
+        "number": 10,
+        "score": 38.92
+      },
+      {
+        "number": 89,
+        "score": 38.74
+      },
+      {
+        "number": 53,
+        "score": 38.51
+      },
+      {
+        "number": 20,
+        "score": 37.81
+      },
+      {
+        "number": 52,
+        "score": 37.47
+      },
+      {
+        "number": 69,
+        "score": 37.37
+      }
+    ],
+    "createdAt": "2026-04-07T05:52:38.129Z",
+    "actualNumbers": [
+      14,
+      90,
+      25,
+      18,
+      31,
+      52,
+      81,
+      69,
+      29,
+      30,
+      54,
+      92,
+      59,
+      57,
+      9,
+      77,
+      16,
+      2,
+      89,
+      44,
+      28
+    ],
+    "hits": 6,
+    "miss": 12
+  },
+  {
     "date": "2026-04-07",
     "predictedNumbers": [
       88,
