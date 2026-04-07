@@ -33,23 +33,21 @@ async function main() {
       const isDe = mode === 'de';
       const existingRecord = existing.find(p => p.date === targetDate && (p.mode ?? 'lo') === mode);
       
+      // Force generate to apply the newly enhanced methods
       let record: PredictionRecord;
 
-      if (!existingRecord) {
-        console.log(`Generating past prediction for ${mode}...`);
-        const scores = generatePredictions(historicalDraws, isDe ? 30 : 18, mode);
-        record = {
-          date: targetDate,
-          mode: mode,
-          predictedNumbers: scores.map(s => s.number),
-          method: isDe ? 'Auto (Backfill) • 18 phương pháp ensemble' : 'Auto (Backfill) • 12 phương pháp ensemble',
-          topNumbers: scores.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
-          createdAt: new Date().toISOString(),
-        };
-        savePrediction(record);
-      } else {
-        record = existingRecord;
-      }
+      console.log(`Generating past prediction for ${mode}...`);
+      const scores = generatePredictions(historicalDraws, isDe ? 30 : 18, mode);
+      record = {
+        date: targetDate,
+        mode: mode,
+        predictedNumbers: scores.map(s => s.number),
+        method: isDe ? 'Auto (Backfill) • 22 phương pháp ensemble' : 'Auto (Backfill) • 16 phương pháp ensemble',
+        topNumbers: scores.map(s => ({ number: s.number, score: parseFloat(s.score.toFixed(2)) })),
+        createdAt: new Date().toISOString(),
+      };
+      // Overwrite existing record so the newly generated ones are saved
+      savePrediction(record);
 
       // Automatically update with actual outcome
       const actualNumbers = getDrawNumbers(targetDraw, mode);

@@ -164,160 +164,160 @@
     "mode": "de",
     "predictedNumbers": [
       65,
-      58,
       56,
+      58,
       41,
       15,
       25,
+      0,
       98,
+      7,
+      9,
+      6,
+      34,
+      11,
       39,
       18,
       71,
-      7,
-      11,
       31,
-      6,
-      9,
-      34,
-      0,
+      43,
       76,
       50,
-      40,
-      73,
-      79,
-      43,
       10,
-      97,
-      35,
+      40,
       4,
-      96,
-      82,
-      60
+      60,
+      35,
+      73,
+      2,
+      79,
+      97,
+      96
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 65,
-        "score": 40.57
-      },
-      {
-        "number": 58,
-        "score": 39.11
+        "score": 40.01
       },
       {
         "number": 56,
-        "score": 39.09
+        "score": 38.99
+      },
+      {
+        "number": 58,
+        "score": 38.07
       },
       {
         "number": 41,
-        "score": 38.77
+        "score": 38.05
       },
       {
         "number": 15,
-        "score": 37.63
+        "score": 36.6
       },
       {
         "number": 25,
-        "score": 36.71
-      },
-      {
-        "number": 98,
-        "score": 36.1
-      },
-      {
-        "number": 39,
-        "score": 34.78
-      },
-      {
-        "number": 18,
-        "score": 34.67
-      },
-      {
-        "number": 71,
-        "score": 33.76
-      },
-      {
-        "number": 7,
-        "score": 33.72
-      },
-      {
-        "number": 11,
-        "score": 33.44
-      },
-      {
-        "number": 31,
-        "score": 33.29
-      },
-      {
-        "number": 6,
-        "score": 33.22
-      },
-      {
-        "number": 9,
-        "score": 32.62
-      },
-      {
-        "number": 34,
-        "score": 32.17
+        "score": 35.75
       },
       {
         "number": 0,
-        "score": 31.96
+        "score": 35.66
       },
       {
-        "number": 76,
-        "score": 31.32
+        "number": 98,
+        "score": 34.27
       },
       {
-        "number": 50,
-        "score": 29.9
+        "number": 7,
+        "score": 33.57
       },
       {
-        "number": 40,
-        "score": 29.54
+        "number": 9,
+        "score": 33.54
       },
       {
-        "number": 73,
-        "score": 29.51
+        "number": 6,
+        "score": 33.18
       },
       {
-        "number": 79,
-        "score": 28.99
+        "number": 34,
+        "score": 32.96
+      },
+      {
+        "number": 11,
+        "score": 32.46
+      },
+      {
+        "number": 39,
+        "score": 32.28
+      },
+      {
+        "number": 18,
+        "score": 32.16
+      },
+      {
+        "number": 71,
+        "score": 31.46
+      },
+      {
+        "number": 31,
+        "score": 30.97
       },
       {
         "number": 43,
-        "score": 28.99
+        "score": 30.3
+      },
+      {
+        "number": 76,
+        "score": 30.18
+      },
+      {
+        "number": 50,
+        "score": 30.06
       },
       {
         "number": 10,
-        "score": 28.6
+        "score": 30.01
       },
       {
-        "number": 97,
-        "score": 28.54
-      },
-      {
-        "number": 35,
-        "score": 28.22
+        "number": 40,
+        "score": 29.96
       },
       {
         "number": 4,
-        "score": 28.17
-      },
-      {
-        "number": 96,
-        "score": 27.8
-      },
-      {
-        "number": 82,
-        "score": 27.8
+        "score": 28.62
       },
       {
         "number": 60,
-        "score": 27.79
+        "score": 28.34
+      },
+      {
+        "number": 35,
+        "score": 28.26
+      },
+      {
+        "number": 73,
+        "score": 27.71
+      },
+      {
+        "number": 2,
+        "score": 27.51
+      },
+      {
+        "number": 79,
+        "score": 27.25
+      },
+      {
+        "number": 97,
+        "score": 26.72
+      },
+      {
+        "number": 96,
+        "score": 26.13
       }
     ],
-    "createdAt": "2026-04-07T05:52:53.836Z",
+    "createdAt": "2026-04-07T06:14:56.004Z",
     "actualNumbers": [
       6
     ],
@@ -328,101 +328,101 @@
     "date": "2026-04-06",
     "mode": "lo",
     "predictedNumbers": [
+      13,
       64,
       33,
       27,
-      13,
+      18,
       20,
       92,
-      88,
-      18,
-      77,
-      46,
       1,
+      11,
+      3,
+      88,
+      77,
+      19,
+      46,
       57,
       38,
-      11,
-      96,
       81,
-      3,
-      10
+      28
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
+        "number": 13,
+        "score": 44.13
+      },
+      {
         "number": 64,
-        "score": 44.59
+        "score": 42.57
       },
       {
         "number": 33,
-        "score": 43.51
+        "score": 41.71
       },
       {
         "number": 27,
-        "score": 42.83
-      },
-      {
-        "number": 13,
-        "score": 42.34
-      },
-      {
-        "number": 20,
-        "score": 42.11
-      },
-      {
-        "number": 92,
-        "score": 41.85
-      },
-      {
-        "number": 88,
-        "score": 41.35
+        "score": 41.1
       },
       {
         "number": 18,
-        "score": 40.42
+        "score": 40.91
       },
       {
-        "number": 77,
-        "score": 40.38
+        "number": 20,
+        "score": 40.46
       },
       {
-        "number": 46,
-        "score": 40.08
+        "number": 92,
+        "score": 40.32
       },
       {
         "number": 1,
-        "score": 39.91
-      },
-      {
-        "number": 57,
-        "score": 39.85
-      },
-      {
-        "number": 38,
-        "score": 39.74
+        "score": 40.22
       },
       {
         "number": 11,
-        "score": 39.46
-      },
-      {
-        "number": 96,
-        "score": 39.45
-      },
-      {
-        "number": 81,
-        "score": 39.45
+        "score": 40
       },
       {
         "number": 3,
-        "score": 39.43
+        "score": 39.81
       },
       {
-        "number": 10,
-        "score": 37.95
+        "number": 88,
+        "score": 39.8
+      },
+      {
+        "number": 77,
+        "score": 39.02
+      },
+      {
+        "number": 19,
+        "score": 38.81
+      },
+      {
+        "number": 46,
+        "score": 38.79
+      },
+      {
+        "number": 57,
+        "score": 38.54
+      },
+      {
+        "number": 38,
+        "score": 38.42
+      },
+      {
+        "number": 81,
+        "score": 38.19
+      },
+      {
+        "number": 28,
+        "score": 38.1
       }
     ],
-    "createdAt": "2026-04-07T05:52:53.684Z",
+    "createdAt": "2026-04-07T06:14:55.851Z",
     "actualNumbers": [
       6,
       32,
@@ -448,168 +448,168 @@
       91,
       26
     ],
-    "hits": 4,
-    "miss": 14
+    "hits": 3,
+    "miss": 15
   },
   {
     "date": "2026-04-05",
     "mode": "de",
     "predictedNumbers": [
-      41,
       58,
+      41,
+      98,
+      39,
+      7,
       56,
       65,
-      98,
-      7,
-      39,
       18,
       31,
       71,
-      9,
-      11,
-      6,
       34,
-      15,
       76,
+      11,
+      9,
       25,
-      0,
-      97,
       43,
+      0,
+      6,
+      15,
+      97,
       79,
-      40,
-      73,
-      10,
-      96,
-      4,
-      60,
-      50,
       82,
-      2
+      73,
+      40,
+      60,
+      10,
+      2,
+      47,
+      77,
+      4
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 41,
-        "score": 39.75
-      },
-      {
         "number": 58,
-        "score": 38.06
+        "score": 37.4
       },
       {
-        "number": 56,
-        "score": 36.78
-      },
-      {
-        "number": 65,
-        "score": 36.44
+        "number": 41,
+        "score": 36.67
       },
       {
         "number": 98,
-        "score": 36.29
-      },
-      {
-        "number": 7,
-        "score": 35.94
+        "score": 36.65
       },
       {
         "number": 39,
-        "score": 35.88
+        "score": 35.24
       },
       {
-        "number": 18,
+        "number": 7,
+        "score": 35.09
+      },
+      {
+        "number": 56,
+        "score": 34.95
+      },
+      {
+        "number": 65,
         "score": 34.66
       },
       {
+        "number": 18,
+        "score": 34.36
+      },
+      {
         "number": 31,
-        "score": 34.59
+        "score": 34.1
       },
       {
         "number": 71,
-        "score": 34.17
-      },
-      {
-        "number": 9,
-        "score": 33.96
-      },
-      {
-        "number": 11,
-        "score": 33.73
-      },
-      {
-        "number": 6,
-        "score": 33.52
+        "score": 34.03
       },
       {
         "number": 34,
-        "score": 33.39
-      },
-      {
-        "number": 15,
-        "score": 33.2
+        "score": 33.81
       },
       {
         "number": 76,
-        "score": 32.3
+        "score": 33.2
+      },
+      {
+        "number": 11,
+        "score": 32.71
+      },
+      {
+        "number": 9,
+        "score": 32.52
       },
       {
         "number": 25,
-        "score": 32.1
-      },
-      {
-        "number": 0,
-        "score": 31.96
-      },
-      {
-        "number": 97,
-        "score": 30.91
+        "score": 32.19
       },
       {
         "number": 43,
-        "score": 30.24
+        "score": 31.36
+      },
+      {
+        "number": 0,
+        "score": 31.25
+      },
+      {
+        "number": 6,
+        "score": 31.19
+      },
+      {
+        "number": 15,
+        "score": 30.98
+      },
+      {
+        "number": 97,
+        "score": 30.57
       },
       {
         "number": 79,
-        "score": 30.21
-      },
-      {
-        "number": 40,
-        "score": 30.19
-      },
-      {
-        "number": 73,
-        "score": 28.87
-      },
-      {
-        "number": 10,
-        "score": 28.46
-      },
-      {
-        "number": 96,
-        "score": 28.21
-      },
-      {
-        "number": 4,
-        "score": 28.2
-      },
-      {
-        "number": 60,
-        "score": 27.77
-      },
-      {
-        "number": 50,
-        "score": 27.15
+        "score": 30.53
       },
       {
         "number": 82,
-        "score": 27.12
+        "score": 29.88
+      },
+      {
+        "number": 73,
+        "score": 29.35
+      },
+      {
+        "number": 40,
+        "score": 28.29
+      },
+      {
+        "number": 60,
+        "score": 28.18
+      },
+      {
+        "number": 10,
+        "score": 27.69
       },
       {
         "number": 2,
-        "score": 26.96
+        "score": 27.61
+      },
+      {
+        "number": 47,
+        "score": 27.06
+      },
+      {
+        "number": 77,
+        "score": 26.65
+      },
+      {
+        "number": 4,
+        "score": 26.43
       }
     ],
-    "createdAt": "2026-04-07T05:52:52.741Z",
+    "createdAt": "2026-04-07T06:14:54.895Z",
     "actualNumbers": [
       55
     ],
@@ -624,97 +624,97 @@
       64,
       57,
       81,
-      13,
-      68,
-      73,
-      92,
-      99,
       96,
-      11,
-      33,
       25,
-      10,
+      13,
+      11,
+      73,
       27,
-      20,
-      69,
-      70
+      92,
+      85,
+      5,
+      35,
+      33,
+      10,
+      1,
+      68
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 88,
-        "score": 44.74
+        "score": 42.74
       },
       {
         "number": 64,
-        "score": 43.35
+        "score": 41.5
       },
       {
         "number": 57,
-        "score": 42.3
+        "score": 40.67
       },
       {
         "number": 81,
-        "score": 41.81
-      },
-      {
-        "number": 13,
-        "score": 40.83
-      },
-      {
-        "number": 68,
-        "score": 40.71
-      },
-      {
-        "number": 73,
-        "score": 40.55
-      },
-      {
-        "number": 92,
-        "score": 39.79
-      },
-      {
-        "number": 99,
-        "score": 39.75
+        "score": 40.25
       },
       {
         "number": 96,
-        "score": 39.62
-      },
-      {
-        "number": 11,
-        "score": 39.05
-      },
-      {
-        "number": 33,
-        "score": 39.03
+        "score": 39.87
       },
       {
         "number": 25,
-        "score": 38.85
+        "score": 39.55
       },
       {
-        "number": 10,
-        "score": 38.68
+        "number": 13,
+        "score": 39.37
+      },
+      {
+        "number": 11,
+        "score": 39.32
+      },
+      {
+        "number": 73,
+        "score": 39.22
       },
       {
         "number": 27,
-        "score": 38.57
+        "score": 38.99
       },
       {
-        "number": 20,
-        "score": 38.26
+        "number": 92,
+        "score": 38.54
       },
       {
-        "number": 69,
-        "score": 38.16
+        "number": 85,
+        "score": 38.41
       },
       {
-        "number": 70,
-        "score": 38.14
+        "number": 5,
+        "score": 37.97
+      },
+      {
+        "number": 35,
+        "score": 37.85
+      },
+      {
+        "number": 33,
+        "score": 37.84
+      },
+      {
+        "number": 10,
+        "score": 37.56
+      },
+      {
+        "number": 1,
+        "score": 37.44
+      },
+      {
+        "number": 68,
+        "score": 37.36
       }
     ],
-    "createdAt": "2026-04-07T05:52:52.588Z",
+    "createdAt": "2026-04-07T06:14:54.734Z",
     "actualNumbers": [
       55,
       40,
@@ -740,168 +740,168 @@
       73,
       89
     ],
-    "hits": 6,
-    "miss": 12
+    "hits": 3,
+    "miss": 15
   },
   {
     "date": "2026-04-04",
     "mode": "de",
     "predictedNumbers": [
       41,
-      58,
-      65,
-      56,
+      11,
       98,
       9,
-      18,
+      65,
+      56,
+      58,
       34,
+      18,
       71,
       39,
-      11,
-      6,
       15,
-      76,
-      25,
-      0,
-      31,
-      7,
       43,
+      31,
+      6,
+      0,
       40,
-      4,
+      76,
       79,
-      96,
+      4,
+      25,
       10,
+      7,
+      96,
+      99,
+      97,
+      84,
       60,
       50,
-      84,
-      97,
-      2,
-      82
+      2
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 41,
-        "score": 40.99
-      },
-      {
-        "number": 58,
-        "score": 38.07
-      },
-      {
-        "number": 65,
-        "score": 37.38
-      },
-      {
-        "number": 56,
-        "score": 37.12
-      },
-      {
-        "number": 98,
-        "score": 36.53
-      },
-      {
-        "number": 9,
-        "score": 35.28
-      },
-      {
-        "number": 18,
-        "score": 34.64
-      },
-      {
-        "number": 34,
-        "score": 34.27
-      },
-      {
-        "number": 71,
-        "score": 34.21
-      },
-      {
-        "number": 39,
-        "score": 34.09
+        "score": 39.75
       },
       {
         "number": 11,
-        "score": 33.77
+        "score": 37.02
       },
       {
-        "number": 6,
-        "score": 33.66
+        "number": 98,
+        "score": 36.82
+      },
+      {
+        "number": 9,
+        "score": 35.88
+      },
+      {
+        "number": 65,
+        "score": 35.48
+      },
+      {
+        "number": 56,
+        "score": 35.25
+      },
+      {
+        "number": 58,
+        "score": 35.2
+      },
+      {
+        "number": 34,
+        "score": 34.36
+      },
+      {
+        "number": 18,
+        "score": 34.35
+      },
+      {
+        "number": 71,
+        "score": 34.06
+      },
+      {
+        "number": 39,
+        "score": 33.92
       },
       {
         "number": 15,
-        "score": 33.41
-      },
-      {
-        "number": 76,
-        "score": 32.36
-      },
-      {
-        "number": 25,
-        "score": 31.99
-      },
-      {
-        "number": 0,
-        "score": 31.91
-      },
-      {
-        "number": 31,
-        "score": 31.88
-      },
-      {
-        "number": 7,
-        "score": 31.51
+        "score": 33.38
       },
       {
         "number": 43,
-        "score": 31.5
+        "score": 32.26
       },
       {
-        "number": 40,
+        "number": 31,
+        "score": 31.96
+      },
+      {
+        "number": 6,
+        "score": 31.31
+      },
+      {
+        "number": 0,
         "score": 31.21
       },
       {
-        "number": 4,
-        "score": 30.76
+        "number": 40,
+        "score": 31.17
+      },
+      {
+        "number": 76,
+        "score": 31.05
       },
       {
         "number": 79,
-        "score": 30.51
+        "score": 30.79
       },
       {
-        "number": 96,
-        "score": 28.42
+        "number": 4,
+        "score": 30.42
+      },
+      {
+        "number": 25,
+        "score": 29.88
       },
       {
         "number": 10,
-        "score": 28.32
+        "score": 29.77
       },
       {
-        "number": 60,
-        "score": 28.07
+        "number": 7,
+        "score": 29.47
       },
       {
-        "number": 50,
-        "score": 27.91
+        "number": 96,
+        "score": 28.78
       },
       {
-        "number": 84,
-        "score": 27.82
+        "number": 99,
+        "score": 28.43
       },
       {
         "number": 97,
-        "score": 27.64
+        "score": 28.15
+      },
+      {
+        "number": 84,
+        "score": 27.75
+      },
+      {
+        "number": 60,
+        "score": 26.39
+      },
+      {
+        "number": 50,
+        "score": 26.35
       },
       {
         "number": 2,
-        "score": 26.93
-      },
-      {
-        "number": 82,
-        "score": 26.49
+        "score": 25.38
       }
     ],
-    "createdAt": "2026-04-07T05:52:51.631Z",
+    "createdAt": "2026-04-07T06:14:53.761Z",
     "actualNumbers": [
       37
     ],
@@ -912,101 +912,101 @@
     "date": "2026-04-04",
     "mode": "lo",
     "predictedNumbers": [
-      88,
       43,
+      88,
       64,
-      25,
-      68,
-      85,
       99,
-      96,
+      25,
+      85,
+      81,
       22,
+      96,
       57,
       69,
+      73,
+      13,
+      68,
       10,
       82,
-      11,
       63,
-      81,
-      27,
-      35
+      27
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 88,
-        "score": 44.78
+        "number": 43,
+        "score": 44.26
       },
       {
-        "number": 43,
-        "score": 42.38
+        "number": 88,
+        "score": 42.78
       },
       {
         "number": 64,
-        "score": 42.18
-      },
-      {
-        "number": 25,
-        "score": 42.04
-      },
-      {
-        "number": 68,
-        "score": 41.08
-      },
-      {
-        "number": 85,
-        "score": 40.35
+        "score": 40.5
       },
       {
         "number": 99,
-        "score": 40.28
+        "score": 40.45
       },
       {
-        "number": 96,
-        "score": 39.45
+        "number": 25,
+        "score": 40.43
       },
       {
-        "number": 22,
-        "score": 39.42
-      },
-      {
-        "number": 57,
-        "score": 39.38
-      },
-      {
-        "number": 69,
-        "score": 39.28
-      },
-      {
-        "number": 10,
-        "score": 38.77
-      },
-      {
-        "number": 82,
-        "score": 38.72
-      },
-      {
-        "number": 11,
-        "score": 38.5
-      },
-      {
-        "number": 63,
-        "score": 38.25
+        "number": 85,
+        "score": 39.04
       },
       {
         "number": 81,
-        "score": 37.94
+        "score": 38.48
+      },
+      {
+        "number": 22,
+        "score": 38.25
+      },
+      {
+        "number": 96,
+        "score": 38.16
+      },
+      {
+        "number": 57,
+        "score": 38.14
+      },
+      {
+        "number": 69,
+        "score": 38.11
+      },
+      {
+        "number": 73,
+        "score": 37.79
+      },
+      {
+        "number": 13,
+        "score": 37.76
+      },
+      {
+        "number": 68,
+        "score": 37.68
+      },
+      {
+        "number": 10,
+        "score": 37.65
+      },
+      {
+        "number": 82,
+        "score": 37.57
+      },
+      {
+        "number": 63,
+        "score": 37.14
       },
       {
         "number": 27,
-        "score": 37.66
-      },
-      {
-        "number": 35,
-        "score": 37.19
+        "score": 36.64
       }
     ],
-    "createdAt": "2026-04-07T05:52:51.475Z",
+    "createdAt": "2026-04-07T06:14:53.607Z",
     "actualNumbers": [
       37,
       82,
@@ -1041,160 +1041,160 @@
     "mode": "de",
     "predictedNumbers": [
       65,
-      41,
-      58,
       56,
+      58,
+      41,
+      9,
       44,
       98,
-      18,
-      9,
-      11,
       15,
-      39,
       71,
       6,
-      7,
-      76,
-      25,
+      11,
       0,
+      76,
+      7,
+      18,
+      25,
+      39,
+      79,
+      10,
       31,
       34,
-      79,
       97,
       60,
-      10,
       40,
       96,
-      4,
       50,
-      43,
-      82,
-      2
+      4,
+      2,
+      73,
+      43
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 65,
-        "score": 39.07
-      },
-      {
-        "number": 41,
-        "score": 38.92
-      },
-      {
-        "number": 58,
-        "score": 38.27
+        "score": 38.96
       },
       {
         "number": 56,
-        "score": 37.52
+        "score": 37.81
       },
       {
-        "number": 44,
-        "score": 37.1
+        "number": 58,
+        "score": 37.59
       },
       {
-        "number": 98,
-        "score": 36.99
-      },
-      {
-        "number": 18,
-        "score": 35.34
+        "number": 41,
+        "score": 35.97
       },
       {
         "number": 9,
-        "score": 35.26
+        "score": 35.87
       },
       {
-        "number": 11,
-        "score": 34.76
+        "number": 44,
+        "score": 35.53
+      },
+      {
+        "number": 98,
+        "score": 35.02
       },
       {
         "number": 15,
-        "score": 34.25
-      },
-      {
-        "number": 39,
-        "score": 33.97
+        "score": 34.12
       },
       {
         "number": 71,
-        "score": 33.82
+        "score": 33.72
       },
       {
         "number": 6,
-        "score": 33.81
+        "score": 33.65
       },
       {
-        "number": 7,
-        "score": 33.63
-      },
-      {
-        "number": 76,
-        "score": 32.46
-      },
-      {
-        "number": 25,
-        "score": 32.01
+        "number": 11,
+        "score": 33.62
       },
       {
         "number": 0,
-        "score": 31.91
+        "score": 33.42
       },
       {
-        "number": 31,
-        "score": 31.88
+        "number": 76,
+        "score": 33.34
       },
       {
-        "number": 34,
-        "score": 30.94
+        "number": 7,
+        "score": 33.1
+      },
+      {
+        "number": 18,
+        "score": 32.76
+      },
+      {
+        "number": 25,
+        "score": 32.07
+      },
+      {
+        "number": 39,
+        "score": 31.6
       },
       {
         "number": 79,
-        "score": 30.35
-      },
-      {
-        "number": 97,
-        "score": 29.8
-      },
-      {
-        "number": 60,
-        "score": 29.28
+        "score": 30.66
       },
       {
         "number": 10,
-        "score": 29.06
+        "score": 30.42
+      },
+      {
+        "number": 31,
+        "score": 29.76
+      },
+      {
+        "number": 34,
+        "score": 29.65
+      },
+      {
+        "number": 97,
+        "score": 29.62
+      },
+      {
+        "number": 60,
+        "score": 29.43
       },
       {
         "number": 40,
-        "score": 28.88
+        "score": 29.38
       },
       {
         "number": 96,
-        "score": 28.57
-      },
-      {
-        "number": 4,
-        "score": 27.86
+        "score": 28.92
       },
       {
         "number": 50,
-        "score": 27.81
+        "score": 28.47
       },
       {
-        "number": 43,
-        "score": 27.66
-      },
-      {
-        "number": 82,
-        "score": 27.04
+        "number": 4,
+        "score": 28.3
       },
       {
         "number": 2,
-        "score": 26.98
+        "score": 27.63
+      },
+      {
+        "number": 73,
+        "score": 27.28
+      },
+      {
+        "number": 43,
+        "score": 26.92
       }
     ],
-    "createdAt": "2026-04-07T05:52:50.529Z",
+    "createdAt": "2026-04-07T06:14:52.650Z",
     "actualNumbers": [
       44
     ],
@@ -1206,100 +1206,100 @@
     "mode": "lo",
     "predictedNumbers": [
       24,
-      96,
-      68,
       10,
       99,
+      96,
+      68,
+      43,
       25,
       36,
+      4,
       88,
       94,
       60,
+      12,
       97,
-      63,
-      43,
-      15,
       82,
-      4,
       64,
-      54
+      57,
+      91
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 24,
-        "score": 45.45
-      },
-      {
-        "number": 96,
-        "score": 41.72
-      },
-      {
-        "number": 68,
-        "score": 41.01
+        "score": 43.34
       },
       {
         "number": 10,
-        "score": 40.56
+        "score": 40.78
       },
       {
         "number": 99,
-        "score": 40.3
+        "score": 40.47
       },
       {
-        "number": 25,
-        "score": 40.26
+        "number": 96,
+        "score": 40.13
       },
       {
-        "number": 36,
-        "score": 40.21
-      },
-      {
-        "number": 88,
-        "score": 40.14
-      },
-      {
-        "number": 94,
-        "score": 40.06
-      },
-      {
-        "number": 60,
-        "score": 40
-      },
-      {
-        "number": 97,
-        "score": 38.98
-      },
-      {
-        "number": 63,
-        "score": 38.9
+        "number": 68,
+        "score": 39.52
       },
       {
         "number": 43,
-        "score": 38.87
+        "score": 39.33
       },
       {
-        "number": 15,
-        "score": 38.75
+        "number": 25,
+        "score": 38.9
       },
       {
-        "number": 82,
-        "score": 38.68
+        "number": 36,
+        "score": 38.86
       },
       {
         "number": 4,
-        "score": 38.28
+        "score": 38.84
+      },
+      {
+        "number": 88,
+        "score": 38.78
+      },
+      {
+        "number": 94,
+        "score": 38.77
+      },
+      {
+        "number": 60,
+        "score": 38.66
+      },
+      {
+        "number": 12,
+        "score": 38.37
+      },
+      {
+        "number": 97,
+        "score": 37.79
+      },
+      {
+        "number": 82,
+        "score": 37.56
       },
       {
         "number": 64,
-        "score": 38.08
+        "score": 36.95
       },
       {
-        "number": 54,
-        "score": 37.96
+        "number": 57,
+        "score": 36.59
+      },
+      {
+        "number": 91,
+        "score": 36.49
       }
     ],
-    "createdAt": "2026-04-07T05:52:50.377Z",
+    "createdAt": "2026-04-07T06:14:52.442Z",
     "actualNumbers": [
       44,
       91,
@@ -1325,168 +1325,168 @@
       15,
       29
     ],
-    "hits": 8,
-    "miss": 10
+    "hits": 7,
+    "miss": 11
   },
   {
     "date": "2026-04-02",
     "mode": "de",
     "predictedNumbers": [
       56,
-      41,
       65,
-      58,
       98,
+      58,
+      11,
+      41,
+      9,
       44,
       6,
       18,
-      9,
-      11,
-      71,
-      15,
-      39,
+      0,
       76,
+      71,
+      67,
+      15,
       96,
+      39,
+      10,
       25,
       31,
-      0,
-      67,
       34,
-      79,
       7,
-      10,
       40,
       60,
-      86,
-      4,
       50,
-      43,
-      73
+      4,
+      79,
+      86,
+      2,
+      82
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 56,
-        "score": 39.05
-      },
-      {
-        "number": 41,
-        "score": 39.03
+        "score": 38.71
       },
       {
         "number": 65,
         "score": 37.93
       },
       {
-        "number": 58,
-        "score": 37.63
-      },
-      {
         "number": 98,
-        "score": 37.41
+        "score": 37.56
       },
       {
-        "number": 44,
-        "score": 37.19
-      },
-      {
-        "number": 6,
-        "score": 35.98
-      },
-      {
-        "number": 18,
-        "score": 35.4
-      },
-      {
-        "number": 9,
-        "score": 35.2
+        "number": 58,
+        "score": 37.02
       },
       {
         "number": 11,
-        "score": 35.17
+        "score": 36.2
       },
       {
-        "number": 71,
-        "score": 34.87
+        "number": 41,
+        "score": 36.07
       },
       {
-        "number": 15,
-        "score": 34.5
+        "number": 9,
+        "score": 35.81
       },
       {
-        "number": 39,
-        "score": 33.79
+        "number": 44,
+        "score": 35.61
       },
       {
-        "number": 76,
-        "score": 32.67
+        "number": 6,
+        "score": 35.12
       },
       {
-        "number": 96,
-        "score": 32.51
-      },
-      {
-        "number": 25,
-        "score": 32.36
-      },
-      {
-        "number": 31,
-        "score": 31.92
+        "number": 18,
+        "score": 35.01
       },
       {
         "number": 0,
-        "score": 31.92
+        "score": 33.42
+      },
+      {
+        "number": 76,
+        "score": 33.09
+      },
+      {
+        "number": 71,
+        "score": 32.43
       },
       {
         "number": 67,
-        "score": 31.42
+        "score": 32.25
       },
       {
-        "number": 34,
-        "score": 30.92
+        "number": 15,
+        "score": 32.07
       },
       {
-        "number": 79,
-        "score": 30.23
+        "number": 96,
+        "score": 31.91
       },
       {
-        "number": 7,
-        "score": 29.05
+        "number": 39,
+        "score": 31.44
       },
       {
         "number": 10,
-        "score": 28.9
+        "score": 30.28
+      },
+      {
+        "number": 25,
+        "score": 30.11
+      },
+      {
+        "number": 31,
+        "score": 29.8
+      },
+      {
+        "number": 34,
+        "score": 29.63
+      },
+      {
+        "number": 7,
+        "score": 29.57
       },
       {
         "number": 40,
-        "score": 28.79
+        "score": 29.3
       },
       {
         "number": 60,
-        "score": 28.14
-      },
-      {
-        "number": 86,
-        "score": 27.99
-      },
-      {
-        "number": 4,
-        "score": 27.93
+        "score": 28.47
       },
       {
         "number": 50,
-        "score": 27.71
+        "score": 28.38
       },
       {
-        "number": 43,
-        "score": 27.52
+        "number": 4,
+        "score": 28.35
       },
       {
-        "number": 73,
-        "score": 27.29
+        "number": 79,
+        "score": 28.34
+      },
+      {
+        "number": 86,
+        "score": 28
+      },
+      {
+        "number": 2,
+        "score": 27.87
+      },
+      {
+        "number": 82,
+        "score": 27.79
       }
     ],
-    "createdAt": "2026-04-07T05:52:49.434Z",
+    "createdAt": "2026-04-07T06:14:51.476Z",
     "actualNumbers": [
       67
     ],
@@ -1497,101 +1497,101 @@
     "date": "2026-04-02",
     "mode": "lo",
     "predictedNumbers": [
+      24,
+      82,
+      93,
       14,
       99,
-      24,
       36,
-      93,
-      60,
-      68,
-      82,
-      96,
-      10,
-      29,
-      50,
       63,
       44,
-      39,
+      29,
+      60,
+      68,
+      96,
+      10,
+      89,
+      43,
       32,
-      94,
-      54
+      88,
+      83
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 14,
-        "score": 43.46
-      },
-      {
-        "number": 99,
-        "score": 43.16
-      },
-      {
         "number": 24,
-        "score": 43.07
-      },
-      {
-        "number": 36,
-        "score": 42.51
-      },
-      {
-        "number": 93,
-        "score": 41.59
-      },
-      {
-        "number": 60,
-        "score": 40.94
-      },
-      {
-        "number": 68,
-        "score": 40.8
+        "score": 42.86
       },
       {
         "number": 82,
-        "score": 40.53
+        "score": 42.64
       },
       {
-        "number": 96,
-        "score": 40.52
+        "number": 93,
+        "score": 41.95
       },
       {
-        "number": 10,
-        "score": 39.89
+        "number": 14,
+        "score": 41.66
       },
       {
-        "number": 29,
-        "score": 39.28
+        "number": 99,
+        "score": 41.39
       },
       {
-        "number": 50,
-        "score": 39.24
+        "number": 36,
+        "score": 40.85
       },
       {
         "number": 63,
-        "score": 39.1
+        "score": 39.78
       },
       {
         "number": 44,
-        "score": 38.99
+        "score": 39.7
       },
       {
-        "number": 39,
-        "score": 38.37
+        "number": 29,
+        "score": 39.59
+      },
+      {
+        "number": 60,
+        "score": 39.49
+      },
+      {
+        "number": 68,
+        "score": 39.36
+      },
+      {
+        "number": 96,
+        "score": 39.1
+      },
+      {
+        "number": 10,
+        "score": 38.63
+      },
+      {
+        "number": 89,
+        "score": 38.17
+      },
+      {
+        "number": 43,
+        "score": 38.03
       },
       {
         "number": 32,
-        "score": 38.19
+        "score": 37.14
       },
       {
-        "number": 94,
-        "score": 37.9
+        "number": 88,
+        "score": 37.08
       },
       {
-        "number": 54,
-        "score": 37.82
+        "number": 83,
+        "score": 37.07
       }
     ],
-    "createdAt": "2026-04-07T05:52:49.279Z",
+    "createdAt": "2026-04-07T06:14:51.307Z",
     "actualNumbers": [
       67,
       50,
@@ -1628,159 +1628,159 @@
     "predictedNumbers": [
       41,
       98,
-      58,
-      11,
       44,
+      11,
       71,
-      66,
-      18,
-      56,
       9,
-      65,
-      31,
+      18,
+      66,
+      58,
       15,
+      56,
+      31,
       39,
-      25,
-      0,
-      6,
+      65,
       34,
-      7,
+      0,
       79,
-      96,
-      67,
+      25,
       10,
+      96,
+      6,
       40,
+      43,
+      7,
+      67,
       97,
-      50,
       4,
-      82,
-      2,
-      76
+      99,
+      76,
+      50
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 41,
-        "score": 41.92
+        "score": 40.39
       },
       {
         "number": 98,
-        "score": 38.74
-      },
-      {
-        "number": 58,
-        "score": 37.72
-      },
-      {
-        "number": 11,
-        "score": 37.44
+        "score": 38.51
       },
       {
         "number": 44,
-        "score": 37.37
+        "score": 37.97
+      },
+      {
+        "number": 11,
+        "score": 37.76
       },
       {
         "number": 71,
-        "score": 37.02
-      },
-      {
-        "number": 66,
-        "score": 36.46
-      },
-      {
-        "number": 18,
-        "score": 35.54
-      },
-      {
-        "number": 56,
-        "score": 35.47
+        "score": 36.1
       },
       {
         "number": 9,
-        "score": 35.24
+        "score": 35.85
       },
       {
-        "number": 65,
-        "score": 34.51
+        "number": 18,
+        "score": 35.14
       },
       {
-        "number": 31,
-        "score": 34.51
+        "number": 66,
+        "score": 35.13
+      },
+      {
+        "number": 58,
+        "score": 34.89
       },
       {
         "number": 15,
-        "score": 34.5
+        "score": 34.28
+      },
+      {
+        "number": 56,
+        "score": 33.85
+      },
+      {
+        "number": 31,
+        "score": 33.85
       },
       {
         "number": 39,
-        "score": 33.81
+        "score": 33.67
       },
       {
-        "number": 25,
-        "score": 32.7
-      },
-      {
-        "number": 0,
-        "score": 31.91
-      },
-      {
-        "number": 6,
-        "score": 31.55
+        "number": 65,
+        "score": 32.97
       },
       {
         "number": 34,
-        "score": 31.25
+        "score": 32.13
       },
       {
-        "number": 7,
-        "score": 30.53
+        "number": 0,
+        "score": 31.21
       },
       {
         "number": 79,
-        "score": 30.14
+        "score": 30.47
       },
       {
-        "number": 96,
-        "score": 29.99
-      },
-      {
-        "number": 67,
-        "score": 29.35
+        "number": 25,
+        "score": 30.41
       },
       {
         "number": 10,
-        "score": 28.78
+        "score": 30.17
+      },
+      {
+        "number": 96,
+        "score": 29.97
+      },
+      {
+        "number": 6,
+        "score": 29.51
       },
       {
         "number": 40,
-        "score": 28.67
+        "score": 29.19
+      },
+      {
+        "number": 43,
+        "score": 29.11
+      },
+      {
+        "number": 7,
+        "score": 28.61
+      },
+      {
+        "number": 67,
+        "score": 28.41
       },
       {
         "number": 97,
-        "score": 28.16
-      },
-      {
-        "number": 50,
-        "score": 28.03
+        "score": 28.35
       },
       {
         "number": 4,
-        "score": 27.89
+        "score": 28.32
       },
       {
-        "number": 82,
-        "score": 27.71
-      },
-      {
-        "number": 2,
-        "score": 27.69
+        "number": 99,
+        "score": 27.42
       },
       {
         "number": 76,
-        "score": 27.68
+        "score": 26.98
+      },
+      {
+        "number": 50,
+        "score": 26.46
       }
     ],
-    "createdAt": "2026-04-07T05:52:48.336Z",
+    "createdAt": "2026-04-07T06:14:50.369Z",
     "actualNumbers": [
       66
     ],
@@ -1792,100 +1792,100 @@
     "mode": "lo",
     "predictedNumbers": [
       90,
-      52,
       68,
-      60,
-      44,
       24,
+      52,
+      60,
       29,
-      66,
       12,
       63,
+      44,
+      66,
+      93,
       99,
       36,
       21,
-      15,
       2,
       14,
-      50,
-      39
+      82,
+      50
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 90,
-        "score": 45.32
-      },
-      {
-        "number": 52,
-        "score": 43.36
+        "score": 44.75
       },
       {
         "number": 68,
-        "score": 43.06
-      },
-      {
-        "number": 60,
-        "score": 42.91
-      },
-      {
-        "number": 44,
-        "score": 41.83
+        "score": 42.9
       },
       {
         "number": 24,
+        "score": 41.49
+      },
+      {
+        "number": 52,
         "score": 41.48
       },
       {
-        "number": 29,
-        "score": 40.75
+        "number": 60,
+        "score": 41.21
       },
       {
-        "number": 66,
-        "score": 40.62
+        "number": 29,
+        "score": 40.89
       },
       {
         "number": 12,
-        "score": 40.34
+        "score": 40.6
       },
       {
         "number": 63,
-        "score": 40.17
+        "score": 40.41
+      },
+      {
+        "number": 44,
+        "score": 40.28
+      },
+      {
+        "number": 66,
+        "score": 39.25
+      },
+      {
+        "number": 93,
+        "score": 38.87
       },
       {
         "number": 99,
-        "score": 40.03
+        "score": 38.69
       },
       {
         "number": 36,
-        "score": 39.81
+        "score": 38.52
       },
       {
         "number": 21,
-        "score": 39.72
-      },
-      {
-        "number": 15,
-        "score": 39.55
+        "score": 38.41
       },
       {
         "number": 2,
-        "score": 39.49
+        "score": 38.22
       },
       {
         "number": 14,
-        "score": 39.37
+        "score": 38.12
+      },
+      {
+        "number": 82,
+        "score": 37.77
       },
       {
         "number": 50,
-        "score": 39.28
-      },
-      {
-        "number": 39,
-        "score": 39.13
+        "score": 37.64
       }
     ],
-    "createdAt": "2026-04-07T05:52:48.149Z",
+    "createdAt": "2026-04-07T06:14:50.214Z",
     "actualNumbers": [
       66,
       8,
@@ -1919,157 +1919,157 @@
       66,
       41,
       58,
-      98,
       65,
-      18,
-      9,
       56,
-      39,
+      98,
       15,
+      9,
       34,
-      11,
+      18,
       25,
-      71,
-      0,
+      11,
+      39,
       6,
-      7,
       67,
-      79,
-      4,
+      0,
+      71,
       31,
-      40,
       43,
-      10,
-      84,
-      50,
-      82,
+      4,
+      40,
       76,
-      96
+      7,
+      50,
+      79,
+      84,
+      96,
+      10,
+      60
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 44,
-        "score": 39.55
+        "score": 39.46
       },
       {
         "number": 66,
-        "score": 38.57
+        "score": 38.94
       },
       {
         "number": 41,
-        "score": 38.36
+        "score": 37.74
       },
       {
         "number": 58,
-        "score": 37.87
-      },
-      {
-        "number": 98,
-        "score": 37.35
+        "score": 37.23
       },
       {
         "number": 65,
-        "score": 36.11
-      },
-      {
-        "number": 18,
-        "score": 35.68
-      },
-      {
-        "number": 9,
-        "score": 35.48
+        "score": 36.32
       },
       {
         "number": 56,
-        "score": 35.47
+        "score": 36.06
       },
       {
-        "number": 39,
-        "score": 34.62
+        "number": 98,
+        "score": 35.34
       },
       {
         "number": 15,
-        "score": 34.46
+        "score": 34.24
+      },
+      {
+        "number": 9,
+        "score": 33.8
       },
       {
         "number": 34,
-        "score": 33.41
+        "score": 33.59
       },
       {
-        "number": 11,
-        "score": 33.13
+        "number": 18,
+        "score": 33.05
       },
       {
         "number": 25,
-        "score": 32.68
+        "score": 32.6
       },
       {
-        "number": 71,
-        "score": 32.61
+        "number": 11,
+        "score": 32.24
       },
       {
-        "number": 0,
-        "score": 31.9
+        "number": 39,
+        "score": 32.12
       },
       {
         "number": 6,
-        "score": 31.57
-      },
-      {
-        "number": 7,
-        "score": 30.84
+        "score": 31.73
       },
       {
         "number": 67,
-        "score": 30.52
+        "score": 31.39
       },
       {
-        "number": 79,
-        "score": 30.29
+        "number": 0,
+        "score": 31.2
       },
       {
-        "number": 4,
-        "score": 30.25
+        "number": 71,
+        "score": 30.5
       },
       {
         "number": 31,
-        "score": 30.19
-      },
-      {
-        "number": 40,
-        "score": 29.01
+        "score": 30.39
       },
       {
         "number": 43,
-        "score": 28.77
+        "score": 30.1
       },
       {
-        "number": 10,
-        "score": 28.61
+        "number": 4,
+        "score": 29.97
       },
       {
-        "number": 84,
-        "score": 28.28
-      },
-      {
-        "number": 50,
-        "score": 27.88
-      },
-      {
-        "number": 82,
-        "score": 27.69
+        "number": 40,
+        "score": 29.49
       },
       {
         "number": 76,
-        "score": 27.58
+        "score": 29.09
+      },
+      {
+        "number": 7,
+        "score": 28.88
+      },
+      {
+        "number": 50,
+        "score": 28.53
+      },
+      {
+        "number": 79,
+        "score": 28.34
+      },
+      {
+        "number": 84,
+        "score": 28.15
       },
       {
         "number": 96,
-        "score": 27.33
+        "score": 27.88
+      },
+      {
+        "number": 10,
+        "score": 27.82
+      },
+      {
+        "number": 60,
+        "score": 27.26
       }
     ],
-    "createdAt": "2026-04-07T05:52:47.201Z",
+    "createdAt": "2026-04-07T06:14:49.276Z",
     "actualNumbers": [
       91
     ],
@@ -2080,101 +2080,101 @@
     "date": "2026-03-31",
     "mode": "lo",
     "predictedNumbers": [
+      52,
       90,
+      56,
+      47,
       29,
       63,
-      47,
-      52,
+      68,
+      89,
+      54,
+      21,
+      39,
       50,
       24,
-      39,
-      79,
-      68,
-      15,
-      35,
+      59,
+      91,
       60,
-      56,
       45,
-      21,
-      54,
-      44
+      66
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 90,
-        "score": 43.83
-      },
-      {
-        "number": 29,
-        "score": 42.46
-      },
-      {
-        "number": 63,
-        "score": 42.33
-      },
-      {
-        "number": 47,
-        "score": 41.06
-      },
-      {
         "number": 52,
-        "score": 40.03
+        "score": 42.07
       },
       {
-        "number": 50,
-        "score": 39.94
-      },
-      {
-        "number": 24,
-        "score": 39.88
-      },
-      {
-        "number": 39,
-        "score": 39.86
-      },
-      {
-        "number": 79,
-        "score": 39.71
-      },
-      {
-        "number": 68,
-        "score": 39.48
-      },
-      {
-        "number": 15,
-        "score": 39.32
-      },
-      {
-        "number": 35,
-        "score": 39.32
-      },
-      {
-        "number": 60,
-        "score": 39.06
+        "number": 90,
+        "score": 41.89
       },
       {
         "number": 56,
-        "score": 38.97
+        "score": 41.25
       },
       {
-        "number": 45,
-        "score": 38.77
+        "number": 47,
+        "score": 41.22
       },
       {
-        "number": 21,
-        "score": 38.58
+        "number": 29,
+        "score": 40.81
+      },
+      {
+        "number": 63,
+        "score": 40.71
+      },
+      {
+        "number": 68,
+        "score": 39.81
+      },
+      {
+        "number": 89,
+        "score": 39.4
       },
       {
         "number": 54,
-        "score": 38.5
+        "score": 39.28
       },
       {
-        "number": 44,
-        "score": 38.32
+        "number": 21,
+        "score": 39.01
+      },
+      {
+        "number": 39,
+        "score": 38.61
+      },
+      {
+        "number": 50,
+        "score": 38.55
+      },
+      {
+        "number": 24,
+        "score": 38.54
+      },
+      {
+        "number": 59,
+        "score": 38.25
+      },
+      {
+        "number": 91,
+        "score": 38.04
+      },
+      {
+        "number": 60,
+        "score": 37.88
+      },
+      {
+        "number": 45,
+        "score": 37.72
+      },
+      {
+        "number": 66,
+        "score": 37.52
       }
     ],
-    "createdAt": "2026-04-07T05:52:47.047Z",
+    "createdAt": "2026-04-07T06:14:49.087Z",
     "actualNumbers": [
       91,
       49,
@@ -2210,161 +2210,161 @@
     "date": "2026-03-30",
     "mode": "de",
     "predictedNumbers": [
-      58,
       98,
-      41,
+      58,
       18,
-      44,
+      41,
       56,
       9,
-      66,
+      44,
       39,
-      64,
-      11,
       15,
-      71,
-      25,
+      66,
+      11,
       65,
+      25,
+      64,
+      71,
       0,
+      79,
       31,
       6,
-      7,
-      34,
-      79,
       82,
-      40,
-      43,
-      10,
+      34,
+      7,
       96,
       50,
-      67,
-      76,
-      2
+      43,
+      10,
+      84,
+      40,
+      97,
+      67
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 58,
-        "score": 40.52
-      },
-      {
         "number": 98,
-        "score": 40.11
+        "score": 39.54
       },
       {
-        "number": 41,
-        "score": 39.23
+        "number": 58,
+        "score": 39.09
       },
       {
         "number": 18,
-        "score": 38.33
+        "score": 37.16
       },
       {
-        "number": 44,
-        "score": 36.5
+        "number": 41,
+        "score": 36.3
       },
       {
         "number": 56,
-        "score": 35.61
+        "score": 36.14
       },
       {
         "number": 9,
-        "score": 35.46
+        "score": 35.99
       },
       {
-        "number": 66,
-        "score": 35.41
+        "number": 44,
+        "score": 35.05
       },
       {
         "number": 39,
-        "score": 35.2
-      },
-      {
-        "number": 64,
-        "score": 35.15
-      },
-      {
-        "number": 11,
-        "score": 34.58
+        "score": 34.84
       },
       {
         "number": 15,
-        "score": 34.45
+        "score": 34.24
       },
       {
-        "number": 71,
-        "score": 33.93
+        "number": 66,
+        "score": 34.2
       },
       {
-        "number": 25,
-        "score": 32.67
+        "number": 11,
+        "score": 33.53
       },
       {
         "number": 65,
-        "score": 32.36
+        "score": 33.28
+      },
+      {
+        "number": 25,
+        "score": 32.59
+      },
+      {
+        "number": 64,
+        "score": 32.53
+      },
+      {
+        "number": 71,
+        "score": 31.67
       },
       {
         "number": 0,
-        "score": 31.86
-      },
-      {
-        "number": 31,
-        "score": 31.6
-      },
-      {
-        "number": 6,
-        "score": 31.57
-      },
-      {
-        "number": 7,
-        "score": 30.7
-      },
-      {
-        "number": 34,
-        "score": 30.39
+        "score": 31.17
       },
       {
         "number": 79,
-        "score": 30.16
+        "score": 30.42
+      },
+      {
+        "number": 31,
+        "score": 29.57
+      },
+      {
+        "number": 6,
+        "score": 29.53
       },
       {
         "number": 82,
-        "score": 29.54
+        "score": 29.49
       },
       {
-        "number": 40,
-        "score": 28.9
+        "number": 34,
+        "score": 29.21
       },
       {
-        "number": 43,
-        "score": 28.83
-      },
-      {
-        "number": 10,
-        "score": 28.44
+        "number": 7,
+        "score": 28.76
       },
       {
         "number": 96,
-        "score": 28.16
+        "score": 28.61
       },
       {
         "number": 50,
-        "score": 27.94
+        "score": 28.55
+      },
+      {
+        "number": 43,
+        "score": 27.96
+      },
+      {
+        "number": 10,
+        "score": 27.67
+      },
+      {
+        "number": 84,
+        "score": 27.39
+      },
+      {
+        "number": 40,
+        "score": 27.19
+      },
+      {
+        "number": 97,
+        "score": 27.01
       },
       {
         "number": 67,
-        "score": 27.7
-      },
-      {
-        "number": 76,
-        "score": 27.45
-      },
-      {
-        "number": 2,
-        "score": 27.36
+        "score": 26.95
       }
     ],
-    "createdAt": "2026-04-07T05:52:46.106Z",
+    "createdAt": "2026-04-07T06:14:48.135Z",
     "actualNumbers": [
       64
     ],
@@ -2375,101 +2375,101 @@
     "date": "2026-03-30",
     "mode": "lo",
     "predictedNumbers": [
-      90,
-      77,
       29,
+      77,
+      90,
+      52,
       59,
-      35,
       54,
+      89,
+      2,
+      28,
+      62,
       39,
       50,
-      1,
-      52,
-      15,
-      79,
-      3,
-      89,
+      26,
+      21,
+      24,
       46,
-      63,
-      8,
-      98
+      3,
+      35
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 90,
-        "score": 42.21
+        "number": 29,
+        "score": 41.86
       },
       {
         "number": 77,
-        "score": 42.1
+        "score": 40.5
       },
       {
-        "number": 29,
-        "score": 41.48
-      },
-      {
-        "number": 59,
-        "score": 40.85
-      },
-      {
-        "number": 35,
-        "score": 40.73
-      },
-      {
-        "number": 54,
-        "score": 40.54
-      },
-      {
-        "number": 39,
-        "score": 40.06
-      },
-      {
-        "number": 50,
-        "score": 39.87
-      },
-      {
-        "number": 1,
-        "score": 39.53
+        "number": 90,
+        "score": 40.49
       },
       {
         "number": 52,
-        "score": 39.35
+        "score": 39.91
       },
       {
-        "number": 15,
-        "score": 39.15
+        "number": 59,
+        "score": 39.43
       },
       {
-        "number": 79,
-        "score": 39.03
-      },
-      {
-        "number": 3,
-        "score": 38.98
+        "number": 54,
+        "score": 39.18
       },
       {
         "number": 89,
-        "score": 38.66
+        "score": 39.17
+      },
+      {
+        "number": 2,
+        "score": 38.89
+      },
+      {
+        "number": 28,
+        "score": 38.87
+      },
+      {
+        "number": 62,
+        "score": 38.79
+      },
+      {
+        "number": 39,
+        "score": 38.78
+      },
+      {
+        "number": 50,
+        "score": 38.19
+      },
+      {
+        "number": 26,
+        "score": 38.17
+      },
+      {
+        "number": 21,
+        "score": 37.86
+      },
+      {
+        "number": 24,
+        "score": 37.7
       },
       {
         "number": 46,
-        "score": 38.52
+        "score": 37.4
       },
       {
-        "number": 63,
-        "score": 38.3
+        "number": 3,
+        "score": 37.4
       },
       {
-        "number": 8,
-        "score": 37.93
-      },
-      {
-        "number": 98,
-        "score": 37.87
+        "number": 35,
+        "score": 37.38
       }
     ],
-    "createdAt": "2026-04-07T05:52:45.949Z",
+    "createdAt": "2026-04-07T06:14:47.974Z",
     "actualNumbers": [
       64,
       65,
@@ -2496,168 +2496,168 @@
       34,
       7
     ],
-    "hits": 4,
-    "miss": 14
+    "hits": 5,
+    "miss": 13
   },
   {
     "date": "2026-03-29",
     "mode": "de",
     "predictedNumbers": [
       41,
-      58,
-      98,
       44,
+      39,
+      98,
+      58,
+      64,
       56,
       9,
-      18,
-      39,
       66,
-      64,
       11,
+      25,
+      18,
+      31,
       15,
       71,
-      25,
       65,
-      0,
-      31,
-      6,
-      7,
       34,
-      82,
+      0,
       43,
-      2,
+      82,
       40,
-      79,
-      10,
+      6,
+      2,
       73,
-      50,
-      96,
-      67
+      7,
+      23,
+      10,
+      79,
+      67,
+      76
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 41,
-        "score": 39.22
-      },
-      {
-        "number": 58,
-        "score": 37.46
-      },
-      {
-        "number": 98,
-        "score": 36.81
+        "score": 38.5
       },
       {
         "number": 44,
-        "score": 36.49
-      },
-      {
-        "number": 56,
-        "score": 36.18
-      },
-      {
-        "number": 9,
-        "score": 35.92
-      },
-      {
-        "number": 18,
-        "score": 35.57
+        "score": 37.24
       },
       {
         "number": 39,
-        "score": 35.55
+        "score": 35.15
       },
       {
-        "number": 66,
-        "score": 35.24
+        "number": 98,
+        "score": 34.92
+      },
+      {
+        "number": 58,
+        "score": 34.69
       },
       {
         "number": 64,
-        "score": 35.04
+        "score": 34.64
+      },
+      {
+        "number": 56,
+        "score": 34.44
+      },
+      {
+        "number": 9,
+        "score": 34.19
+      },
+      {
+        "number": 66,
+        "score": 34.05
       },
       {
         "number": 11,
-        "score": 34.82
-      },
-      {
-        "number": 15,
-        "score": 34.46
-      },
-      {
-        "number": 71,
-        "score": 34.07
+        "score": 33.74
       },
       {
         "number": 25,
-        "score": 33.84
+        "score": 33.41
       },
       {
-        "number": 65,
-        "score": 32.89
-      },
-      {
-        "number": 0,
-        "score": 32.13
+        "number": 18,
+        "score": 33.02
       },
       {
         "number": 31,
-        "score": 32.12
+        "score": 32.24
       },
       {
-        "number": 6,
-        "score": 31.52
+        "number": 15,
+        "score": 32.04
       },
       {
-        "number": 7,
-        "score": 30.59
+        "number": 71,
+        "score": 31.75
+      },
+      {
+        "number": 65,
+        "score": 31.54
       },
       {
         "number": 34,
-        "score": 30.42
+        "score": 31.44
       },
       {
-        "number": 82,
-        "score": 30.14
+        "number": 0,
+        "score": 31.34
       },
       {
         "number": 43,
-        "score": 29.87
+        "score": 31.08
       },
       {
-        "number": 2,
-        "score": 29.57
+        "number": 82,
+        "score": 29.83
       },
       {
         "number": 40,
-        "score": 29.35
+        "score": 29.74
       },
       {
-        "number": 79,
-        "score": 28.94
+        "number": 6,
+        "score": 29.48
       },
       {
-        "number": 10,
-        "score": 28.58
+        "number": 2,
+        "score": 29.4
       },
       {
         "number": 73,
-        "score": 28.26
+        "score": 28.77
       },
       {
-        "number": 50,
-        "score": 28.12
+        "number": 7,
+        "score": 28.66
       },
       {
-        "number": 96,
-        "score": 28.11
+        "number": 23,
+        "score": 28.31
+      },
+      {
+        "number": 10,
+        "score": 27.73
+      },
+      {
+        "number": 79,
+        "score": 27.11
       },
       {
         "number": 67,
-        "score": 27.58
+        "score": 26.85
+      },
+      {
+        "number": 76,
+        "score": 26.73
       }
     ],
-    "createdAt": "2026-04-07T05:52:45.007Z",
+    "createdAt": "2026-04-07T06:14:47.045Z",
     "actualNumbers": [
       88
     ],
@@ -2670,99 +2670,99 @@
     "predictedNumbers": [
       39,
       46,
-      90,
-      35,
       54,
+      90,
       50,
-      3,
-      79,
+      77,
       1,
+      59,
+      3,
       15,
       78,
       6,
-      8,
-      41,
+      35,
       52,
-      98,
       81,
-      77
+      19,
+      70,
+      48
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 39,
-        "score": 42.81
+        "score": 41.17
       },
       {
         "number": 46,
-        "score": 40.96
-      },
-      {
-        "number": 90,
-        "score": 40.77
-      },
-      {
-        "number": 35,
-        "score": 40.39
+        "score": 41.1
       },
       {
         "number": 54,
-        "score": 40.28
+        "score": 40.54
+      },
+      {
+        "number": 90,
+        "score": 39.25
       },
       {
         "number": 50,
-        "score": 39.68
-      },
-      {
-        "number": 3,
-        "score": 39.61
-      },
-      {
-        "number": 79,
-        "score": 39.39
-      },
-      {
-        "number": 1,
-        "score": 39.36
-      },
-      {
-        "number": 15,
-        "score": 38.97
-      },
-      {
-        "number": 78,
-        "score": 38.73
-      },
-      {
-        "number": 6,
-        "score": 38.49
-      },
-      {
-        "number": 8,
-        "score": 38.45
-      },
-      {
-        "number": 41,
-        "score": 38.3
-      },
-      {
-        "number": 52,
-        "score": 38.19
-      },
-      {
-        "number": 98,
-        "score": 37.93
-      },
-      {
-        "number": 81,
-        "score": 37.87
+        "score": 38.35
       },
       {
         "number": 77,
-        "score": 37.74
+        "score": 38.31
+      },
+      {
+        "number": 1,
+        "score": 38.1
+      },
+      {
+        "number": 59,
+        "score": 38.07
+      },
+      {
+        "number": 3,
+        "score": 37.95
+      },
+      {
+        "number": 15,
+        "score": 37.76
+      },
+      {
+        "number": 78,
+        "score": 37.61
+      },
+      {
+        "number": 6,
+        "score": 37.41
+      },
+      {
+        "number": 35,
+        "score": 37.09
+      },
+      {
+        "number": 52,
+        "score": 37.02
+      },
+      {
+        "number": 81,
+        "score": 36.82
+      },
+      {
+        "number": 19,
+        "score": 36.78
+      },
+      {
+        "number": 70,
+        "score": 36.64
+      },
+      {
+        "number": 48,
+        "score": 36.61
       }
     ],
-    "createdAt": "2026-04-07T05:52:44.854Z",
+    "createdAt": "2026-04-07T06:14:46.890Z",
     "actualNumbers": [
       88,
       95,
@@ -2788,273 +2788,273 @@
       13,
       81
     ],
-    "hits": 2,
-    "miss": 16
+    "hits": 3,
+    "miss": 15
   },
   {
     "date": "2026-03-28",
     "mode": "de",
     "predictedNumbers": [
       41,
-      58,
+      39,
       44,
       98,
-      39,
-      18,
+      58,
       56,
       9,
-      64,
       66,
-      15,
-      71,
+      18,
       11,
+      64,
+      15,
+      34,
+      31,
+      71,
       0,
       65,
-      31,
-      6,
-      34,
       25,
-      7,
       43,
+      6,
+      7,
       82,
-      79,
-      10,
-      40,
       73,
       2,
-      96,
-      50,
-      67
+      10,
+      79,
+      40,
+      22,
+      67,
+      76
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 41,
-        "score": 39.38
-      },
-      {
-        "number": 58,
-        "score": 37.86
-      },
-      {
-        "number": 44,
-        "score": 37.42
-      },
-      {
-        "number": 98,
-        "score": 37.37
+        "score": 36.4
       },
       {
         "number": 39,
-        "score": 36.63
+        "score": 35.88
       },
       {
-        "number": 18,
-        "score": 36.23
+        "number": 44,
+        "score": 35.82
+      },
+      {
+        "number": 98,
+        "score": 35.35
+      },
+      {
+        "number": 58,
+        "score": 34.98
       },
       {
         "number": 56,
-        "score": 36.18
+        "score": 34.44
       },
       {
         "number": 9,
-        "score": 35.99
-      },
-      {
-        "number": 64,
-        "score": 35.16
+        "score": 34.25
       },
       {
         "number": 66,
-        "score": 35.12
+        "score": 33.95
       },
       {
-        "number": 15,
-        "score": 35.01
-      },
-      {
-        "number": 71,
-        "score": 34.53
+        "number": 18,
+        "score": 33.54
       },
       {
         "number": 11,
-        "score": 34.14
+        "score": 33.14
       },
       {
-        "number": 0,
-        "score": 32.97
+        "number": 64,
+        "score": 32.54
       },
       {
-        "number": 65,
-        "score": 32.87
-      },
-      {
-        "number": 31,
-        "score": 32.61
-      },
-      {
-        "number": 6,
-        "score": 32.44
+        "number": 15,
+        "score": 32.52
       },
       {
         "number": 34,
-        "score": 31.83
+        "score": 32.46
+      },
+      {
+        "number": 31,
+        "score": 32.45
+      },
+      {
+        "number": 71,
+        "score": 32.16
+      },
+      {
+        "number": 0,
+        "score": 32.08
+      },
+      {
+        "number": 65,
+        "score": 31.52
       },
       {
         "number": 25,
-        "score": 31.39
-      },
-      {
-        "number": 7,
-        "score": 31.33
+        "score": 31.5
       },
       {
         "number": 43,
-        "score": 30.25
+        "score": 31.38
+      },
+      {
+        "number": 6,
+        "score": 30.29
+      },
+      {
+        "number": 7,
+        "score": 29.31
       },
       {
         "number": 82,
-        "score": 29.37
-      },
-      {
-        "number": 79,
-        "score": 28.89
-      },
-      {
-        "number": 10,
-        "score": 28.63
-      },
-      {
-        "number": 40,
-        "score": 28.55
+        "score": 29.22
       },
       {
         "number": 73,
-        "score": 28.26
+        "score": 28.78
       },
       {
         "number": 2,
-        "score": 28.11
+        "score": 28.18
       },
       {
-        "number": 96,
-        "score": 28.08
+        "number": 10,
+        "score": 27.78
       },
       {
-        "number": 50,
-        "score": 27.99
+        "number": 79,
+        "score": 27.06
+      },
+      {
+        "number": 40,
+        "score": 26.79
+      },
+      {
+        "number": 22,
+        "score": 26.73
       },
       {
         "number": 67,
-        "score": 27.43
+        "score": 26.72
+      },
+      {
+        "number": 76,
+        "score": 26.62
       }
     ],
-    "createdAt": "2026-04-07T05:52:43.904Z",
+    "createdAt": "2026-04-07T06:14:45.946Z",
     "actualNumbers": [
       22
     ],
-    "hits": 0,
-    "miss": 30
+    "hits": 1,
+    "miss": 29
   },
   {
     "date": "2026-03-28",
     "mode": "lo",
     "predictedNumbers": [
       97,
-      35,
-      3,
-      48,
-      43,
       50,
-      15,
-      1,
-      26,
-      22,
       83,
-      58,
-      79,
-      8,
-      42,
       39,
+      48,
+      41,
+      43,
+      35,
+      15,
+      26,
+      1,
+      22,
+      58,
+      46,
+      79,
       78,
-      52
+      67,
+      19
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 97,
-        "score": 43.84
-      },
-      {
-        "number": 35,
-        "score": 40.35
-      },
-      {
-        "number": 3,
-        "score": 40.22
-      },
-      {
-        "number": 48,
-        "score": 40.09
-      },
-      {
-        "number": 43,
-        "score": 39.9
+        "score": 41.94
       },
       {
         "number": 50,
-        "score": 39.85
-      },
-      {
-        "number": 15,
-        "score": 39.78
-      },
-      {
-        "number": 1,
-        "score": 39.68
-      },
-      {
-        "number": 26,
-        "score": 39.6
-      },
-      {
-        "number": 22,
-        "score": 39.6
+        "score": 40.09
       },
       {
         "number": 83,
-        "score": 39.28
-      },
-      {
-        "number": 58,
-        "score": 39.24
-      },
-      {
-        "number": 79,
-        "score": 39.22
-      },
-      {
-        "number": 8,
-        "score": 39.17
-      },
-      {
-        "number": 42,
-        "score": 38.95
+        "score": 39.64
       },
       {
         "number": 39,
-        "score": 38.54
+        "score": 39.05
+      },
+      {
+        "number": 48,
+        "score": 38.84
+      },
+      {
+        "number": 41,
+        "score": 38.78
+      },
+      {
+        "number": 43,
+        "score": 38.65
+      },
+      {
+        "number": 35,
+        "score": 38.64
+      },
+      {
+        "number": 15,
+        "score": 38.47
+      },
+      {
+        "number": 26,
+        "score": 38.39
+      },
+      {
+        "number": 1,
+        "score": 38.38
+      },
+      {
+        "number": 22,
+        "score": 38.35
+      },
+      {
+        "number": 58,
+        "score": 38.06
+      },
+      {
+        "number": 46,
+        "score": 37.62
+      },
+      {
+        "number": 79,
+        "score": 37.46
       },
       {
         "number": 78,
-        "score": 38.44
+        "score": 37.37
       },
       {
-        "number": 52,
-        "score": 38.36
+        "number": 67,
+        "score": 37.09
+      },
+      {
+        "number": 19,
+        "score": 36.97
       }
     ],
-    "createdAt": "2026-04-07T05:52:43.750Z",
+    "createdAt": "2026-04-07T06:14:45.523Z",
     "actualNumbers": [
       22,
       43,
@@ -3081,168 +3081,168 @@
       76,
       18
     ],
-    "hits": 6,
-    "miss": 12
+    "hits": 5,
+    "miss": 13
   },
   {
     "date": "2026-03-27",
     "mode": "de",
     "predictedNumbers": [
+      44,
       41,
       98,
-      44,
+      9,
       58,
       56,
-      18,
-      9,
-      66,
       39,
-      15,
       64,
-      71,
-      11,
       32,
+      66,
+      18,
+      11,
+      15,
+      71,
+      43,
       0,
+      73,
       65,
       6,
-      73,
-      43,
+      34,
+      96,
+      31,
+      79,
       25,
       7,
-      96,
-      79,
-      34,
-      3,
-      31,
       40,
+      3,
+      99,
       10,
-      76,
-      50
+      4
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
+        "number": 44,
+        "score": 38.84
+      },
+      {
         "number": 41,
-        "score": 39.47
+        "score": 38.69
       },
       {
         "number": 98,
-        "score": 38.74
-      },
-      {
-        "number": 44,
-        "score": 38.35
-      },
-      {
-        "number": 58,
-        "score": 38.12
-      },
-      {
-        "number": 56,
-        "score": 36.71
-      },
-      {
-        "number": 18,
-        "score": 36.56
+        "score": 38.55
       },
       {
         "number": 9,
-        "score": 36.36
+        "score": 36.72
       },
       {
-        "number": 66,
-        "score": 35.19
+        "number": 58,
+        "score": 35.17
+      },
+      {
+        "number": 56,
+        "score": 34.86
       },
       {
         "number": 39,
-        "score": 35.18
-      },
-      {
-        "number": 15,
-        "score": 35.14
+        "score": 34.8
       },
       {
         "number": 64,
-        "score": 35.08
-      },
-      {
-        "number": 71,
-        "score": 35.04
-      },
-      {
-        "number": 11,
-        "score": 34.19
+        "score": 34.67
       },
       {
         "number": 32,
-        "score": 33.6
+        "score": 34.4
       },
       {
-        "number": 0,
-        "score": 32.97
+        "number": 66,
+        "score": 34
       },
       {
-        "number": 65,
-        "score": 32.81
+        "number": 18,
+        "score": 33.83
       },
       {
-        "number": 6,
-        "score": 32.68
+        "number": 11,
+        "score": 33.18
       },
       {
-        "number": 73,
-        "score": 32.12
+        "number": 15,
+        "score": 32.64
+      },
+      {
+        "number": 71,
+        "score": 32.61
       },
       {
         "number": 43,
-        "score": 31.7
+        "score": 32.21
       },
       {
-        "number": 25,
-        "score": 31.41
+        "number": 0,
+        "score": 32.09
       },
       {
-        "number": 7,
-        "score": 31.24
+        "number": 73,
+        "score": 31.74
       },
       {
-        "number": 96,
-        "score": 29.41
+        "number": 65,
+        "score": 31.47
       },
       {
-        "number": 79,
-        "score": 29.12
+        "number": 6,
+        "score": 30.51
       },
       {
         "number": 34,
-        "score": 29.11
+        "score": 30.33
       },
       {
-        "number": 3,
-        "score": 29
+        "number": 96,
+        "score": 29.5
       },
       {
         "number": 31,
-        "score": 28.94
+        "score": 29.47
+      },
+      {
+        "number": 79,
+        "score": 29.41
+      },
+      {
+        "number": 25,
+        "score": 29.31
+      },
+      {
+        "number": 7,
+        "score": 29.23
       },
       {
         "number": 40,
-        "score": 28.77
+        "score": 29.19
+      },
+      {
+        "number": 3,
+        "score": 29.02
+      },
+      {
+        "number": 99,
+        "score": 27.78
       },
       {
         "number": 10,
-        "score": 28.55
+        "score": 27.71
       },
       {
-        "number": 76,
-        "score": 27.46
-      },
-      {
-        "number": 50,
-        "score": 27.3
+        "number": 4,
+        "score": 27.1
       }
     ],
-    "createdAt": "2026-04-07T05:52:42.809Z",
+    "createdAt": "2026-04-07T06:14:44.487Z",
     "actualNumbers": [
       32
     ],
@@ -3255,99 +3255,99 @@
     "predictedNumbers": [
       1,
       15,
+      17,
       83,
-      35,
+      41,
       78,
-      3,
       22,
       50,
-      97,
       16,
-      17,
-      41,
-      8,
+      97,
       58,
-      79,
-      90,
-      42,
-      98
+      8,
+      35,
+      48,
+      72,
+      98,
+      84,
+      3
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 1,
-        "score": 42.53
-      },
-      {
-        "number": 15,
-        "score": 41.92
-      },
-      {
-        "number": 83,
-        "score": 41.3
-      },
-      {
-        "number": 35,
         "score": 40.86
       },
       {
-        "number": 78,
-        "score": 40.83
-      },
-      {
-        "number": 3,
-        "score": 40.17
-      },
-      {
-        "number": 22,
-        "score": 40.05
-      },
-      {
-        "number": 50,
-        "score": 40.02
-      },
-      {
-        "number": 97,
-        "score": 39.5
-      },
-      {
-        "number": 16,
-        "score": 39.46
+        "number": 15,
+        "score": 40.33
       },
       {
         "number": 17,
-        "score": 39.42
+        "score": 39.84
+      },
+      {
+        "number": 83,
+        "score": 39.83
       },
       {
         "number": 41,
-        "score": 39.26
+        "score": 39.62
       },
       {
-        "number": 8,
-        "score": 39.15
+        "number": 78,
+        "score": 39.45
+      },
+      {
+        "number": 22,
+        "score": 38.74
+      },
+      {
+        "number": 50,
+        "score": 38.67
+      },
+      {
+        "number": 16,
+        "score": 38.19
+      },
+      {
+        "number": 97,
+        "score": 38.19
       },
       {
         "number": 58,
-        "score": 39.14
+        "score": 37.98
       },
       {
-        "number": 79,
-        "score": 38.82
+        "number": 8,
+        "score": 37.92
       },
       {
-        "number": 90,
-        "score": 38.81
+        "number": 35,
+        "score": 37.51
       },
       {
-        "number": 42,
-        "score": 38.38
+        "number": 48,
+        "score": 37.43
+      },
+      {
+        "number": 72,
+        "score": 37.42
       },
       {
         "number": 98,
-        "score": 38.35
+        "score": 37.22
+      },
+      {
+        "number": 84,
+        "score": 37.01
+      },
+      {
+        "number": 3,
+        "score": 36.89
       }
     ],
-    "createdAt": "2026-04-07T05:52:42.657Z",
+    "createdAt": "2026-04-07T06:14:44.327Z",
     "actualNumbers": [
       32,
       33,
@@ -3374,168 +3374,168 @@
       10,
       4
     ],
-    "hits": 1,
-    "miss": 17
+    "hits": 2,
+    "miss": 16
   },
   {
     "date": "2026-03-26",
     "mode": "de",
     "predictedNumbers": [
-      58,
-      41,
       98,
-      44,
+      58,
       18,
       56,
+      44,
+      41,
       64,
-      9,
-      15,
-      71,
       66,
-      32,
-      11,
-      0,
+      9,
       65,
+      11,
+      32,
+      15,
       6,
-      39,
+      71,
+      0,
       7,
+      39,
+      67,
       25,
+      76,
       34,
+      96,
       31,
-      79,
-      40,
       43,
       10,
-      67,
-      73,
-      96,
-      76,
-      50
+      79,
+      82,
+      40,
+      84
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 58,
-        "score": 40.36
-      },
-      {
-        "number": 41,
-        "score": 39.5
-      },
-      {
         "number": 98,
-        "score": 39.46
-      },
-      {
-        "number": 44,
         "score": 39
       },
       {
+        "number": 58,
+        "score": 38.92
+      },
+      {
         "number": 18,
-        "score": 38.98
+        "score": 37.73
       },
       {
         "number": 56,
-        "score": 36.89
+        "score": 37.23
+      },
+      {
+        "number": 44,
+        "score": 37.17
+      },
+      {
+        "number": 41,
+        "score": 36.5
       },
       {
         "number": 64,
-        "score": 36.65
-      },
-      {
-        "number": 9,
-        "score": 36.45
-      },
-      {
-        "number": 15,
-        "score": 35.35
-      },
-      {
-        "number": 71,
-        "score": 35.04
+        "score": 36.02
       },
       {
         "number": 66,
-        "score": 34.47
+        "score": 35.58
       },
       {
-        "number": 32,
-        "score": 34.47
-      },
-      {
-        "number": 11,
-        "score": 34.45
-      },
-      {
-        "number": 0,
-        "score": 32.98
+        "number": 9,
+        "score": 34.6
       },
       {
         "number": 65,
-        "score": 32.85
+        "score": 33.71
+      },
+      {
+        "number": 11,
+        "score": 33.41
+      },
+      {
+        "number": 32,
+        "score": 32.96
+      },
+      {
+        "number": 15,
+        "score": 32.83
       },
       {
         "number": 6,
-        "score": 32.6
+        "score": 32.64
       },
       {
-        "number": 39,
-        "score": 32.5
+        "number": 71,
+        "score": 32.61
+      },
+      {
+        "number": 0,
+        "score": 32.09
       },
       {
         "number": 7,
-        "score": 32.43
+        "score": 30.28
       },
       {
-        "number": 25,
-        "score": 31.7
-      },
-      {
-        "number": 34,
-        "score": 30
-      },
-      {
-        "number": 31,
-        "score": 29.91
-      },
-      {
-        "number": 79,
-        "score": 29.15
-      },
-      {
-        "number": 40,
-        "score": 28.9
-      },
-      {
-        "number": 43,
-        "score": 28.52
-      },
-      {
-        "number": 10,
-        "score": 28.49
+        "number": 39,
+        "score": 30.23
       },
       {
         "number": 67,
-        "score": 28.48
+        "score": 29.85
       },
       {
-        "number": 73,
-        "score": 28.07
-      },
-      {
-        "number": 96,
-        "score": 27.72
+        "number": 25,
+        "score": 29.53
       },
       {
         "number": 76,
-        "score": 27.4
+        "score": 28.9
       },
       {
-        "number": 50,
-        "score": 27.2
+        "number": 34,
+        "score": 28.86
+      },
+      {
+        "number": 96,
+        "score": 28.26
+      },
+      {
+        "number": 31,
+        "score": 28.12
+      },
+      {
+        "number": 43,
+        "score": 27.7
+      },
+      {
+        "number": 10,
+        "score": 27.65
+      },
+      {
+        "number": 79,
+        "score": 27.24
+      },
+      {
+        "number": 82,
+        "score": 27.15
+      },
+      {
+        "number": 40,
+        "score": 27.1
+      },
+      {
+        "number": 84,
+        "score": 26.99
       }
     ],
-    "createdAt": "2026-04-07T05:52:41.717Z",
+    "createdAt": "2026-04-07T06:14:43.371Z",
     "actualNumbers": [
       93
     ],
@@ -3546,101 +3546,101 @@
     "date": "2026-03-26",
     "mode": "lo",
     "predictedNumbers": [
+      52,
       22,
+      15,
       50,
       93,
-      52,
       58,
       41,
+      79,
+      1,
       35,
-      15,
       8,
-      3,
       10,
       27,
-      79,
       97,
-      1,
       98,
       37,
-      42
+      83,
+      94
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 22,
-        "score": 42.63
-      },
-      {
-        "number": 50,
-        "score": 41.83
-      },
-      {
-        "number": 93,
-        "score": 41.74
-      },
-      {
         "number": 52,
-        "score": 41.71
+        "score": 41.6
       },
       {
-        "number": 58,
-        "score": 41.33
-      },
-      {
-        "number": 41,
-        "score": 41.16
-      },
-      {
-        "number": 35,
-        "score": 40.8
+        "number": 22,
+        "score": 40.98
       },
       {
         "number": 15,
-        "score": 40.67
+        "score": 40.83
       },
       {
-        "number": 8,
-        "score": 40.63
+        "number": 50,
+        "score": 40.24
       },
       {
-        "number": 3,
-        "score": 39.96
+        "number": 93,
+        "score": 40.19
       },
       {
-        "number": 10,
+        "number": 58,
+        "score": 39.89
+      },
+      {
+        "number": 41,
         "score": 39.7
       },
       {
-        "number": 27,
-        "score": 39.38
-      },
-      {
         "number": 79,
-        "score": 39.32
-      },
-      {
-        "number": 97,
-        "score": 39.1
+        "score": 39.48
       },
       {
         "number": 1,
-        "score": 39.09
+        "score": 39.47
+      },
+      {
+        "number": 35,
+        "score": 39.35
+      },
+      {
+        "number": 8,
+        "score": 39.22
+      },
+      {
+        "number": 10,
+        "score": 38.42
+      },
+      {
+        "number": 27,
+        "score": 38.11
+      },
+      {
+        "number": 97,
+        "score": 37.84
       },
       {
         "number": 98,
-        "score": 38.96
+        "score": 37.76
       },
       {
         "number": 37,
-        "score": 38.86
+        "score": 37.27
       },
       {
-        "number": 42,
-        "score": 38.8
+        "number": 83,
+        "score": 37.11
+      },
+      {
+        "number": 94,
+        "score": 36.88
       }
     ],
-    "createdAt": "2026-04-07T05:52:41.564Z",
+    "createdAt": "2026-04-07T06:14:43.209Z",
     "actualNumbers": [
       93,
       94,
@@ -3666,168 +3666,168 @@
       95,
       49
     ],
-    "hits": 4,
-    "miss": 14
+    "hits": 5,
+    "miss": 13
   },
   {
     "date": "2026-03-25",
     "mode": "de",
     "predictedNumbers": [
-      44,
       41,
       9,
-      64,
-      58,
-      15,
-      56,
-      18,
+      44,
       98,
-      25,
-      71,
-      39,
-      66,
+      15,
+      18,
       11,
       32,
+      56,
+      71,
+      25,
+      64,
+      58,
+      39,
+      66,
       65,
       0,
-      6,
-      7,
       34,
       31,
-      79,
-      40,
-      67,
-      10,
+      6,
+      7,
       43,
+      10,
+      79,
       73,
       96,
-      76,
+      67,
+      99,
+      40,
       88
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
-        "number": 44,
-        "score": 39.68
-      },
-      {
         "number": 41,
-        "score": 39.64
+        "score": 38.84
       },
       {
         "number": 9,
-        "score": 38.7
+        "score": 38.35
       },
       {
-        "number": 64,
-        "score": 37.7
-      },
-      {
-        "number": 58,
-        "score": 37.5
-      },
-      {
-        "number": 15,
-        "score": 37.01
-      },
-      {
-        "number": 56,
-        "score": 37
-      },
-      {
-        "number": 18,
-        "score": 36.49
+        "number": 44,
+        "score": 37.77
       },
       {
         "number": 98,
-        "score": 36.28
+        "score": 36.63
       },
       {
-        "number": 25,
-        "score": 35.36
+        "number": 15,
+        "score": 36.49
       },
       {
-        "number": 71,
-        "score": 34.99
-      },
-      {
-        "number": 39,
-        "score": 34.64
-      },
-      {
-        "number": 66,
-        "score": 34.61
+        "number": 18,
+        "score": 35.98
       },
       {
         "number": 11,
-        "score": 34.54
+        "score": 35.7
       },
       {
         "number": 32,
-        "score": 34.46
+        "score": 35.16
+      },
+      {
+        "number": 56,
+        "score": 35.13
+      },
+      {
+        "number": 71,
+        "score": 34.77
+      },
+      {
+        "number": 25,
+        "score": 34.75
+      },
+      {
+        "number": 64,
+        "score": 34.7
+      },
+      {
+        "number": 58,
+        "score": 34.63
+      },
+      {
+        "number": 39,
+        "score": 33.88
+      },
+      {
+        "number": 66,
+        "score": 33.46
       },
       {
         "number": 65,
-        "score": 34.34
+        "score": 32.78
       },
       {
         "number": 0,
-        "score": 32.97
-      },
-      {
-        "number": 6,
-        "score": 32.58
-      },
-      {
-        "number": 7,
-        "score": 32.31
+        "score": 32.09
       },
       {
         "number": 34,
-        "score": 30.49
+        "score": 31.5
       },
       {
         "number": 31,
-        "score": 30.03
+        "score": 30.43
       },
       {
-        "number": 79,
-        "score": 29.74
+        "number": 6,
+        "score": 30.42
       },
       {
-        "number": 40,
-        "score": 29.08
-      },
-      {
-        "number": 67,
-        "score": 28.58
-      },
-      {
-        "number": 10,
-        "score": 28.48
+        "number": 7,
+        "score": 30.18
       },
       {
         "number": 43,
-        "score": 28.48
+        "score": 29.87
+      },
+      {
+        "number": 10,
+        "score": 29.85
+      },
+      {
+        "number": 79,
+        "score": 29.52
       },
       {
         "number": 73,
-        "score": 28.46
+        "score": 29.01
       },
       {
         "number": 96,
-        "score": 27.82
+        "score": 28.35
       },
       {
-        "number": 76,
-        "score": 27.38
+        "number": 67,
+        "score": 27.69
+      },
+      {
+        "number": 99,
+        "score": 27.56
+      },
+      {
+        "number": 40,
+        "score": 27.25
       },
       {
         "number": 88,
-        "score": 27.34
+        "score": 27.02
       }
     ],
-    "createdAt": "2026-04-07T05:52:40.616Z",
+    "createdAt": "2026-04-07T06:14:42.268Z",
     "actualNumbers": [
       88
     ],
@@ -3839,100 +3839,100 @@
     "mode": "lo",
     "predictedNumbers": [
       8,
-      87,
       95,
       56,
       98,
       35,
+      87,
+      74,
+      58,
+      50,
       66,
       22,
       10,
-      74,
+      52,
       3,
-      79,
       85,
       72,
-      37,
-      42,
-      50,
-      52
+      79,
+      41
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 8,
-        "score": 43.07
-      },
-      {
-        "number": 87,
-        "score": 42.49
+        "score": 43.23
       },
       {
         "number": 95,
-        "score": 41.75
+        "score": 41.78
       },
       {
         "number": 56,
-        "score": 41.38
+        "score": 41.73
       },
       {
         "number": 98,
-        "score": 41.31
+        "score": 41.69
       },
       {
         "number": 35,
-        "score": 41.06
+        "score": 41.14
       },
       {
-        "number": 66,
-        "score": 40.82
-      },
-      {
-        "number": 22,
-        "score": 40.38
-      },
-      {
-        "number": 10,
-        "score": 40.3
+        "number": 87,
+        "score": 40.8
       },
       {
         "number": 74,
-        "score": 40.17
+        "score": 40.48
       },
       {
-        "number": 3,
-        "score": 40.16
-      },
-      {
-        "number": 79,
-        "score": 40.09
-      },
-      {
-        "number": 85,
-        "score": 39.93
-      },
-      {
-        "number": 72,
-        "score": 39.89
-      },
-      {
-        "number": 37,
-        "score": 39.75
-      },
-      {
-        "number": 42,
-        "score": 39.74
+        "number": 58,
+        "score": 40.34
       },
       {
         "number": 50,
-        "score": 38.85
+        "score": 39.56
+      },
+      {
+        "number": 66,
+        "score": 39.43
+      },
+      {
+        "number": 22,
+        "score": 39.04
+      },
+      {
+        "number": 10,
+        "score": 38.95
       },
       {
         "number": 52,
-        "score": 38.59
+        "score": 38.89
+      },
+      {
+        "number": 3,
+        "score": 38.79
+      },
+      {
+        "number": 85,
+        "score": 38.68
+      },
+      {
+        "number": 72,
+        "score": 38.63
+      },
+      {
+        "number": 79,
+        "score": 38.28
+      },
+      {
+        "number": 41,
+        "score": 38.27
       }
     ],
-    "createdAt": "2026-04-07T05:52:40.447Z",
+    "createdAt": "2026-04-07T06:14:42.111Z",
     "actualNumbers": [
       88,
       66,
@@ -3968,160 +3968,160 @@
     "mode": "de",
     "predictedNumbers": [
       44,
-      64,
       41,
       15,
-      58,
-      18,
-      56,
+      64,
       11,
       98,
-      32,
       9,
+      18,
+      56,
       71,
-      66,
-      65,
-      25,
+      58,
       0,
+      32,
+      66,
+      34,
       6,
       7,
-      34,
-      39,
+      65,
       10,
+      39,
+      25,
+      43,
       31,
       4,
-      43,
       96,
-      67,
       40,
-      73,
       84,
-      76
+      67,
+      50,
+      79
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 44,
-        "score": 42.27
-      },
-      {
-        "number": 64,
-        "score": 39.96
+        "score": 41.82
       },
       {
         "number": 41,
-        "score": 39.9
+        "score": 41.09
       },
       {
         "number": 15,
-        "score": 39.53
+        "score": 38.5
       },
       {
-        "number": 58,
-        "score": 37.49
-      },
-      {
-        "number": 18,
-        "score": 36.8
-      },
-      {
-        "number": 56,
-        "score": 36.66
+        "number": 64,
+        "score": 38.45
       },
       {
         "number": 11,
-        "score": 36.59
+        "score": 37.28
       },
       {
         "number": 98,
-        "score": 36.53
-      },
-      {
-        "number": 32,
-        "score": 36.02
+        "score": 36.86
       },
       {
         "number": 9,
-        "score": 35.57
+        "score": 36.09
+      },
+      {
+        "number": 18,
+        "score": 36.03
+      },
+      {
+        "number": 56,
+        "score": 34.83
       },
       {
         "number": 71,
-        "score": 35.01
+        "score": 34.79
       },
       {
-        "number": 66,
-        "score": 34.65
-      },
-      {
-        "number": 65,
-        "score": 34.04
-      },
-      {
-        "number": 25,
-        "score": 33.41
+        "number": 58,
+        "score": 34.61
       },
       {
         "number": 0,
-        "score": 32.96
+        "score": 34.28
       },
       {
-        "number": 6,
-        "score": 32.88
+        "number": 32,
+        "score": 34.27
       },
       {
-        "number": 7,
-        "score": 32.83
+        "number": 66,
+        "score": 33.49
       },
       {
         "number": 34,
-        "score": 32.79
+        "score": 33.09
       },
       {
-        "number": 39,
-        "score": 30.95
+        "number": 6,
+        "score": 32.89
+      },
+      {
+        "number": 7,
+        "score": 32.85
+      },
+      {
+        "number": 65,
+        "score": 32.51
       },
       {
         "number": 10,
-        "score": 30.36
+        "score": 31.29
       },
       {
-        "number": 31,
-        "score": 29.34
+        "number": 39,
+        "score": 31.13
       },
       {
-        "number": 4,
-        "score": 29.25
+        "number": 25,
+        "score": 31.08
       },
       {
         "number": 43,
-        "score": 28.65
+        "score": 29.98
+      },
+      {
+        "number": 31,
+        "score": 29.82
+      },
+      {
+        "number": 4,
+        "score": 29.08
       },
       {
         "number": 96,
-        "score": 28.47
-      },
-      {
-        "number": 67,
-        "score": 28.43
+        "score": 28.93
       },
       {
         "number": 40,
-        "score": 28.43
-      },
-      {
-        "number": 73,
-        "score": 28.29
+        "score": 28.85
       },
       {
         "number": 84,
-        "score": 28.04
+        "score": 27.98
       },
       {
-        "number": 76,
-        "score": 27.44
+        "number": 67,
+        "score": 27.56
+      },
+      {
+        "number": 50,
+        "score": 27.56
+      },
+      {
+        "number": 79,
+        "score": 27.19
       }
     ],
-    "createdAt": "2026-04-07T05:52:39.483Z",
+    "createdAt": "2026-04-07T06:14:41.162Z",
     "actualNumbers": [
       29
     ],
@@ -4133,100 +4133,100 @@
     "mode": "lo",
     "predictedNumbers": [
       35,
-      96,
-      10,
-      3,
-      75,
-      47,
-      87,
-      66,
-      79,
-      42,
-      86,
-      8,
-      37,
       63,
+      3,
+      10,
+      96,
+      47,
+      86,
+      75,
+      66,
+      87,
+      22,
+      42,
+      8,
       45,
       95,
-      52,
-      22
+      85,
+      93,
+      74
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 35,
-        "score": 44.26
-      },
-      {
-        "number": 96,
-        "score": 42.41
-      },
-      {
-        "number": 10,
-        "score": 42.39
-      },
-      {
-        "number": 3,
-        "score": 40.57
-      },
-      {
-        "number": 75,
-        "score": 40.38
-      },
-      {
-        "number": 47,
-        "score": 40.17
-      },
-      {
-        "number": 87,
-        "score": 40.03
-      },
-      {
-        "number": 66,
-        "score": 40
-      },
-      {
-        "number": 79,
-        "score": 39.92
-      },
-      {
-        "number": 42,
-        "score": 39.6
-      },
-      {
-        "number": 86,
-        "score": 39.54
-      },
-      {
-        "number": 8,
-        "score": 39.36
-      },
-      {
-        "number": 37,
-        "score": 39.34
+        "score": 42.35
       },
       {
         "number": 63,
-        "score": 39.19
+        "score": 41.46
       },
       {
-        "number": 45,
-        "score": 38.93
+        "number": 3,
+        "score": 41.03
       },
       {
-        "number": 95,
-        "score": 38.25
+        "number": 10,
+        "score": 40.76
       },
       {
-        "number": 52,
-        "score": 38.1
+        "number": 96,
+        "score": 40.69
+      },
+      {
+        "number": 47,
+        "score": 40.38
+      },
+      {
+        "number": 86,
+        "score": 39.93
+      },
+      {
+        "number": 75,
+        "score": 39.03
+      },
+      {
+        "number": 66,
+        "score": 38.73
+      },
+      {
+        "number": 87,
+        "score": 38.67
       },
       {
         "number": 22,
-        "score": 38.03
+        "score": 38.59
+      },
+      {
+        "number": 42,
+        "score": 38.27
+      },
+      {
+        "number": 8,
+        "score": 38.13
+      },
+      {
+        "number": 45,
+        "score": 37.43
+      },
+      {
+        "number": 95,
+        "score": 37.17
+      },
+      {
+        "number": 85,
+        "score": 37.09
+      },
+      {
+        "number": 93,
+        "score": 36.9
+      },
+      {
+        "number": 74,
+        "score": 36.87
       }
     ],
-    "createdAt": "2026-04-07T05:52:39.281Z",
+    "createdAt": "2026-04-07T06:14:41.000Z",
     "actualNumbers": [
       29,
       31,
@@ -4265,158 +4265,158 @@
       44,
       56,
       41,
-      58,
-      15,
-      98,
       66,
-      64,
-      9,
-      18,
-      32,
-      6,
-      71,
+      15,
       11,
+      32,
+      64,
+      18,
+      98,
+      71,
       65,
+      58,
+      6,
+      9,
+      25,
       0,
       7,
-      25,
+      43,
       96,
-      39,
+      76,
       40,
       31,
-      76,
-      43,
-      73,
       34,
       10,
       67,
+      39,
+      73,
       88,
       84
     ],
-    "method": "Auto (Backfill) • 18 phương pháp ensemble",
+    "method": "Auto (Backfill) • 22 phương pháp ensemble",
     "topNumbers": [
       {
         "number": 44,
-        "score": 40.92
+        "score": 40.86
       },
       {
         "number": 56,
-        "score": 38.95
+        "score": 38.61
       },
       {
         "number": 41,
-        "score": 38.19
-      },
-      {
-        "number": 58,
-        "score": 37.5
-      },
-      {
-        "number": 15,
-        "score": 37.22
-      },
-      {
-        "number": 98,
-        "score": 36.96
+        "score": 37.3
       },
       {
         "number": 66,
-        "score": 36.63
+        "score": 37
       },
       {
-        "number": 64,
-        "score": 36.14
-      },
-      {
-        "number": 9,
-        "score": 35.56
-      },
-      {
-        "number": 18,
-        "score": 35.44
-      },
-      {
-        "number": 32,
-        "score": 35.26
-      },
-      {
-        "number": 6,
-        "score": 35.05
-      },
-      {
-        "number": 71,
-        "score": 35
+        "number": 15,
+        "score": 36.71
       },
       {
         "number": 11,
-        "score": 34.79
+        "score": 35.95
+      },
+      {
+        "number": 32,
+        "score": 35.81
+      },
+      {
+        "number": 64,
+        "score": 35.58
+      },
+      {
+        "number": 18,
+        "score": 35.09
+      },
+      {
+        "number": 98,
+        "score": 35.03
+      },
+      {
+        "number": 71,
+        "score": 34.78
       },
       {
         "number": 65,
-        "score": 34.09
+        "score": 34.77
       },
       {
-        "number": 0,
-        "score": 33.19
+        "number": 58,
+        "score": 34.63
       },
       {
-        "number": 7,
-        "score": 32.95
+        "number": 6,
+        "score": 34.36
+      },
+      {
+        "number": 9,
+        "score": 33.87
       },
       {
         "number": 25,
-        "score": 32.77
+        "score": 32.72
       },
       {
-        "number": 96,
-        "score": 30.92
+        "number": 0,
+        "score": 32.22
       },
       {
-        "number": 39,
-        "score": 30.82
-      },
-      {
-        "number": 40,
-        "score": 30.66
-      },
-      {
-        "number": 31,
-        "score": 30.09
-      },
-      {
-        "number": 76,
-        "score": 29.78
+        "number": 7,
+        "score": 30.75
       },
       {
         "number": 43,
-        "score": 29.67
+        "score": 30.66
       },
       {
-        "number": 73,
-        "score": 29.56
+        "number": 96,
+        "score": 30.65
+      },
+      {
+        "number": 76,
+        "score": 30.56
+      },
+      {
+        "number": 40,
+        "score": 30.54
+      },
+      {
+        "number": 31,
+        "score": 30.49
       },
       {
         "number": 34,
-        "score": 29.07
+        "score": 30.29
       },
       {
         "number": 10,
-        "score": 28.69
+        "score": 30.02
       },
       {
         "number": 67,
-        "score": 28.54
+        "score": 29.86
+      },
+      {
+        "number": 39,
+        "score": 28.8
+      },
+      {
+        "number": 73,
+        "score": 27.77
       },
       {
         "number": 88,
-        "score": 27.78
+        "score": 27.38
       },
       {
         "number": 84,
-        "score": 26.41
+        "score": 26.98
       }
     ],
-    "createdAt": "2026-04-07T05:52:38.311Z",
+    "createdAt": "2026-04-07T06:14:40.036Z",
     "actualNumbers": [
       14
     ],
@@ -4427,101 +4427,101 @@
     "date": "2026-03-23",
     "mode": "lo",
     "predictedNumbers": [
+      35,
       96,
       47,
-      35,
       3,
-      30,
       42,
-      79,
+      30,
       59,
-      87,
-      45,
-      31,
-      37,
       10,
+      87,
+      79,
+      31,
       89,
-      53,
+      45,
+      37,
       20,
-      52,
-      69
+      66,
+      69,
+      63
     ],
-    "method": "Auto (Backfill) • 12 phương pháp ensemble",
+    "method": "Auto (Backfill) • 16 phương pháp ensemble",
     "topNumbers": [
       {
+        "number": 35,
+        "score": 43.13
+      },
+      {
         "number": 96,
-        "score": 44.86
+        "score": 42.8
       },
       {
         "number": 47,
-        "score": 43.97
-      },
-      {
-        "number": 35,
-        "score": 43.35
+        "score": 42.1
       },
       {
         "number": 3,
-        "score": 42.97
-      },
-      {
-        "number": 30,
-        "score": 41.67
+        "score": 41.22
       },
       {
         "number": 42,
-        "score": 40.34
+        "score": 40.51
       },
       {
-        "number": 79,
-        "score": 39.78
+        "number": 30,
+        "score": 40.06
       },
       {
         "number": 59,
-        "score": 39.56
-      },
-      {
-        "number": 87,
-        "score": 39.37
-      },
-      {
-        "number": 45,
-        "score": 39.08
-      },
-      {
-        "number": 31,
-        "score": 39.05
-      },
-      {
-        "number": 37,
-        "score": 39.05
+        "score": 39.83
       },
       {
         "number": 10,
-        "score": 38.92
+        "score": 39.34
+      },
+      {
+        "number": 87,
+        "score": 38.11
+      },
+      {
+        "number": 79,
+        "score": 38.05
+      },
+      {
+        "number": 31,
+        "score": 37.87
       },
       {
         "number": 89,
-        "score": 38.74
+        "score": 37.6
       },
       {
-        "number": 53,
-        "score": 38.51
+        "number": 45,
+        "score": 37.56
+      },
+      {
+        "number": 37,
+        "score": 37.48
       },
       {
         "number": 20,
-        "score": 37.81
+        "score": 36.79
       },
       {
-        "number": 52,
-        "score": 37.47
+        "number": 66,
+        "score": 36.55
       },
       {
         "number": 69,
-        "score": 37.37
+        "score": 36.44
+      },
+      {
+        "number": 63,
+        "score": 36.34
       }
     ],
-    "createdAt": "2026-04-07T05:52:38.129Z",
+    "createdAt": "2026-04-07T06:14:39.842Z",
     "actualNumbers": [
       14,
       90,
@@ -4545,8 +4545,8 @@
       44,
       28
     ],
-    "hits": 6,
-    "miss": 12
+    "hits": 5,
+    "miss": 13
   },
   {
     "date": "2026-04-07",
